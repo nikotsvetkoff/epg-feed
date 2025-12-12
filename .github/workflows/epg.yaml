@@ -2,13 +2,13 @@ name: Update EPG
 
 on:
   schedule:
-    - cron: "0 3 * * *" # rulează zilnic la 03:00 UTC
+    - cron: "0 3 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
-  pages: write # necesar pentru deploy pe Pages
-  id-token: write # necesar pentru OIDC
+  pages: write
+  id-token: write
 
 jobs:
   build:
@@ -26,16 +26,19 @@ jobs:
       - name: Run EPG collector
         run: php epg_collector.php > epg.xml
 
+      - name: Compress epg.xml
+        run: gzip -9 -c epg.xml > epg.xml.gz
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: . # include epg.xml din root
+          path: . # include epg.xml.gz
 
   deploy:
     runs-on: ubuntu-latest
     needs: build
     environment:
-      name: github-pages # <--- obligatoriu
+      name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
