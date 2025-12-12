@@ -1,18 +1,25 @@
-
 <?php
-// epg_collector.php – colectează EPG, scoate desc, normalizează id-uri
+// epg_collector.php – colectare EPG simplă
 
+// sursa EPG (dezarhivare automată)
 $sources = [
     "compress.zlib://http://epg.it999.ru/epg.xml.gz"
 ];
 
 // citește canalele din channels.txt
 $channels = file("channels.txt", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-$channels = array_map('strtolower', $channels);
+$channels = array_map(function($line) {
+    $id = trim(strtok($line, "#")); // doar partea dinainte de #
+    return strtolower($id);
+}, $channels);
 
+// funcție pentru procesarea EPG
 function fetchEPG($url, $channels) {
     $reader = new XMLReader();
-    if (!$reader->open($url)) return "";
+    if (!$reader->open($url)) {
+        fwrite(STDERR, "Nu pot deschide sursa: $url\n");
+        return "";
+    }
 
     $out = "";
     $now = time();
@@ -27,13 +34,15 @@ function fetchEPG($url, $channels) {
                 }
             }
 
-            // <programme> doar cu title + start/stop
+            // <programme>
             if ($reader->name == "programme") {
                 $id = strtolower($reader->getAttribute("channel"));
                 if (in_array($id, $channels)) {
                     $start = $reader->getAttribute("start");
                     $stop  = $reader->getAttribute("stop");
                     $stopTime = DateTime::createFromFormat("YmdHis O", $stop);
+
+                    // dacă vrei să vezi tot, scoate filtrul de timp
                     if ($stopTime && $stopTime->getTimestamp() >= $now) {
                         $xml = new SimpleXMLElement($reader->readOuterXML());
                         $title = (string)$xml->title;
@@ -49,6 +58,7 @@ function fetchEPG($url, $channels) {
     return $out;
 }
 
+// output final
 echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<tv>\n";
 foreach ($sources as $src) {
     echo fetchEPG($src, $channels);
