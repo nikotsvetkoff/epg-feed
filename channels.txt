@@ -21,8 +21,8 @@
 2096 #Eспресо TV
 7823 #Global 24 HD MD
 9786 #NTS TV MD
-1plus1-int
-inter-plus-ua
+8897 #1+1 Україна HD
+2106 #Интер UA
 7818 #ATV Gagauzia MD
 8891 #Дім UA
 987 #КИНОСЕМЬЯ HD
@@ -33,7 +33,7 @@ inter-plus-ua
 309 #TV XXI
 2404 #Феникс плюс Кино
 798 #ИНДИЙСКОЕ КИНО
-tv3-int
+698 #ТВ-3
 644 #Киномикс HD
 3328 #Star Cinema Россия HD
 462 #Киносвидание HD
@@ -70,10 +70,9 @@ tv3-int
 277 #Viju History HD
 765 #Viju Nature HD
 521 #Viju Explore HD
-perpetmobile
 2432 #Живая Планета
 675 #Моя Планета HD
-nauka-20
+723 #Наука HD
 613 #Travel Channel HD
 2444 #Мужской HD
 55 #Ocean TV
