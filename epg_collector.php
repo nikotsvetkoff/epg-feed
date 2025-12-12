@@ -1,5 +1,10 @@
 <?php
-// epg_collector.php – colectare EPG simplă
+// epg_collector.php – varianta corectată pentru GitHub Actions
+
+// setări de siguranță
+ini_set('memory_limit', '512M');
+ini_set('max_execution_time', '300'); // 5 minute
+date_default_timezone_set("Europe/Chisinau");
 
 // sursa EPG (dezarhivare automată)
 $sources = [
@@ -13,15 +18,18 @@ $channels = array_map(function($line) {
     return strtolower($id);
 }, $channels);
 
+// deschide fișierul de output incremental
+$out = fopen("epg.xml", "w");
+fwrite($out, "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<tv>\n");
+
 // funcție pentru procesarea EPG
-function fetchEPG($url, $channels) {
+function fetchEPG($url, $channels, $out) {
     $reader = new XMLReader();
     if (!$reader->open($url)) {
         fwrite(STDERR, "Nu pot deschide sursa: $url\n");
-        return "";
+        return;
     }
 
-    $out = "";
     $now = time();
 
     while ($reader->read()) {
@@ -30,7 +38,7 @@ function fetchEPG($url, $channels) {
             if ($reader->name == "channel") {
                 $id = strtolower($reader->getAttribute("id"));
                 if (in_array($id, $channels)) {
-                    $out .= $reader->readOuterXML() . "\n";
+                    fwrite($out, $reader->readOuterXML() . "\n");
                 }
             }
 
@@ -42,25 +50,28 @@ function fetchEPG($url, $channels) {
                     $stop  = $reader->getAttribute("stop");
                     $stopTime = DateTime::createFromFormat("YmdHis O", $stop);
 
-                    // dacă vrei să vezi tot, scoate filtrul de timp
                     if ($stopTime && $stopTime->getTimestamp() >= $now) {
                         $xml = new SimpleXMLElement($reader->readOuterXML());
-                        $title = (string)$xml->title;
-                        $out .= "<programme channel=\"$id\" start=\"$start\" stop=\"$stop\">\n";
-                        $out .= "  <title>$title</title>\n";
-                        $out .= "</programme>\n";
+                        $title = htmlspecialchars((string)$xml->title, ENT_XML1 | ENT_QUOTES, 'UTF-8');
+
+                        fwrite($out, "<programme channel=\"$id\" start=\"$start\" stop=\"$stop\">\n");
+                        fwrite($out, "  <title>$title</title>\n");
+                        fwrite($out, "</programme>\n");
                     }
                 }
             }
         }
     }
     $reader->close();
-    return $out;
 }
 
-// output final
-echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<tv>\n";
+// rulează pentru fiecare sursă
 foreach ($sources as $src) {
-    echo fetchEPG($src, $channels);
+    fetchEPG($src, $channels, $out);
 }
-echo "</tv>\n";
+
+// finalizează fișierul
+fwrite($out, "</tv>\n");
+fclose($out);
+
+echo "EPG generat cu succes.\n";
