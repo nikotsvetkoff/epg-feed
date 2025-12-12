@@ -86,8 +86,7 @@
 614 #Кухня ТВ
 7623 #Big Planet HD
 9778 #Agro TV HD MD
-neizvestnaya-planeta
-terra-inkognita
+5950 #Тера
 153 #Авто Плюс HD
 2450 #Психология 21
 415 #HDL HD
@@ -98,7 +97,7 @@ terra-inkognita
 410 #Da Vinci HD
 423 #Nickelodeon
 3784 #Nick Jr RO
-nicktoons
+8495 #NickToons HD US
 2442 #Смайлик ТВ
 1332 #Мульт HD
 601 #Cartoon Network
@@ -133,7 +132,6 @@ nicktoons
 2053 #Extreme Sports HD
 2043 #Матч! Планета
 2055 #Viju+ Sport HD
-zhivi-aktivno
 5951 #XSPORT+ HD
 8915 #FREEДОМ UATV
 9780 #Euronews Romania MD
@@ -143,7 +141,6 @@ zhivi-aktivno
 3700 #Realitatea Plus RO
 2270 #CNN International
 3736 #Bucuresti 1 TV RO
-deutsche-welle-ru
 3737 #Prima TV RO
 4373 #Bridge TV Classic
 151 #Bridge TV
@@ -155,14 +152,12 @@ deutsche-welle-ru
 681 #Europa Plus TV
 2278 #Шансон ТВ
 3769 #Etno RO
-hit-tv
 2855 #Zona M MD
 7821 #Tezaur MD
 3764 #Taraf TV RO
 orizonttv-ro
 3789 #Trinitas RO
-tbn-ru
-silk-way-cinema
+9033 #Silk Way
 3794 #Credo TV RO
 3688 #Alfa Omega TV RO
 
