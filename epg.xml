@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+EPG generat cu succes.
+oding="UTF-8"?>
 <tv>
 <channel id="8165">
 	<display-name lang="de">TV5 Monde Europe HD DE</display-name>
@@ -1123,9 +1124,6 @@
 	<display-name lang="ru">Star TV MD</display-name>
 	<icon src="http://epg.one/img/9781.png"/>
 </channel>
-<programme channel="8165" start="20251213010400 +0300" stop="20251213014700 +0300">
-  <title>Jamais jamais</title>
-</programme>
 <programme channel="8165" start="20251213014700 +0300" stop="20251213023000 +0300">
   <title>Faire de la peine au monde</title>
 </programme>
@@ -1157,7 +1155,7 @@
   <title>Zatis et Kalvin</title>
 </programme>
 <programme channel="8165" start="20251213075900 +0300" stop="20251213082600 +0300">
-  <title>Attaques au couteau : le Royaume-Uni à l'épreuve</title>
+  <title>Attaques au couteau : le Royaume-Uni à l&apos;épreuve</title>
 </programme>
 <programme channel="8165" start="20251213082600 +0300" stop="20251213083900 +0300">
   <title>Smartphones : un enjeu de pouvoir (с.308)</title>
@@ -1166,7 +1164,7 @@
   <title>Droits LGBTQIA+, sous la menace</title>
 </programme>
 <programme channel="8165" start="20251213090700 +0300" stop="20251213100000 +0300">
-  <title>RECOLTER L'HIVER / TELE QUEBEC</title>
+  <title>RECOLTER L&apos;HIVER / TELE QUEBEC</title>
 </programme>
 <programme channel="8165" start="20251213100000 +0300" stop="20251213102800 +0300">
   <title>EDITION DU 13/12/25</title>
@@ -1193,7 +1191,7 @@
   <title>Les bottes secrètes</title>
 </programme>
 <programme channel="8165" start="20251213112500 +0300" stop="20251213112900 +0300">
-  <title>La toile d'araignée (с.25)</title>
+  <title>La toile d&apos;araignée (с.25)</title>
 </programme>
 <programme channel="8165" start="20251213112900 +0300" stop="20251213113200 +0300">
   <title>Le mouton de mer (с.26)</title>
@@ -1217,7 +1215,7 @@
   <title>LE GRAND JOURNAL DES TERRITOIRES - 13/12/25</title>
 </programme>
 <programme channel="8165" start="20251213131400 +0300" stop="20251213142200 +0300">
-  <title>C DANS L'AIR-12/12/2025</title>
+  <title>C DANS L&apos;AIR-12/12/2025</title>
 </programme>
 <programme channel="8165" start="20251213142200 +0300" stop="20251213144900 +0300">
   <title>Investisseurs, expatriés : le nouvel élan portugais</title>
@@ -1268,7 +1266,7 @@
   <title>EDITION DU 13/12/25</title>
 </programme>
 <programme channel="8165" start="20251213205400 +0300" stop="20251213210200 +0300">
-  <title>INVITE TV5MONDE (L') 2025 (SEPT-DECEMBRE)-13/12/2025</title>
+  <title>INVITE TV5MONDE (L&apos;) 2025 (SEPT-DECEMBRE)-13/12/2025</title>
 </programme>
 <programme channel="8165" start="20251213210200 +0300" stop="20251213213200 +0300">
   <title>Cassis avec Dimitri Droisneau</title>
@@ -1328,13 +1326,13 @@
   <title>Gaza / Rabat / Venise</title>
 </programme>
 <programme channel="8165" start="20251214072800 +0300" stop="20251214073300 +0300">
-  <title>Laeticia N'cho Traoré (Côte d'Ivoire)</title>
+  <title>Laeticia N&apos;cho Traoré (Côte d&apos;Ivoire)</title>
 </programme>
 <programme channel="8165" start="20251214073300 +0300" stop="20251214080100 +0300">
-  <title>La puberté avant l'heure</title>
+  <title>La puberté avant l&apos;heure</title>
 </programme>
 <programme channel="8165" start="20251214080100 +0300" stop="20251214082700 +0300">
-  <title>CEDEAO : la première édition d'Ecofest</title>
+  <title>CEDEAO : la première édition d&apos;Ecofest</title>
 </programme>
 <programme channel="8165" start="20251214082700 +0300" stop="20251214083300 +0300">
   <title>Neustark</title>
@@ -1373,10 +1371,10 @@
   <title>Le retour de Milady</title>
 </programme>
 <programme channel="8165" start="20251214112000 +0300" stop="20251214112300 +0300">
-  <title>L'abeille (с.27)</title>
+  <title>L&apos;abeille (с.27)</title>
 </programme>
 <programme channel="8165" start="20251214112300 +0300" stop="20251214112600 +0300">
-  <title>L'oiseau-lyre (с.28)</title>
+  <title>L&apos;oiseau-lyre (с.28)</title>
 </programme>
 <programme channel="8165" start="20251214112600 +0300" stop="20251214113700 +0300">
   <title>Idylles en péril</title>
@@ -1388,7 +1386,7 @@
   <title>Secrets de famille</title>
 </programme>
 <programme channel="8165" start="20251214121300 +0300" stop="20251214124000 +0300">
-  <title>ROC D'AZUR 2025</title>
+  <title>ROC D&apos;AZUR 2025</title>
 </programme>
 <programme channel="8165" start="20251214124000 +0300" stop="20251214124500 +0300">
   <title>Lucho González</title>
@@ -1397,7 +1395,7 @@
   <title>Le cancer et après ?</title>
 </programme>
 <programme channel="8165" start="20251214131300 +0300" stop="20251214141900 +0300">
-  <title>C DANS L'AIR SAMEDI-13/12/2025</title>
+  <title>C DANS L&apos;AIR SAMEDI-13/12/2025</title>
 </programme>
 <programme channel="8165" start="20251214141900 +0300" stop="20251214144800 +0300">
   <title>Lettonie (partie 2)</title>
@@ -1418,7 +1416,7 @@
   <title>ABE-EP048-DES HUITRES ENTRE TRADITION ET INNOVATION</title>
 </programme>
 <programme channel="8165" start="20251214175400 +0300" stop="20251214180000 +0300">
-  <title>Éloïse d'Argent</title>
+  <title>Éloïse d&apos;Argent</title>
 </programme>
 <programme channel="8165" start="20251214180000 +0300" stop="20251214182600 +0300">
   <title>Rue Saint-Maur / Mobilier national / Parfum / Cuir / Franges</title>
@@ -1442,7 +1440,7 @@
   <title>EDITION DU 14/12/25</title>
 </programme>
 <programme channel="8165" start="20251214205400 +0300" stop="20251214210200 +0300">
-  <title>INVITE TV5MONDE (L') 2025 (SEPT-DECEMBRE)-14/12/2025</title>
+  <title>INVITE TV5MONDE (L&apos;) 2025 (SEPT-DECEMBRE)-14/12/2025</title>
 </programme>
 <programme channel="8165" start="20251214210200 +0300" stop="20251214215600 +0300">
   <title>Inès de La Fressange / Nadine Abdel Ghaffar / Le Douanier Rousseau / Georges de La Tour</title>
@@ -1454,7 +1452,7 @@
   <title>EDITION DU 14/12/25</title>
 </programme>
 <programme channel="8165" start="20251214222700 +0300" stop="20251214223000 +0300">
-  <title>Le fort d'Ambleteuse</title>
+  <title>Le fort d&apos;Ambleteuse</title>
 </programme>
 <programme channel="8165" start="20251214223000 +0300" stop="20251214225700 +0300">
   <title>EDITION DU 14/12/25 - 20H</title>
@@ -1484,7 +1482,7 @@
   <title>Wang Xijing, le peintre voyageur</title>
 </programme>
 <programme channel="8165" start="20251215050400 +0300" stop="20251215053300 +0300">
-  <title>Yan Gongda, l'art du calligraphe</title>
+  <title>Yan Gongda, l&apos;art du calligraphe</title>
 </programme>
 <programme channel="8165" start="20251215053300 +0300" stop="20251215060000 +0300">
   <title>Le meilleur du design</title>
@@ -1493,7 +1491,7 @@
   <title>LE 23H DU 14/12/25</title>
 </programme>
 <programme channel="8165" start="20251215070000 +0300" stop="20251215072700 +0300">
-  <title>Attaques au couteau : le Royaume-Uni à l'épreuve</title>
+  <title>Attaques au couteau : le Royaume-Uni à l&apos;épreuve</title>
 </programme>
 <programme channel="8165" start="20251215072700 +0300" stop="20251215073200 +0300">
   <title>Anastasie Tudieshe (République démocratique du Congo)</title>
@@ -1529,7 +1527,7 @@
   <title>Adrian Appiolaza pour Moschino, automne-hiver 2024</title>
 </programme>
 <programme channel="8165" start="20251215095400 +0300" stop="20251215100000 +0300">
-  <title>Maxime Goléo, designer et ébéniste d'art</title>
+  <title>Maxime Goléo, designer et ébéniste d&apos;art</title>
 </programme>
 <programme channel="8165" start="20251215100000 +0300" stop="20251215102300 +0300">
   <title>EDITION DU 15/12/25</title>
@@ -1631,7 +1629,7 @@
   <title>EDITION DU 15/12/25</title>
 </programme>
 <programme channel="8165" start="20251215205400 +0300" stop="20251215210200 +0300">
-  <title>INVITE TV5MONDE (L') 2025 (SEPT-DECEMBRE)-15/12/2025</title>
+  <title>INVITE TV5MONDE (L&apos;) 2025 (SEPT-DECEMBRE)-15/12/2025</title>
 </programme>
 <programme channel="8165" start="20251215210200 +0300" stop="20251215212500 +0300">
   <title>Épisode 1701</title>
@@ -1700,7 +1698,7 @@
   <title>TELEMATIN 1 DU 16/12/25</title>
 </programme>
 <programme channel="8165" start="20251216084600 +0300" stop="20251216085000 +0300">
-  <title>Pourquoi des entreprises paient très peu d'impôts ?</title>
+  <title>Pourquoi des entreprises paient très peu d&apos;impôts ?</title>
 </programme>
 <programme channel="8165" start="20251216085000 +0300" stop="20251216092200 +0300">
   <title>TELEMATIN 2 DU 16/12/25</title>
@@ -1724,7 +1722,7 @@
   <title>EDITION DU 16/12/25</title>
 </programme>
 <programme channel="8165" start="20251216102700 +0300" stop="20251216103700 +0300">
-  <title>D'où vient le pipi ?</title>
+  <title>D&apos;où vient le pipi ?</title>
 </programme>
 <programme channel="8165" start="20251216103700 +0300" stop="20251216104800 +0300">
   <title>Rockatastrophe</title>
@@ -1739,19 +1737,19 @@
   <title>Le sortilège</title>
 </programme>
 <programme channel="8165" start="20251216111300 +0300" stop="20251216112600 +0300">
-  <title>L'homme de pierre</title>
+  <title>L&apos;homme de pierre</title>
 </programme>
 <programme channel="8165" start="20251216112600 +0300" stop="20251216115100 +0300">
   <title>Du bruit dans ma cheminée (с.7)</title>
 </programme>
 <programme channel="8165" start="20251216115100 +0300" stop="20251216121900 +0300">
-  <title>Paname se jette à l'eau</title>
+  <title>Paname se jette à l&apos;eau</title>
 </programme>
 <programme channel="8165" start="20251216121900 +0300" stop="20251216124500 +0300">
-  <title>Poulet à l'estragon et ratatouille</title>
+  <title>Poulet à l&apos;estragon et ratatouille</title>
 </programme>
 <programme channel="8165" start="20251216124500 +0300" stop="20251216135300 +0300">
-  <title>C DANS L'AIR-15/12/2025</title>
+  <title>C DANS L&apos;AIR-15/12/2025</title>
 </programme>
 <programme channel="8165" start="20251216135300 +0300" stop="20251216142000 +0300">
   <title>Souleymane Touré (Sénégal) (с.20)</title>
@@ -1799,7 +1797,7 @@
   <title>Au coeur de Gaza avec ses survivants</title>
 </programme>
 <programme channel="8165" start="20251216194600 +0300" stop="20251216200000 +0300">
-  <title>Comment déjouer l'écoblanchiment ?</title>
+  <title>Comment déjouer l&apos;écoblanchiment ?</title>
 </programme>
 <programme channel="8165" start="20251216200000 +0300" stop="20251216202700 +0300">
   <title>EDITION DU 16/12/25</title>
@@ -1811,7 +1809,7 @@
   <title>EDITION DU 16/12/25</title>
 </programme>
 <programme channel="8165" start="20251216205400 +0300" stop="20251216210200 +0300">
-  <title>INVITE TV5MONDE (L') 2025 (SEPT-DECEMBRE)-16/12/2025</title>
+  <title>INVITE TV5MONDE (L&apos;) 2025 (SEPT-DECEMBRE)-16/12/2025</title>
 </programme>
 <programme channel="8165" start="20251216210200 +0300" stop="20251216212500 +0300">
   <title>Épisode 1702</title>
@@ -1877,7 +1875,7 @@
   <title>TELEMATIN 1 DU 17/12/25</title>
 </programme>
 <programme channel="8165" start="20251217084600 +0300" stop="20251217085000 +0300">
-  <title>C'est quoi la dette nationale ?</title>
+  <title>C&apos;est quoi la dette nationale ?</title>
 </programme>
 <programme channel="8165" start="20251217085000 +0300" stop="20251217092200 +0300">
   <title>TELEMATIN 2 DU 17/12/25</title>
@@ -1886,7 +1884,7 @@
   <title>Vanille pistache</title>
 </programme>
 <programme channel="8165" start="20251217092600 +0300" stop="20251217092900 +0300">
-  <title>Il vient d'où le pétrole qu'on consomme ?</title>
+  <title>Il vient d&apos;où le pétrole qu&apos;on consomme ?</title>
 </programme>
 <programme channel="8165" start="20251217092900 +0300" stop="20251217095000 +0300">
   <title>TELEMATIN 3 DU 17/12/25</title>
@@ -1916,7 +1914,7 @@
   <title>La momie</title>
 </programme>
 <programme channel="8165" start="20251217112600 +0300" stop="20251217115200 +0300">
-  <title>Transformation d'anciens bureaux en maison</title>
+  <title>Transformation d&apos;anciens bureaux en maison</title>
 </programme>
 <programme channel="8165" start="20251217115200 +0300" stop="20251217121900 +0300">
   <title>Les Écrins, la passion grandeur nature</title>
@@ -1925,7 +1923,7 @@
   <title>Les épiceries automatisées</title>
 </programme>
 <programme channel="8165" start="20251217124500 +0300" stop="20251217135300 +0300">
-  <title>C DANS L'AIR-16/12/2025</title>
+  <title>C DANS L&apos;AIR-16/12/2025</title>
 </programme>
 <programme channel="8165" start="20251217135300 +0300" stop="20251217142000 +0300">
   <title>Rue Saint-Maur / Mobilier national / Parfum / Cuir / Franges</title>
@@ -1946,10 +1944,10 @@
   <title>Le coffre</title>
 </programme>
 <programme channel="8165" start="20251217175300 +0300" stop="20251217180000 +0300">
-  <title>C'était pas du bourgogne</title>
+  <title>C&apos;était pas du bourgogne</title>
 </programme>
 <programme channel="8165" start="20251217180000 +0300" stop="20251217181100 +0300">
-  <title>Le monstre de l'hiver (с.11)</title>
+  <title>Le monstre de l&apos;hiver (с.11)</title>
 </programme>
 <programme channel="8165" start="20251217181100 +0300" stop="20251217182500 +0300">
   <title>Les aventures de Bokry Zagboto (с.2)</title>
@@ -1985,7 +1983,7 @@
   <title>EDITION DU 17/12/25</title>
 </programme>
 <programme channel="8165" start="20251217205400 +0300" stop="20251217210200 +0300">
-  <title>INVITE TV5MONDE (L') 2025 (SEPT-DECEMBRE)-17/12/2025</title>
+  <title>INVITE TV5MONDE (L&apos;) 2025 (SEPT-DECEMBRE)-17/12/2025</title>
 </programme>
 <programme channel="8165" start="20251217210200 +0300" stop="20251217212500 +0300">
   <title>Épisode 1703</title>
@@ -2021,7 +2019,7 @@
   <title>Mboa, Matanda, le tournoi des rois</title>
 </programme>
 <programme channel="8165" start="20251218022700 +0300" stop="20251218024500 +0300">
-  <title>Qu'importe la distance</title>
+  <title>Qu&apos;importe la distance</title>
 </programme>
 <programme channel="8165" start="20251218024500 +0300" stop="20251218025000 +0300">
   <title>Lola sang contact</title>
@@ -2063,7 +2061,7 @@
   <title>TELEMATIN 1 DU 18/12/25</title>
 </programme>
 <programme channel="8165" start="20251218084600 +0300" stop="20251218085000 +0300">
-  <title>Pourquoi on envoie des fusées dans l'espace ?</title>
+  <title>Pourquoi on envoie des fusées dans l&apos;espace ?</title>
 </programme>
 <programme channel="8165" start="20251218085000 +0300" stop="20251218092200 +0300">
   <title>TELEMATIN 2 DU 18/12/25</title>
@@ -2096,7 +2094,7 @@
   <title>Le Chevalier Noir - Une fable énervante (с.37)</title>
 </programme>
 <programme channel="8165" start="20251218105600 +0300" stop="20251218110300 +0300">
-  <title>L'étrange maison</title>
+  <title>L&apos;étrange maison</title>
 </programme>
 <programme channel="8165" start="20251218110300 +0300" stop="20251218111600 +0300">
   <title>Les auditions</title>
@@ -2117,7 +2115,7 @@
   <title>Cuisiner avec la bière</title>
 </programme>
 <programme channel="8165" start="20251218124500 +0300" stop="20251218135200 +0300">
-  <title>C DANS L'AIR-17/12/2025</title>
+  <title>C DANS L&apos;AIR-17/12/2025</title>
 </programme>
 <programme channel="8165" start="20251218135200 +0300" stop="20251218142000 +0300">
   <title>Le meilleur du design (с.10)</title>
@@ -2162,7 +2160,7 @@
   <title>Transition</title>
 </programme>
 <programme channel="8165" start="20251218190000 +0300" stop="20251218194900 +0300">
-  <title>L'armée en ordre de marche</title>
+  <title>L&apos;armée en ordre de marche</title>
 </programme>
 <programme channel="8165" start="20251218194900 +0300" stop="20251218200000 +0300">
   <title>Noël Zeren / Curling en fauteuil</title>
@@ -2177,7 +2175,7 @@
   <title>EDITION DU 18/12/25</title>
 </programme>
 <programme channel="8165" start="20251218205400 +0300" stop="20251218210200 +0300">
-  <title>INVITE TV5MONDE (L') 2025 (SEPT-DECEMBRE)-18/12/2025</title>
+  <title>INVITE TV5MONDE (L&apos;) 2025 (SEPT-DECEMBRE)-18/12/2025</title>
 </programme>
 <programme channel="8165" start="20251218210200 +0300" stop="20251218212500 +0300">
   <title>Épisode 1704</title>
@@ -2192,7 +2190,7 @@
   <title>EDITION DU 18/12/25 - 20H</title>
 </programme>
 <programme channel="8165" start="20251218230600 +0300" stop="20251218235800 +0300">
-  <title>TERRES DE FOOTBALL : COTE D'IVOIRE</title>
+  <title>TERRES DE FOOTBALL : COTE D&apos;IVOIRE</title>
 </programme>
 <programme channel="8165" start="20251218235800 +0300" stop="20251219003800 +0300">
   <title>EN ROUTE POUR LE MAROC</title>
@@ -2252,7 +2250,7 @@
   <title>Le téléjournal</title>
 </programme>
 <programme channel="8165" start="20251219102600 +0300" stop="20251219103600 +0300">
-  <title>Rocky & Lily : C'est dans la boîte !</title>
+  <title>Rocky &amp; Lily : C&apos;est dans la boîte !</title>
 </programme>
 <programme channel="8165" start="20251219103600 +0300" stop="20251219104700 +0300">
   <title>Gigantosaurus (с.25)</title>
@@ -2279,10 +2277,10 @@
   <title>Chef pays</title>
 </programme>
 <programme channel="8165" start="20251219124700 +0300" stop="20251219135300 +0300">
-  <title>C dans l'air</title>
+  <title>C dans l&apos;air</title>
 </programme>
 <programme channel="8165" start="20251219135300 +0300" stop="20251219142000 +0300">
-  <title>Roc d'azur</title>
+  <title>Roc d&apos;azur</title>
 </programme>
 <programme channel="8165" start="20251219142000 +0300" stop="20251219144200 +0300">
   <title>Un si grand soleil</title>
@@ -2303,7 +2301,7 @@
   <title>Edmond et Lucy (с.23)</title>
 </programme>
 <programme channel="8165" start="20251219181500 +0300" stop="20251219183000 +0300">
-  <title>L'Afrik en contes (с.4)</title>
+  <title>L&apos;Afrik en contes (с.4)</title>
 </programme>
 <programme channel="8165" start="20251219183000 +0300" stop="20251219190100 +0300">
   <title>Droners (с.7)</title>
@@ -2315,7 +2313,7 @@
   <title>Maghreb-Orient Express</title>
 </programme>
 <programme channel="8165" start="20251219200000 +0300" stop="20251219202700 +0300">
-  <title>64' le monde en français - 1re partie (с.291)</title>
+  <title>64&apos; le monde en français - 1re partie (с.291)</title>
 </programme>
 <programme channel="8165" start="20251219202700 +0300" stop="20251219203000 +0300">
   <title>La météo</title>
@@ -2324,7 +2322,7 @@
   <title>Allons-y Franco !</title>
 </programme>
 <programme channel="8165" start="20251219205300 +0300" stop="20251219210100 +0300">
-  <title>L'invité</title>
+  <title>L&apos;invité</title>
 </programme>
 <programme channel="8165" start="20251219210100 +0300" stop="20251219212500 +0300">
   <title>Un si grand soleil</title>
@@ -2354,7 +2352,7 @@
   <title>Music Hits</title>
 </programme>
 <programme channel="151" start="20251213131000 +0300" stop="20251213134000 +0300">
-  <title>Hot & Spicy</title>
+  <title>Hot &amp; Spicy</title>
 </programme>
 <programme channel="151" start="20251213134000 +0300" stop="20251213171000 +0300">
   <title>Music Hits</title>
@@ -2387,7 +2385,7 @@
   <title>Music Hits</title>
 </programme>
 <programme channel="151" start="20251214091000 +0300" stop="20251214094000 +0300">
-  <title>Hot & Spicy</title>
+  <title>Hot &amp; Spicy</title>
 </programme>
 <programme channel="151" start="20251214094000 +0300" stop="20251214131000 +0300">
   <title>Music Hits</title>
@@ -2429,7 +2427,7 @@
   <title>Music Hits</title>
 </programme>
 <programme channel="151" start="20251215171000 +0300" stop="20251215174000 +0300">
-  <title>Hot & Spicy</title>
+  <title>Hot &amp; Spicy</title>
 </programme>
 <programme channel="151" start="20251215174000 +0300" stop="20251215193000 +0300">
   <title>Music Hits</title>
@@ -2456,7 +2454,7 @@
   <title>Music Hits</title>
 </programme>
 <programme channel="151" start="20251216131000 +0300" stop="20251216134000 +0300">
-  <title>Hot & Spicy</title>
+  <title>Hot &amp; Spicy</title>
 </programme>
 <programme channel="151" start="20251216134000 +0300" stop="20251216171000 +0300">
   <title>Music Hits</title>
@@ -2489,7 +2487,7 @@
   <title>Music Hits</title>
 </programme>
 <programme channel="151" start="20251217081000 +0300" stop="20251217084000 +0300">
-  <title>Hot & Spicy</title>
+  <title>Hot &amp; Spicy</title>
 </programme>
 <programme channel="151" start="20251217084000 +0300" stop="20251217131000 +0300">
   <title>Music Hits</title>
@@ -2540,7 +2538,7 @@
   <title>Music Hits</title>
 </programme>
 <programme channel="151" start="20251218171000 +0300" stop="20251218174000 +0300">
-  <title>Hot & Spicy</title>
+  <title>Hot &amp; Spicy</title>
 </programme>
 <programme channel="151" start="20251218174000 +0300" stop="20251218193000 +0300">
   <title>Music Hits</title>
@@ -2610,9 +2608,6 @@
 </programme>
 <programme channel="4373" start="20251215093000 +0300" stop="20251215210000 +0300">
   <title>Золотая коллекция клипов</title>
-</programme>
-<programme channel="423" start="20251213011500 +0300" stop="20251213014000 +0300">
-  <title>Губка Боб Квадратные Штаны. S.14,Ep.12.</title>
 </programme>
 <programme channel="423" start="20251213014000 +0300" stop="20251213020000 +0300">
   <title>Смурфики. S.2,Ep.8.</title>
@@ -4087,11 +4082,8 @@
 <programme channel="798" start="20251219012500 +0300" stop="20251219050500 +0300">
   <title>«Влюблённое сердце»</title>
 </programme>
-<programme channel="2043" start="20251213004000 +0300" stop="20251213014000 +0300">
-  <title>Настольный теннис. Суперкубок. Мужчины. Финал. Трансляция из Москвы.</title>
-</programme>
 <programme channel="2043" start="20251213014000 +0300" stop="20251213033000 +0300">
-  <title>Волейбол. Чемп. России. Суперлига. Мужчины. "Зенит-Казань" - "Кузбасс" (Кемерово).</title>
+  <title>Волейбол. Чемп. России. Суперлига. Мужчины. &quot;Зенит-Казань&quot; - &quot;Кузбасс&quot; (Кемерово).</title>
 </programme>
 <programme channel="2043" start="20251213033000 +0300" stop="20251213053000 +0300">
   <title>Боулинг. BetBoom Кубок КЛБ. финал. Гранд-. Трансляция из Тюмени.</title>
@@ -4106,7 +4098,7 @@
   <title>Непридуманные истории. Омская область.</title>
 </programme>
 <programme channel="2043" start="20251213070000 +0300" stop="20251213083500 +0300">
-  <title>Гандбол. Чемп. России. Суперлига. Женщины. "Ростов-Дон" (Ростов-на-Дону) - "Динамо-Синара" (Волгоград) (6+).</title>
+  <title>Гандбол. Чемп. России. Суперлига. Женщины. &quot;Ростов-Дон&quot; (Ростов-на-Дону) - &quot;Динамо-Синара&quot; (Волгоград) (6+).</title>
 </programme>
 <programme channel="2043" start="20251213083500 +0300" stop="20251213102000 +0300">
   <title>▶️ Биатлон. Кубок России. Спринт. Женщины. из Тюмени.</title>
@@ -4121,7 +4113,7 @@
   <title>▶️ Биатлон. Кубок России. Спринт. Мужчины. из Тюмени.</title>
 </programme>
 <programme channel="2043" start="20251213125500 +0300" stop="20251213143500 +0300">
-  <title>▶️ Гандбол. Чемп. России. Суперлига. Женщины. "Астраханочка" (Астрахань) - "Лада" (Тольятти).</title>
+  <title>▶️ Гандбол. Чемп. России. Суперлига. Женщины. &quot;Астраханочка&quot; (Астрахань) - &quot;Лада&quot; (Тольятти).</title>
 </programme>
 <programme channel="2043" start="20251213143500 +0300" stop="20251213150500 +0300">
   <title>Аквабайк. Чемп. мира. Гран-при Катара. Часть 2. Runabout and freestyle.</title>
@@ -4133,16 +4125,16 @@
   <title>Что за спорт?</title>
 </programme>
 <programme channel="2043" start="20251213155500 +0300" stop="20251213180000 +0300">
-  <title>▶️ Волейбол. Чемп. России. Суперлига. Женщины. "Динамо-Ак Барс" (Казань) - "Протон" (Саратов).</title>
+  <title>▶️ Волейбол. Чемп. России. Суперлига. Женщины. &quot;Динамо-Ак Барс&quot; (Казань) - &quot;Протон&quot; (Саратов).</title>
 </programme>
 <programme channel="2043" start="20251213180000 +0300" stop="20251213195500 +0300">
-  <title>Футзал. Суперлига. "Тюмень" - "Кристалл" (Санкт-Петербург).</title>
+  <title>Футзал. Суперлига. &quot;Тюмень&quot; - &quot;Кристалл&quot; (Санкт-Петербург).</title>
 </programme>
 <programme channel="2043" start="20251213195500 +0300" stop="20251213203000 +0300">
   <title>Взойди на свой Олимп.</title>
 </programme>
 <programme channel="2043" start="20251213203000 +0300" stop="20251213220000 +0300">
-  <title>Гандбол. Чемп. России. Суперлига. Женщины. "Астраханочка" (Астрахань) - "Лада" (Тольятти) (6+).</title>
+  <title>Гандбол. Чемп. России. Суперлига. Женщины. &quot;Астраханочка&quot; (Астрахань) - &quot;Лада&quot; (Тольятти) (6+).</title>
 </programme>
 <programme channel="2043" start="20251213220000 +0300" stop="20251214010000 +0300">
   <title>▶️ Бокс. Bare Knuckle FC. из Великобритании. К. Кук - Э. Холмс. Б. Тейлор - Б. Хайслоп.</title>
@@ -4160,10 +4152,10 @@
   <title>София и Софья - две медали.</title>
 </programme>
 <programme channel="2043" start="20251214060000 +0300" stop="20251214074500 +0300">
-  <title>Футзал. Суперлига. "Тюмень" - "Кристалл" (Санкт-Петербург).</title>
+  <title>Футзал. Суперлига. &quot;Тюмень&quot; - &quot;Кристалл&quot; (Санкт-Петербург).</title>
 </programme>
 <programme channel="2043" start="20251214074500 +0300" stop="20251214093500 +0300">
-  <title>Волейбол. Чемп. России. Суперлига. Женщины. "Динамо-Ак Барс" (Казань) - "Протон" (Саратов) (6+).</title>
+  <title>Волейбол. Чемп. России. Суперлига. Женщины. &quot;Динамо-Ак Барс&quot; (Казань) - &quot;Протон&quot; (Саратов) (6+).</title>
 </programme>
 <programme channel="2043" start="20251214093500 +0300" stop="20251214111000 +0300">
   <title>▶️ Биатлон. Кубок России. Масс-старт. Женщины. из Тюмени.</title>
@@ -4175,10 +4167,10 @@
   <title>▶️ Биатлон. Кубок России. Масс-старт. Мужчины. из Тюмени.</title>
 </programme>
 <programme channel="2043" start="20251214132500 +0300" stop="20251214152500 +0300">
-  <title>▶️ Футзал. Суперлига. "Тюмень" - "Кристалл" (Санкт-Петербург).</title>
+  <title>▶️ Футзал. Суперлига. &quot;Тюмень&quot; - &quot;Кристалл&quot; (Санкт-Петербург).</title>
 </programme>
 <programme channel="2043" start="20251214152500 +0300" stop="20251214172500 +0300">
-  <title>▶️ Волейбол. Чемп. России. Суперлига. Мужчины. "Факел Ямал" (Новый Уренгой) - "Зенит" (Санкт-Петербург).</title>
+  <title>▶️ Волейбол. Чемп. России. Суперлига. Мужчины. &quot;Факел Ямал&quot; (Новый Уренгой) - &quot;Зенит&quot; (Санкт-Петербург).</title>
 </programme>
 <programme channel="2043" start="20251214172500 +0300" stop="20251214180000 +0300">
   <title>Век нашего спорта. Игорь Тер-Ованесян.</title>
@@ -4193,28 +4185,22 @@
   <title>Биатлон. Кубок России. Масс-старт. Мужчины. Трансляция из Тюмени.</title>
 </programme>
 <programme channel="2043" start="20251214232000 +0300" stop="20251215011000 +0300">
-  <title>Футзал. Суперлига. "Тюмень" - "Кристалл" (Санкт-Петербург).</title>
+  <title>Футзал. Суперлига. &quot;Тюмень&quot; - &quot;Кристалл&quot; (Санкт-Петербург).</title>
 </programme>
 <programme channel="2043" start="20251215011000 +0300" stop="20251215014000 +0300">
   <title>Непридуманные истории. Омская область.</title>
 </programme>
 <programme channel="2043" start="20251215014000 +0300" stop="20251215033000 +0300">
-  <title>Волейбол. Чемп. России. Суперлига. Мужчины. "Факел Ямал" (Новый Уренгой) - "Зенит" (Санкт-Петербург) (6+).</title>
+  <title>Волейбол. Чемп. России. Суперлига. Мужчины. &quot;Факел Ямал&quot; (Новый Уренгой) - &quot;Зенит&quot; (Санкт-Петербург) (6+).</title>
 </programme>
 <programme channel="2043" start="20251215033000 +0300" stop="20251215051000 +0300">
-  <title>Гандбол. Чемп. России. Суперлига. Женщины. "Астраханочка" (Астрахань) - "Лада" (Тольятти) (6+).</title>
+  <title>Гандбол. Чемп. России. Суперлига. Женщины. &quot;Астраханочка&quot; (Астрахань) - &quot;Лада&quot; (Тольятти) (6+).</title>
 </programme>
 <programme channel="2043" start="20251215051000 +0300" stop="20251215053500 +0300">
   <title>Магия большого спорта. Гандбол.</title>
 </programme>
 <programme channel="2043" start="20251215053500 +0300" stop="20251215063500 +0300">
   <title>Век нашего спорта. 1940 - 1945 гг.</title>
-</programme>
-<programme channel="2127" start="20251213013000 +0300" stop="20251213014500 +0300">
-  <title>News</title>
-</programme>
-<programme channel="2127" start="20251213014500 +0300" stop="20251213015000 +0300">
-  <title>Focus Semaine</title>
 </programme>
 <programme channel="2127" start="20251213015000 +0300" stop="20251213020000 +0300">
   <title>Sports Vendredi</title>
@@ -4244,7 +4230,7 @@
   <title>News</title>
 </programme>
 <programme channel="2127" start="20251213041500 +0300" stop="20251213043000 +0300">
-  <title>People & Profit</title>
+  <title>People &amp; Profit</title>
 </programme>
 <programme channel="2127" start="20251213043000 +0300" stop="20251213044500 +0300">
   <title>Bulletin</title>
@@ -4397,7 +4383,7 @@
   <title>News</title>
 </programme>
 <programme channel="2127" start="20251213164500 +0300" stop="20251213170000 +0300">
-  <title>The Reporter's Week</title>
+  <title>The Reporter&apos;s Week</title>
 </programme>
 <programme channel="2127" start="20251213170000 +0300" stop="20251213170900 +0300">
   <title>News</title>
@@ -4532,7 +4518,7 @@
   <title>Reporters</title>
 </programme>
 <programme channel="2127" start="20251214004500 +0300" stop="20251214010000 +0300">
-  <title>The Reporter's Week</title>
+  <title>The Reporter&apos;s Week</title>
 </programme>
 <programme channel="2127" start="20251214010000 +0300" stop="20251214011500 +0300">
   <title>News</title>
@@ -4601,7 +4587,7 @@
   <title>News</title>
 </programme>
 <programme channel="2127" start="20251214051500 +0300" stop="20251214053000 +0300">
-  <title>People & Profit</title>
+  <title>People &amp; Profit</title>
 </programme>
 <programme channel="2127" start="20251214053000 +0300" stop="20251214054500 +0300">
   <title>Bulletin</title>
@@ -4742,7 +4728,7 @@
   <title>News</title>
 </programme>
 <programme channel="2127" start="20251214154500 +0300" stop="20251214160000 +0300">
-  <title>People & Profit</title>
+  <title>People &amp; Profit</title>
 </programme>
 <programme channel="2127" start="20251214160000 +0300" stop="20251214161200 +0300">
   <title>News</title>
@@ -4856,7 +4842,7 @@
   <title>Introduction</title>
 </programme>
 <programme channel="2127" start="20251214214600 +0300" stop="20251214220000 +0300">
-  <title>People & Profit</title>
+  <title>People &amp; Profit</title>
 </programme>
 <programme channel="2127" start="20251214220000 +0300" stop="20251214221500 +0300">
   <title>News</title>
@@ -4889,7 +4875,7 @@
   <title>News</title>
 </programme>
 <programme channel="2127" start="20251214234500 +0300" stop="20251215000000 +0300">
-  <title>The Reporter's Week</title>
+  <title>The Reporter&apos;s Week</title>
 </programme>
 <programme channel="2127" start="20251215000000 +0300" stop="20251215001000 +0300">
   <title>News</title>
@@ -5381,7 +5367,7 @@
   <title>Горячие хиты!</title>
 </programme>
 <programme channel="2024" start="20251213200000 +0300" stop="20251213203000 +0300">
-  <title>Hot & Spicy</title>
+  <title>Hot &amp; Spicy</title>
 </programme>
 <programme channel="2024" start="20251213203000 +0300" stop="20251214000000 +0300">
   <title>Горячие хиты!</title>
@@ -5393,7 +5379,7 @@
   <title>Горячие хиты!</title>
 </programme>
 <programme channel="2024" start="20251214110000 +0300" stop="20251214113000 +0300">
-  <title>Hot & Spicy</title>
+  <title>Hot &amp; Spicy</title>
 </programme>
 <programme channel="2024" start="20251214113000 +0300" stop="20251214173000 +0300">
   <title>Горячие хиты!</title>
@@ -7076,10 +7062,10 @@
   <title>Ловля белого амура в низовьях Дона</title>
 </programme>
 <programme channel="2280" start="20251215060000 +0300" stop="20251215063000 +0300">
-  <title>"Град Березов". Музыкальный фестиваль памяти Александра Меншикова</title>
+  <title>&quot;Град Березов&quot;. Музыкальный фестиваль памяти Александра Меншикова</title>
 </programme>
 <programme channel="2280" start="20251215063000 +0300" stop="20251215070000 +0300">
-  <title>Кавказская кухня ресторана "Гнездо совы"</title>
+  <title>Кавказская кухня ресторана &quot;Гнездо совы&quot;</title>
 </programme>
 <programme channel="2280" start="20251215070000 +0300" stop="20251215073000 +0300">
   <title>Старая Ладога. Первая столица Древней Руси</title>
@@ -7091,7 +7077,7 @@
   <title>По Уральским горам на снегоходах</title>
 </programme>
 <programme channel="2280" start="20251215084500 +0300" stop="20251215090000 +0300">
-  <title>RTG TV TOP10. "Позитивные эмоции". Туристические маршруты</title>
+  <title>RTG TV TOP10. &quot;Позитивные эмоции&quot;. Туристические маршруты</title>
 </programme>
 <programme channel="2280" start="20251215090000 +0300" stop="20251215093000 +0300">
   <title>Прогулка по городу Петергоф</title>
@@ -7160,10 +7146,10 @@
   <title>Ловля белого амура в низовьях Дона</title>
 </programme>
 <programme channel="2280" start="20251215200000 +0300" stop="20251215203000 +0300">
-  <title>"Град Березов". Музыкальный фестиваль памяти Александра Меншикова</title>
+  <title>&quot;Град Березов&quot;. Музыкальный фестиваль памяти Александра Меншикова</title>
 </programme>
 <programme channel="2280" start="20251215203000 +0300" stop="20251215210000 +0300">
-  <title>Кавказская кухня ресторана "Гнездо совы"</title>
+  <title>Кавказская кухня ресторана &quot;Гнездо совы&quot;</title>
 </programme>
 <programme channel="2280" start="20251215210000 +0300" stop="20251215213000 +0300">
   <title>Старая Ладога. Первая столица Древней Руси</title>
@@ -7175,7 +7161,7 @@
   <title>По Уральским горам на снегоходах</title>
 </programme>
 <programme channel="2280" start="20251215224500 +0300" stop="20251215230000 +0300">
-  <title>RTG TV TOP10. "Позитивные эмоции". Туристические маршруты</title>
+  <title>RTG TV TOP10. &quot;Позитивные эмоции&quot;. Туристические маршруты</title>
 </programme>
 <programme channel="2280" start="20251215230000 +0300" stop="20251215233000 +0300">
   <title>Прогулка по городу Петергоф</title>
@@ -7244,10 +7230,10 @@
   <title>Ловля белого амура в низовьях Дона</title>
 </programme>
 <programme channel="2280" start="20251216100000 +0300" stop="20251216103000 +0300">
-  <title>"Град Березов". Музыкальный фестиваль памяти Александра Меншикова</title>
+  <title>&quot;Град Березов&quot;. Музыкальный фестиваль памяти Александра Меншикова</title>
 </programme>
 <programme channel="2280" start="20251216103000 +0300" stop="20251216110000 +0300">
-  <title>Кавказская кухня ресторана "Гнездо совы"</title>
+  <title>Кавказская кухня ресторана &quot;Гнездо совы&quot;</title>
 </programme>
 <programme channel="2280" start="20251216110000 +0300" stop="20251216113000 +0300">
   <title>Старая Ладога. Первая столица Древней Руси</title>
@@ -7259,7 +7245,7 @@
   <title>По Уральским горам на снегоходах</title>
 </programme>
 <programme channel="2280" start="20251216124500 +0300" stop="20251216130000 +0300">
-  <title>RTG TV TOP10. "Позитивные эмоции". Туристические маршруты</title>
+  <title>RTG TV TOP10. &quot;Позитивные эмоции&quot;. Туристические маршруты</title>
 </programme>
 <programme channel="2280" start="20251216130000 +0300" stop="20251216133000 +0300">
   <title>Прогулка по городу Петергоф</title>
@@ -7328,10 +7314,10 @@
   <title>Ловля белого амура в низовьях Дона</title>
 </programme>
 <programme channel="2280" start="20251217000000 +0300" stop="20251217003000 +0300">
-  <title>"Град Березов". Музыкальный фестиваль памяти Александра Меншикова</title>
+  <title>&quot;Град Березов&quot;. Музыкальный фестиваль памяти Александра Меншикова</title>
 </programme>
 <programme channel="2280" start="20251217003000 +0300" stop="20251217010000 +0300">
-  <title>Кавказская кухня ресторана "Гнездо совы"</title>
+  <title>Кавказская кухня ресторана &quot;Гнездо совы&quot;</title>
 </programme>
 <programme channel="2280" start="20251217010000 +0300" stop="20251217013000 +0300">
   <title>Старая Ладога. Первая столица Древней Руси</title>
@@ -7343,7 +7329,7 @@
   <title>По Уральским горам на снегоходах</title>
 </programme>
 <programme channel="2280" start="20251217024500 +0300" stop="20251217030000 +0300">
-  <title>RTG TV TOP10. "Позитивные эмоции". Туристические маршруты</title>
+  <title>RTG TV TOP10. &quot;Позитивные эмоции&quot;. Туристические маршруты</title>
 </programme>
 <programme channel="2280" start="20251217030000 +0300" stop="20251217033000 +0300">
   <title>Прогулка по городу Петергоф</title>
@@ -7412,10 +7398,10 @@
   <title>Ловля белого амура в низовьях Дона</title>
 </programme>
 <programme channel="2280" start="20251217140000 +0300" stop="20251217143000 +0300">
-  <title>"Град Березов". Музыкальный фестиваль памяти Александра Меншикова</title>
+  <title>&quot;Град Березов&quot;. Музыкальный фестиваль памяти Александра Меншикова</title>
 </programme>
 <programme channel="2280" start="20251217143000 +0300" stop="20251217150000 +0300">
-  <title>Кавказская кухня ресторана "Гнездо совы"</title>
+  <title>Кавказская кухня ресторана &quot;Гнездо совы&quot;</title>
 </programme>
 <programme channel="2280" start="20251217150000 +0300" stop="20251217153000 +0300">
   <title>Старая Ладога. Первая столица Древней Руси</title>
@@ -7427,7 +7413,7 @@
   <title>По Уральским горам на снегоходах</title>
 </programme>
 <programme channel="2280" start="20251217164500 +0300" stop="20251217170000 +0300">
-  <title>RTG TV TOP10. "Позитивные эмоции". Туристические маршруты</title>
+  <title>RTG TV TOP10. &quot;Позитивные эмоции&quot;. Туристические маршруты</title>
 </programme>
 <programme channel="2280" start="20251217170000 +0300" stop="20251217173000 +0300">
   <title>Прогулка по городу Петергоф</title>
@@ -7496,10 +7482,10 @@
   <title>Ловля белого амура в низовьях Дона</title>
 </programme>
 <programme channel="2280" start="20251218040000 +0300" stop="20251218043000 +0300">
-  <title>"Град Березов". Музыкальный фестиваль памяти Александра Меншикова</title>
+  <title>&quot;Град Березов&quot;. Музыкальный фестиваль памяти Александра Меншикова</title>
 </programme>
 <programme channel="2280" start="20251218043000 +0300" stop="20251218050000 +0300">
-  <title>Кавказская кухня ресторана "Гнездо совы"</title>
+  <title>Кавказская кухня ресторана &quot;Гнездо совы&quot;</title>
 </programme>
 <programme channel="2280" start="20251218050000 +0300" stop="20251218053000 +0300">
   <title>Старая Ладога. Первая столица Древней Руси</title>
@@ -7511,7 +7497,7 @@
   <title>По Уральским горам на снегоходах</title>
 </programme>
 <programme channel="2280" start="20251218064500 +0300" stop="20251218070000 +0300">
-  <title>RTG TV TOP10. "Позитивные эмоции". Туристические маршруты</title>
+  <title>RTG TV TOP10. &quot;Позитивные эмоции&quot;. Туристические маршруты</title>
 </programme>
 <programme channel="2280" start="20251218070000 +0300" stop="20251218073000 +0300">
   <title>Прогулка по городу Петергоф</title>
@@ -7580,10 +7566,10 @@
   <title>Ловля белого амура в низовьях Дона</title>
 </programme>
 <programme channel="2280" start="20251218180000 +0300" stop="20251218183000 +0300">
-  <title>"Град Березов". Музыкальный фестиваль памяти Александра Меншикова</title>
+  <title>&quot;Град Березов&quot;. Музыкальный фестиваль памяти Александра Меншикова</title>
 </programme>
 <programme channel="2280" start="20251218183000 +0300" stop="20251218190000 +0300">
-  <title>Кавказская кухня ресторана "Гнездо совы"</title>
+  <title>Кавказская кухня ресторана &quot;Гнездо совы&quot;</title>
 </programme>
 <programme channel="2280" start="20251218190000 +0300" stop="20251218193000 +0300">
   <title>Старая Ладога. Первая столица Древней Руси</title>
@@ -7595,7 +7581,7 @@
   <title>По Уральским горам на снегоходах</title>
 </programme>
 <programme channel="2280" start="20251218204500 +0300" stop="20251218210000 +0300">
-  <title>RTG TV TOP10. "Позитивные эмоции". Туристические маршруты</title>
+  <title>RTG TV TOP10. &quot;Позитивные эмоции&quot;. Туристические маршруты</title>
 </programme>
 <programme channel="2280" start="20251218210000 +0300" stop="20251218213000 +0300">
   <title>Прогулка по городу Петергоф</title>
@@ -7641,9 +7627,6 @@
 </programme>
 <programme channel="2280" start="20251219040000 +0300" stop="20251219043000 +0300">
   <title>Отель Эрмитаж</title>
-</programme>
-<programme channel="1011" start="20251213001500 +0300" stop="20251213014500 +0300">
-  <title>Как выйти замуж за миллиардера</title>
 </programme>
 <programme channel="1011" start="20251213014500 +0300" stop="20251213035000 +0300">
   <title>Соблазнитель</title>
@@ -8090,7 +8073,7 @@
   <title>Исчезнувший</title>
 </programme>
 <programme channel="1012" start="20251216225000 +0300" stop="20251217001500 +0300">
-  <title>Проект "Динозавр"</title>
+  <title>Проект &quot;Динозавр&quot;</title>
 </programme>
 <programme channel="1012" start="20251217001500 +0300" stop="20251217023000 +0300">
   <title>Малышка на миллион</title>
@@ -8177,10 +8160,7 @@
   <title>Столкновение</title>
 </programme>
 <programme channel="1012" start="20251219031500 +0300" stop="20251219045000 +0300">
-  <title>Проект "Динозавр"</title>
-</programme>
-<programme channel="1013" start="20251212235500 +0300" stop="20251213014000 +0300">
-  <title>Криминальный город. Возмездие</title>
+  <title>Проект &quot;Динозавр&quot;</title>
 </programme>
 <programme channel="1013" start="20251213014000 +0300" stop="20251213030500 +0300">
   <title>Власть огня</title>
@@ -8673,9 +8653,6 @@
 </programme>
 <programme channel="2055" start="20251219033000 +0300" stop="20251219043000 +0300">
   <title>Автоспорт Чемпионат мира по ралли WRC 2025. Обзор сезона</title>
-</programme>
-<programme channel="2233" start="20251213012500 +0300" stop="20251213014500 +0300">
-  <title>Цена синдура (с.236)</title>
 </programme>
 <programme channel="2233" start="20251213014500 +0300" stop="20251213020000 +0300">
   <title>Путешествие по Индии. Гокаран, Мурдешвар</title>
@@ -9694,9 +9671,6 @@
 <programme channel="2233" start="20251219041000 +0300" stop="20251219044000 +0300">
   <title>Как назвать эту любовь? (с.1)</title>
 </programme>
-<programme channel="2008" start="20251213011500 +0300" stop="20251213013500 +0300">
-  <title>Поехали (с.46)</title>
-</programme>
 <programme channel="2008" start="20251213013500 +0300" stop="20251213020500 +0300">
   <title>Тур де (с.8)</title>
 </programme>
@@ -9875,7 +9849,7 @@
   <title>Автоитоги недели (с.48)</title>
 </programme>
 <programme channel="2008" start="20251213184500 +0300" stop="20251213192500 +0300">
-  <title>Автомобили мира. Link&Co 900</title>
+  <title>Автомобили мира. Link&amp;Co 900</title>
 </programme>
 <programme channel="2008" start="20251213192500 +0300" stop="20251213193500 +0300">
   <title>Техно-тест (с.26)</title>
@@ -10025,7 +9999,7 @@
   <title>События (с.190)</title>
 </programme>
 <programme channel="2008" start="20251214085000 +0300" stop="20251214093000 +0300">
-  <title>Автомобили мира. Link&Co 900</title>
+  <title>Автомобили мира. Link&amp;Co 900</title>
 </programme>
 <programme channel="2008" start="20251214093000 +0300" stop="20251214094000 +0300">
   <title>Автоитоги недели (с.48)</title>
@@ -10280,7 +10254,7 @@
   <title>Поехали (с.26)</title>
 </programme>
 <programme channel="2008" start="20251215103000 +0300" stop="20251215111000 +0300">
-  <title>Автомобили мира. Link&Co3+</title>
+  <title>Автомобили мира. Link&amp;Co3+</title>
 </programme>
 <programme channel="2008" start="20251215111000 +0300" stop="20251215112000 +0300">
   <title>Техно-тест (с.13)</title>
@@ -10325,7 +10299,7 @@
   <title>Хобби-кар (с.22)</title>
 </programme>
 <programme channel="2008" start="20251215152500 +0300" stop="20251215161000 +0300">
-  <title>Автомобили мира. Link&Co3+</title>
+  <title>Автомобили мира. Link&amp;Co3+</title>
 </programme>
 <programme channel="2008" start="20251215161000 +0300" stop="20251215162000 +0300">
   <title>Техно-тест (с.13)</title>
@@ -10367,7 +10341,7 @@
   <title>Хобби-кар (с.22)</title>
 </programme>
 <programme channel="2008" start="20251215201000 +0300" stop="20251215205000 +0300">
-  <title>Автомобили мира. Link&Co3+</title>
+  <title>Автомобили мира. Link&amp;Co3+</title>
 </programme>
 <programme channel="2008" start="20251215205000 +0300" stop="20251215210000 +0300">
   <title>Техно-тест (с.13)</title>
@@ -10406,7 +10380,7 @@
   <title>Хобби-кар (с.22)</title>
 </programme>
 <programme channel="2008" start="20251216003500 +0300" stop="20251216011500 +0300">
-  <title>Автомобили мира. Link&Co3+</title>
+  <title>Автомобили мира. Link&amp;Co3+</title>
 </programme>
 <programme channel="2008" start="20251216011500 +0300" stop="20251216012500 +0300">
   <title>Техно-тест (с.13)</title>
@@ -10448,7 +10422,7 @@
   <title>Хобби-кар (с.22)</title>
 </programme>
 <programme channel="2008" start="20251216051500 +0300" stop="20251216060000 +0300">
-  <title>Автомобили мира. Link&Co3+</title>
+  <title>Автомобили мира. Link&amp;Co3+</title>
 </programme>
 <programme channel="2008" start="20251216060000 +0300" stop="20251216061000 +0300">
   <title>Техно-тест (с.13)</title>
@@ -11078,7 +11052,7 @@
   <title>Хобби-кар (с.22)</title>
 </programme>
 <programme channel="2008" start="20251219030500 +0300" stop="20251219034500 +0300">
-  <title>Автомобили мира. Link&Co3+</title>
+  <title>Автомобили мира. Link&amp;Co3+</title>
 </programme>
 <programme channel="2008" start="20251219034500 +0300" stop="20251219035500 +0300">
   <title>Техно-тест (с.13)</title>
@@ -11091,9 +11065,6 @@
 </programme>
 <programme channel="2008" start="20251219041500 +0300" stop="20251219043000 +0300">
   <title>Мотомания (с.71)</title>
-</programme>
-<programme channel="153" start="20251213013000 +0300" stop="20251213014500 +0300">
-  <title>Подержанные автомобили. Volvo XC60</title>
 </programme>
 <programme channel="153" start="20251213014500 +0300" stop="20251213020000 +0300">
   <title>Советы бывалых</title>
@@ -11192,7 +11163,7 @@
   <title>Новости с колёс</title>
 </programme>
 <programme channel="153" start="20251213090500 +0300" stop="20251213091500 +0300">
-  <title>Своими глазами. Вездеход "Лесник"</title>
+  <title>Своими глазами. Вездеход &quot;Лесник&quot;</title>
 </programme>
 <programme channel="153" start="20251213091500 +0300" stop="20251213093000 +0300">
   <title>Два колеса</title>
@@ -11246,7 +11217,7 @@
   <title>Техногид</title>
 </programme>
 <programme channel="153" start="20251213121500 +0300" stop="20251213123500 +0300">
-  <title>Пилоты "КАМАЗ-мастер". Сергей Куприянов: ценность момента</title>
+  <title>Пилоты &quot;КАМАЗ-мастер&quot;. Сергей Куприянов: ценность момента</title>
 </programme>
 <programme channel="153" start="20251213123500 +0300" stop="20251213124000 +0300">
   <title>Автомобили</title>
@@ -11453,7 +11424,7 @@
   <title>Техногид</title>
 </programme>
 <programme channel="153" start="20251214043000 +0300" stop="20251214044000 +0300">
-  <title>"Тест-драйв" с Иваном Зенкевичем. Нива КБ Смирнова</title>
+  <title>&quot;Тест-драйв&quot; с Иваном Зенкевичем. Нива КБ Смирнова</title>
 </programme>
 <programme channel="153" start="20251214044000 +0300" stop="20251214044500 +0300">
   <title>Автомобили</title>
@@ -11501,7 +11472,7 @@
   <title>Автомобили</title>
 </programme>
 <programme channel="153" start="20251214084000 +0300" stop="20251214085000 +0300">
-  <title>Своими глазами. Дизайн под грифом "Секретно"</title>
+  <title>Своими глазами. Дизайн под грифом &quot;Секретно&quot;</title>
 </programme>
 <programme channel="153" start="20251214085000 +0300" stop="20251214085500 +0300">
   <title>Автомобили</title>
@@ -11531,7 +11502,7 @@
   <title>Автомобили</title>
 </programme>
 <programme channel="153" start="20251214102000 +0300" stop="20251214103500 +0300">
-  <title>Пилоты "КАМАЗ-мастер". Сергей Куприянов: ценность момента</title>
+  <title>Пилоты &quot;КАМАЗ-мастер&quot;. Сергей Куприянов: ценность момента</title>
 </programme>
 <programme channel="153" start="20251214103500 +0300" stop="20251214104000 +0300">
   <title>Автомобили</title>
@@ -11645,7 +11616,7 @@
   <title>Наши тесты. Changan Lamore</title>
 </programme>
 <programme channel="153" start="20251214193000 +0300" stop="20251214194500 +0300">
-  <title>"Тест-драйв" с Иваном Зенкевичем. Alpha YQ50</title>
+  <title>&quot;Тест-драйв&quot; с Иваном Зенкевичем. Alpha YQ50</title>
 </programme>
 <programme channel="153" start="20251214194500 +0300" stop="20251214200000 +0300">
   <title>Своими глазами. Volvo 50 лет в России</title>
@@ -11747,7 +11718,7 @@
   <title>Новости недели</title>
 </programme>
 <programme channel="153" start="20251215052500 +0300" stop="20251215053500 +0300">
-  <title>Своими глазами. Выставка "Первые моторы"</title>
+  <title>Своими глазами. Выставка &quot;Первые моторы&quot;</title>
 </programme>
 <programme channel="153" start="20251215053500 +0300" stop="20251215060500 +0300">
   <title>Retro Legends Garage. Сколько стоит привезти из Калифорнии пикап Ford F 1951 года?</title>
@@ -11891,7 +11862,7 @@
   <title>Наши тесты. Suzuki Ertiga</title>
 </programme>
 <programme channel="153" start="20251215173000 +0300" stop="20251215175000 +0300">
-  <title>Пилоты "КАМАЗ-мастер". Сергей Куприянов: ценность момента</title>
+  <title>Пилоты &quot;КАМАЗ-мастер&quot;. Сергей Куприянов: ценность момента</title>
 </programme>
 <programme channel="153" start="20251215175000 +0300" stop="20251215175500 +0300">
   <title>Новости с колёс</title>
@@ -12014,7 +11985,7 @@
   <title>Два колеса</title>
 </programme>
 <programme channel="153" start="20251216012500 +0300" stop="20251216014000 +0300">
-  <title>Подержанные автомобили. Уаз сгр ("Буханка")</title>
+  <title>Подержанные автомобили. Уаз сгр (&quot;Буханка&quot;)</title>
 </programme>
 <programme channel="153" start="20251216014000 +0300" stop="20251216015500 +0300">
   <title>Наши тесты. GAC M8</title>
@@ -12080,7 +12051,7 @@
   <title>Новости с колёс</title>
 </programme>
 <programme channel="153" start="20251216060000 +0300" stop="20251216062000 +0300">
-  <title>Пилоты "КАМАЗ-мастер". Сергей Куприянов: ценность момента</title>
+  <title>Пилоты &quot;КАМАЗ-мастер&quot;. Сергей Куприянов: ценность момента</title>
 </programme>
 <programme channel="153" start="20251216062000 +0300" stop="20251216064500 +0300">
   <title>Выбор есть!. Toyota Fortuner и Mitsubishi Pajero Sport</title>
@@ -12212,7 +12183,7 @@
   <title>Привет, Тачка. Роскошь 90-х: Иван Калита 2142</title>
 </programme>
 <programme channel="153" start="20251216154500 +0300" stop="20251216160500 +0300">
-  <title>Пилоты "КАМАЗ-мастер". Сергей Куприянов: ценность момента</title>
+  <title>Пилоты &quot;КАМАЗ-мастер&quot;. Сергей Куприянов: ценность момента</title>
 </programme>
 <programme channel="153" start="20251216160500 +0300" stop="20251216161000 +0300">
   <title>Новости с колёс</title>
@@ -12383,7 +12354,7 @@
   <title>Два колеса</title>
 </programme>
 <programme channel="153" start="20251217032000 +0300" stop="20251217034000 +0300">
-  <title>Пилоты "КАМАЗ-мастер". Сергей Куприянов: ценность момента</title>
+  <title>Пилоты &quot;КАМАЗ-мастер&quot;. Сергей Куприянов: ценность момента</title>
 </programme>
 <programme channel="153" start="20251217034000 +0300" stop="20251217035500 +0300">
   <title>Наши тесты. Lamborghini Urus</title>
@@ -12602,7 +12573,7 @@
   <title>Новости с колёс</title>
 </programme>
 <programme channel="153" start="20251218000500 +0300" stop="20251218002000 +0300">
-  <title>Пилоты "КАМАЗ-мастер". Сергей Куприянов: ценность момента</title>
+  <title>Пилоты &quot;КАМАЗ-мастер&quot;. Сергей Куприянов: ценность момента</title>
 </programme>
 <programme channel="153" start="20251218002000 +0300" stop="20251218004500 +0300">
   <title>Выбор есть!. M5 и Porsche Macan</title>
@@ -12689,7 +12660,7 @@
   <title>Автомобили</title>
 </programme>
 <programme channel="153" start="20251218073000 +0300" stop="20251218074500 +0300">
-  <title>"Спецтехника" с Иваном Зенкевичем. ЗИЛ-4972 Штабной</title>
+  <title>&quot;Спецтехника&quot; с Иваном Зенкевичем. ЗИЛ-4972 Штабной</title>
 </programme>
 <programme channel="153" start="20251218074500 +0300" stop="20251218080000 +0300">
   <title>Советы бывалых</title>
@@ -12815,7 +12786,7 @@
   <title>Автомобили</title>
 </programme>
 <programme channel="153" start="20251218144500 +0300" stop="20251218145500 +0300">
-  <title>"Тест-драйв" с Иваном Зенкевичем. Alpha YQ50</title>
+  <title>&quot;Тест-драйв&quot; с Иваном Зенкевичем. Alpha YQ50</title>
 </programme>
 <programme channel="153" start="20251218145500 +0300" stop="20251218151000 +0300">
   <title>Своими глазами. Volvo 50 лет в России</title>
@@ -12872,7 +12843,7 @@
   <title>Автомобили</title>
 </programme>
 <programme channel="153" start="20251218182500 +0300" stop="20251218184000 +0300">
-  <title>Привет, Тачка. Дорогобогато. Годзилла 8x8 из России больше КАМАЗа - "Шаман"</title>
+  <title>Привет, Тачка. Дорогобогато. Годзилла 8x8 из России больше КАМАЗа - &quot;Шаман&quot;</title>
 </programme>
 <programme channel="153" start="20251218184000 +0300" stop="20251218185000 +0300">
   <title>Своими глазами. Evolute i-Pro</title>
@@ -13015,14 +12986,8 @@
 <programme channel="153" start="20251219040500 +0300" stop="20251219042000 +0300">
   <title>Наши тесты. Bestune T90</title>
 </programme>
-<programme channel="66" start="20251213012500 +0300" stop="20251213014000 +0300">
-  <title>Шах и мат!</title>
-</programme>
-<programme channel="66" start="20251213014000 +0300" stop="20251213015000 +0300">
-  <title>Невероятные питомцы</title>
-</programme>
 <programme channel="66" start="20251213015000 +0300" stop="20251213020000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251213020000 +0300" stop="20251213021000 +0300">
   <title>Смешарики</title>
@@ -13058,16 +13023,16 @@
   <title>Три богатыря: Ход конём</title>
 </programme>
 <programme channel="66" start="20251213042000 +0300" stop="20251213043000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251213043000 +0300" stop="20251213054000 +0300">
   <title>Три богатыря на дальних берегах</title>
 </programme>
 <programme channel="66" start="20251213054000 +0300" stop="20251213054500 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251213054500 +0300" stop="20251213055500 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251213055500 +0300" stop="20251213060000 +0300">
   <title>Ник-изобретатель</title>
@@ -13109,7 +13074,7 @@
   <title>Полное погружение</title>
 </programme>
 <programme channel="66" start="20251213082000 +0300" stop="20251213083000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251213083000 +0300" stop="20251213095500 +0300">
   <title>Фиксики против кработов</title>
@@ -13118,55 +13083,55 @@
   <title>Азбука цифровой грамотности</title>
 </programme>
 <programme channel="66" start="20251213100000 +0300" stop="20251213101000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251213101000 +0300" stop="20251213101500 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251213101500 +0300" stop="20251213102500 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251213102500 +0300" stop="20251213103500 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251213103500 +0300" stop="20251213104000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251213104000 +0300" stop="20251213105000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251213105000 +0300" stop="20251213110000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251213110000 +0300" stop="20251213111000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251213111000 +0300" stop="20251213112000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251213112000 +0300" stop="20251213113000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251213113000 +0300" stop="20251213114000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251213114000 +0300" stop="20251213115000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251213115000 +0300" stop="20251213120500 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251213120500 +0300" stop="20251213132000 +0300">
   <title>Белка и Стрелка: Карибская тайна</title>
 </programme>
 <programme channel="66" start="20251213132000 +0300" stop="20251213133000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251213133000 +0300" stop="20251213144500 +0300">
   <title>Фиксики: Большой секрет</title>
 </programme>
 <programme channel="66" start="20251213144500 +0300" stop="20251213145500 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251213145500 +0300" stop="20251213150500 +0300">
   <title>Турбозавры</title>
@@ -13217,16 +13182,16 @@
   <title>Гоу, Феликс</title>
 </programme>
 <programme channel="66" start="20251213212500 +0300" stop="20251213213500 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251213213500 +0300" stop="20251213225000 +0300">
   <title>Барбоскины на даче</title>
 </programme>
 <programme channel="66" start="20251213225000 +0300" stop="20251213225500 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251213225500 +0300" stop="20251213230500 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251213230500 +0300" stop="20251213231500 +0300">
   <title>Турбозавры</title>
@@ -13271,7 +13236,7 @@
   <title>Невероятные питомцы</title>
 </programme>
 <programme channel="66" start="20251214015500 +0300" stop="20251214020500 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251214020500 +0300" stop="20251214021000 +0300">
   <title>Смешарики</title>
@@ -13310,10 +13275,10 @@
   <title>Три богатыря: Ход конём</title>
 </programme>
 <programme channel="66" start="20251214054000 +0300" stop="20251214055000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251214055000 +0300" stop="20251214060000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251214060000 +0300" stop="20251214060500 +0300">
   <title>Ник-изобретатель</title>
@@ -13352,7 +13317,7 @@
   <title>Гоу, Феликс</title>
 </programme>
 <programme channel="66" start="20251214082500 +0300" stop="20251214083500 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251214083500 +0300" stop="20251214095000 +0300">
   <title>Крепость: щитом и мечом</title>
@@ -13427,31 +13392,31 @@
   <title>Белка и Стрелка: Карибская тайна</title>
 </programme>
 <programme channel="66" start="20251214185000 +0300" stop="20251214190000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251214190000 +0300" stop="20251214191000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251214191000 +0300" stop="20251214192000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251214192000 +0300" stop="20251214193000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251214193000 +0300" stop="20251214194000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251214194000 +0300" stop="20251214195000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251214195000 +0300" stop="20251214200000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251214200000 +0300" stop="20251214211500 +0300">
   <title>Фиксики: Большой секрет</title>
 </programme>
 <programme channel="66" start="20251214211500 +0300" stop="20251214212500 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251214212500 +0300" stop="20251214213000 +0300">
   <title>Азбука цифровой грамотности</title>
@@ -13508,7 +13473,7 @@
   <title>Невероятные питомцы</title>
 </programme>
 <programme channel="66" start="20251215015500 +0300" stop="20251215020500 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251215020500 +0300" stop="20251215021000 +0300">
   <title>Ник-изобретатель</title>
@@ -13580,7 +13545,7 @@
   <title>Белка и Стрелка: Карибская тайна</title>
 </programme>
 <programme channel="66" start="20251215094500 +0300" stop="20251215100000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251215100000 +0300" stop="20251215100500 +0300">
   <title>Турбозавры</title>
@@ -13649,7 +13614,7 @@
   <title>Крепость: щитом и мечом</title>
 </programme>
 <programme channel="66" start="20251215154500 +0300" stop="20251215155500 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251215155500 +0300" stop="20251215160000 +0300">
   <title>Азбука цифровой грамотности</title>
@@ -13769,7 +13734,7 @@
   <title>Невероятные питомцы</title>
 </programme>
 <programme channel="66" start="20251216015500 +0300" stop="20251216020000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251216020000 +0300" stop="20251216021000 +0300">
   <title>Чуч-Мяуч</title>
@@ -13883,7 +13848,7 @@
   <title>Крепость: щитом и мечом</title>
 </programme>
 <programme channel="66" start="20251216132000 +0300" stop="20251216133000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251216133000 +0300" stop="20251216133500 +0300">
   <title>Шмяк. Волшебная лавка Есении. Ночная красавица</title>
@@ -13901,13 +13866,13 @@
   <title>Белка и Стрелка: Карибская тайна</title>
 </programme>
 <programme channel="66" start="20251216155000 +0300" stop="20251216160000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251216160000 +0300" stop="20251216172000 +0300">
   <title>Джок</title>
 </programme>
 <programme channel="66" start="20251216172000 +0300" stop="20251216173000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251216173000 +0300" stop="20251216173500 +0300">
   <title>Турбозавры</title>
@@ -13937,7 +13902,7 @@
   <title>Крепость: щитом и мечом</title>
 </programme>
 <programme channel="66" start="20251216211500 +0300" stop="20251216212500 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251216212500 +0300" stop="20251216213500 +0300">
   <title>Шмяк. Волшебная лавка Есении. Дай пас</title>
@@ -14012,7 +13977,7 @@
   <title>Невероятные питомцы</title>
 </programme>
 <programme channel="66" start="20251217015500 +0300" stop="20251217020000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251217020000 +0300" stop="20251217021000 +0300">
   <title>Чуч-Мяуч</title>
@@ -14042,16 +14007,16 @@
   <title>Белка и Стрелка: Карибская тайна</title>
 </programme>
 <programme channel="66" start="20251217041500 +0300" stop="20251217042500 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251217042500 +0300" stop="20251217054000 +0300">
   <title>Крепость: щитом и мечом</title>
 </programme>
 <programme channel="66" start="20251217054000 +0300" stop="20251217055000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251217055000 +0300" stop="20251217055500 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251217055500 +0300" stop="20251217060000 +0300">
   <title>Азбука цифровой грамотности</title>
@@ -14060,10 +14025,10 @@
   <title>Иван Царевич и Серый Волк 3</title>
 </programme>
 <programme channel="66" start="20251217071500 +0300" stop="20251217072000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251217072000 +0300" stop="20251217073000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251217073000 +0300" stop="20251217073500 +0300">
   <title>Детектив Финник</title>
@@ -14189,7 +14154,7 @@
   <title>Белка и Стрелка: Карибская тайна</title>
 </programme>
 <programme channel="66" start="20251217212000 +0300" stop="20251217212500 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251217212500 +0300" stop="20251217213500 +0300">
   <title>Шмяк. Волшебная лавка Есении. Ночная красавица</title>
@@ -14264,7 +14229,7 @@
   <title>Невероятные питомцы</title>
 </programme>
 <programme channel="66" start="20251218015500 +0300" stop="20251218020500 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251218020500 +0300" stop="20251218021000 +0300">
   <title>Чуч-Мяуч</title>
@@ -14300,7 +14265,7 @@
   <title>Белка и Стрелка: Карибская тайна</title>
 </programme>
 <programme channel="66" start="20251218071500 +0300" stop="20251218072500 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251218072500 +0300" stop="20251218073500 +0300">
   <title>Детектив Финник</title>
@@ -14330,10 +14295,10 @@
   <title>Крепость: щитом и мечом</title>
 </programme>
 <programme channel="66" start="20251218094000 +0300" stop="20251218095000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251218095000 +0300" stop="20251218100000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251218100000 +0300" stop="20251218100500 +0300">
   <title>Турбозавры</title>
@@ -14402,10 +14367,10 @@
   <title>Волки и Овцы: Ход свиньёй</title>
 </programme>
 <programme channel="66" start="20251218171000 +0300" stop="20251218171500 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251218171500 +0300" stop="20251218173000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251218173000 +0300" stop="20251218173500 +0300">
   <title>Турбозавры</title>
@@ -14432,7 +14397,7 @@
   <title>Иван Царевич и Серый Волк 2</title>
 </programme>
 <programme channel="66" start="20251218194000 +0300" stop="20251218195500 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251218195500 +0300" stop="20251218213500 +0300">
   <title>Тайна магазина игрушек</title>
@@ -14507,7 +14472,7 @@
   <title>Невероятные питомцы</title>
 </programme>
 <programme channel="66" start="20251219015000 +0300" stop="20251219020000 +0300">
-  <title>Клуб "Вопросики"</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="66" start="20251219020000 +0300" stop="20251219021000 +0300">
   <title>Чуч-Мяуч</title>
@@ -14537,10 +14502,7 @@
   <title>Алёша Попович и Тугарин Змей</title>
 </programme>
 <programme channel="66" start="20251219041500 +0300" stop="20251219042500 +0300">
-  <title>Клуб "Вопросики"</title>
-</programme>
-<programme channel="304" start="20251213012500 +0300" stop="20251213015000 +0300">
-  <title>Порча. Слушаюсь и повинуюсь</title>
+  <title>Клуб &quot;Вопросики&quot;</title>
 </programme>
 <programme channel="304" start="20251213015000 +0300" stop="20251213021500 +0300">
   <title>Знахарка (с.79)</title>
@@ -15100,9 +15062,6 @@
 <programme channel="304" start="20251219033000 +0300" stop="20251219042000 +0300">
   <title>Тест на отцовство</title>
 </programme>
-<programme channel="2443" start="20251213011000 +0300" stop="20251213014000 +0300">
-  <title>Автомобили мира. LEVC L38</title>
-</programme>
 <programme channel="2443" start="20251213014000 +0300" stop="20251213024000 +0300">
   <title>Драйв тур (Автопробег). Саратов</title>
 </programme>
@@ -15110,31 +15069,31 @@
   <title>Автовинтаж. Бьюик Ривьера</title>
 </programme>
 <programme channel="2443" start="20251213034500 +0300" stop="20251213040000 +0300">
-  <title>Выбираем на "вторичке". BMW 4 Series</title>
+  <title>Выбираем на &quot;вторичке&quot;. BMW 4 Series</title>
 </programme>
 <programme channel="2443" start="20251213040000 +0300" stop="20251213041500 +0300">
-  <title>Выбираем на "вторичке". Nissan X-Trail III</title>
+  <title>Выбираем на &quot;вторичке&quot;. Nissan X-Trail III</title>
 </programme>
 <programme channel="2443" start="20251213041500 +0300" stop="20251213043000 +0300">
-  <title>Выбираем на "вторичке". Kia Soul</title>
+  <title>Выбираем на &quot;вторичке&quot;. Kia Soul</title>
 </programme>
 <programme channel="2443" start="20251213043000 +0300" stop="20251213044500 +0300">
-  <title>Выбираем на "вторичке". Kia K5</title>
+  <title>Выбираем на &quot;вторичке&quot;. Kia K5</title>
 </programme>
 <programme channel="2443" start="20251213044500 +0300" stop="20251213050000 +0300">
-  <title>Выбираем на "вторичке". Outlander</title>
+  <title>Выбираем на &quot;вторичке&quot;. Outlander</title>
 </programme>
 <programme channel="2443" start="20251213050000 +0300" stop="20251213054500 +0300">
   <title>Автомобили мира (с.10)</title>
 </programme>
 <programme channel="2443" start="20251213054500 +0300" stop="20251213060000 +0300">
-  <title>Выбираем на "вторичке". Hyundai Creta</title>
+  <title>Выбираем на &quot;вторичке&quot;. Hyundai Creta</title>
 </programme>
 <programme channel="2443" start="20251213060000 +0300" stop="20251213061500 +0300">
   <title>Итоговые новости</title>
 </programme>
 <programme channel="2443" start="20251213061500 +0300" stop="20251213063000 +0300">
-  <title>Выбираем на "вторичке". Mercedes GLC</title>
+  <title>Выбираем на &quot;вторичке&quot;. Mercedes GLC</title>
 </programme>
 <programme channel="2443" start="20251213063000 +0300" stop="20251213064500 +0300">
   <title>Полезные советы (с.15)</title>
@@ -15158,7 +15117,7 @@
   <title>Полезные советы (с.7)</title>
 </programme>
 <programme channel="2443" start="20251213081500 +0300" stop="20251213085500 +0300">
-  <title>Тур де на "Драйве". Санкт-Петербург</title>
+  <title>Тур де на &quot;Драйве&quot;. Санкт-Петербург</title>
 </programme>
 <programme channel="2443" start="20251213085500 +0300" stop="20251213091000 +0300">
   <title>Итоговые новости</title>
@@ -15170,7 +15129,7 @@
   <title>Драйв тур (Автопробег). Астрахань</title>
 </programme>
 <programme channel="2443" start="20251213102000 +0300" stop="20251213104500 +0300">
-  <title>Потестим на "Драйве" (с.59)</title>
+  <title>Потестим на &quot;Драйве&quot; (с.59)</title>
 </programme>
 <programme channel="2443" start="20251213104500 +0300" stop="20251213113000 +0300">
   <title>Драйв тур (Автопробег). Элиста</title>
@@ -15194,37 +15153,37 @@
   <title>Автолайф. Jaecoo J8</title>
 </programme>
 <programme channel="2443" start="20251213130500 +0300" stop="20251213132500 +0300">
-  <title>Выбираем на "вторичке". BMW 4 Series</title>
+  <title>Выбираем на &quot;вторичке&quot;. BMW 4 Series</title>
 </programme>
 <programme channel="2443" start="20251213132500 +0300" stop="20251213134000 +0300">
-  <title>Выбираем на "вторичке". Nissan X-Trail III</title>
+  <title>Выбираем на &quot;вторичке&quot;. Nissan X-Trail III</title>
 </programme>
 <programme channel="2443" start="20251213134000 +0300" stop="20251213135500 +0300">
-  <title>Выбираем на "вторичке". Kia Soul</title>
+  <title>Выбираем на &quot;вторичке&quot;. Kia Soul</title>
 </programme>
 <programme channel="2443" start="20251213135500 +0300" stop="20251213141500 +0300">
-  <title>Выбираем на "вторичке". Kia K5</title>
+  <title>Выбираем на &quot;вторичке&quot;. Kia K5</title>
 </programme>
 <programme channel="2443" start="20251213141500 +0300" stop="20251213143000 +0300">
-  <title>Выбираем на "вторичке". Outlander</title>
+  <title>Выбираем на &quot;вторичке&quot;. Outlander</title>
 </programme>
 <programme channel="2443" start="20251213143000 +0300" stop="20251213144500 +0300">
-  <title>Выбираем на "вторичке". Hyundai Creta</title>
+  <title>Выбираем на &quot;вторичке&quot;. Hyundai Creta</title>
 </programme>
 <programme channel="2443" start="20251213144500 +0300" stop="20251213150500 +0300">
-  <title>Выбираем на "вторичке". Chery Tiggo 8 Pro</title>
+  <title>Выбираем на &quot;вторичке&quot;. Chery Tiggo 8 Pro</title>
 </programme>
 <programme channel="2443" start="20251213150500 +0300" stop="20251213152000 +0300">
   <title>Итоговые новости</title>
 </programme>
 <programme channel="2443" start="20251213152000 +0300" stop="20251213153500 +0300">
-  <title>Выбираем на "вторичке". Audi A6</title>
+  <title>Выбираем на &quot;вторичке&quot;. Audi A6</title>
 </programme>
 <programme channel="2443" start="20251213153500 +0300" stop="20251213155000 +0300">
-  <title>Выбираем на "вторичке". Kia Seltos</title>
+  <title>Выбираем на &quot;вторичке&quot;. Kia Seltos</title>
 </programme>
 <programme channel="2443" start="20251213155000 +0300" stop="20251213161000 +0300">
-  <title>Выбираем на "вторичке". Mercedes GLC</title>
+  <title>Выбираем на &quot;вторичке&quot;. Mercedes GLC</title>
 </programme>
 <programme channel="2443" start="20251213161000 +0300" stop="20251213162500 +0300">
   <title>Полезные советы (с.15)</title>
@@ -15272,34 +15231,34 @@
   <title>Автополигон. Geely Emgrand</title>
 </programme>
 <programme channel="2443" start="20251213224500 +0300" stop="20251213230000 +0300">
-  <title>Выбираем на "вторичке". BMW 4 Series</title>
+  <title>Выбираем на &quot;вторичке&quot;. BMW 4 Series</title>
 </programme>
 <programme channel="2443" start="20251213230000 +0300" stop="20251213232000 +0300">
-  <title>Выбираем на "вторичке". Nissan X-Trail III</title>
+  <title>Выбираем на &quot;вторичке&quot;. Nissan X-Trail III</title>
 </programme>
 <programme channel="2443" start="20251213232000 +0300" stop="20251213233500 +0300">
-  <title>Выбираем на "вторичке". Kia Soul</title>
+  <title>Выбираем на &quot;вторичке&quot;. Kia Soul</title>
 </programme>
 <programme channel="2443" start="20251213233500 +0300" stop="20251213235000 +0300">
-  <title>Выбираем на "вторичке". Kia K5</title>
+  <title>Выбираем на &quot;вторичке&quot;. Kia K5</title>
 </programme>
 <programme channel="2443" start="20251213235000 +0300" stop="20251214001000 +0300">
-  <title>Выбираем на "вторичке". Outlander</title>
+  <title>Выбираем на &quot;вторичке&quot;. Outlander</title>
 </programme>
 <programme channel="2443" start="20251214001000 +0300" stop="20251214002500 +0300">
-  <title>Выбираем на "вторичке". Hyundai Creta</title>
+  <title>Выбираем на &quot;вторичке&quot;. Hyundai Creta</title>
 </programme>
 <programme channel="2443" start="20251214002500 +0300" stop="20251214004000 +0300">
-  <title>Выбираем на "вторичке". Chery Tiggo 8 Pro</title>
+  <title>Выбираем на &quot;вторичке&quot;. Chery Tiggo 8 Pro</title>
 </programme>
 <programme channel="2443" start="20251214004000 +0300" stop="20251214005500 +0300">
-  <title>Выбираем на "вторичке". Audi A6</title>
+  <title>Выбираем на &quot;вторичке&quot;. Audi A6</title>
 </programme>
 <programme channel="2443" start="20251214005500 +0300" stop="20251214011000 +0300">
-  <title>Выбираем на "вторичке". Kia Seltos</title>
+  <title>Выбираем на &quot;вторичке&quot;. Kia Seltos</title>
 </programme>
 <programme channel="2443" start="20251214011000 +0300" stop="20251214012500 +0300">
-  <title>Выбираем на "вторичке". Mercedes GLC</title>
+  <title>Выбираем на &quot;вторичке&quot;. Mercedes GLC</title>
 </programme>
 <programme channel="2443" start="20251214012500 +0300" stop="20251214014000 +0300">
   <title>Полезные советы (с.15)</title>
@@ -15329,7 +15288,7 @@
   <title>Драйв тур (Автопробег). Астрахань</title>
 </programme>
 <programme channel="2443" start="20251214043000 +0300" stop="20251214045500 +0300">
-  <title>Потестим на "Драйве" (с.59)</title>
+  <title>Потестим на &quot;Драйве&quot; (с.59)</title>
 </programme>
 <programme channel="2443" start="20251214045500 +0300" stop="20251214050500 +0300">
   <title>Говорит и показывает Мельников (с.3)</title>
@@ -15383,7 +15342,7 @@
   <title>Дороги Победы. Новороссийск</title>
 </programme>
 <programme channel="2443" start="20251214134000 +0300" stop="20251214142000 +0300">
-  <title>Тур де на "Драйве". Санкт-Петербург</title>
+  <title>Тур де на &quot;Драйве&quot;. Санкт-Петербург</title>
 </programme>
 <programme channel="2443" start="20251214142000 +0300" stop="20251214145000 +0300">
   <title>Говорит и показывает Мельников (с.28)</title>
@@ -15425,13 +15384,13 @@
   <title>Дороги Победы. Санкт-Петербург. Часть 2-я</title>
 </programme>
 <programme channel="2443" start="20251214202500 +0300" stop="20251214211000 +0300">
-  <title>Тур де на "Драйве". Санкт-Петербург</title>
+  <title>Тур де на &quot;Драйве&quot;. Санкт-Петербург</title>
 </programme>
 <programme channel="2443" start="20251214211000 +0300" stop="20251214212500 +0300">
   <title>Итоговые новости</title>
 </programme>
 <programme channel="2443" start="20251214212500 +0300" stop="20251214220500 +0300">
-  <title>Тур де на "Драйве"</title>
+  <title>Тур де на &quot;Драйве&quot;</title>
 </programme>
 <programme channel="2443" start="20251214220500 +0300" stop="20251214224000 +0300">
   <title>Тур де (с.16)</title>
@@ -15449,7 +15408,7 @@
   <title>Драйв тур (Автопробег). Астрахань</title>
 </programme>
 <programme channel="2443" start="20251215005000 +0300" stop="20251215011000 +0300">
-  <title>Потестим на "Драйве" (с.59)</title>
+  <title>Потестим на &quot;Драйве&quot; (с.59)</title>
 </programme>
 <programme channel="2443" start="20251215011000 +0300" stop="20251215015000 +0300">
   <title>Драйв тур (Автопробег). Элиста</title>
@@ -15494,7 +15453,7 @@
   <title>Драйв тур (Автопробег). Самара</title>
 </programme>
 <programme channel="2443" start="20251215090000 +0300" stop="20251215091500 +0300">
-  <title>Выбираем на "вторичке". BMW 3 серия (F30)</title>
+  <title>Выбираем на &quot;вторичке&quot;. BMW 3 серия (F30)</title>
 </programme>
 <programme channel="2443" start="20251215091500 +0300" stop="20251215095500 +0300">
   <title>Автомобили мира. Chery Tiggo 9</title>
@@ -15503,7 +15462,7 @@
   <title>Дороги Победы. Санкт-Петербург. Часть 1-я</title>
 </programme>
 <programme channel="2443" start="20251215101500 +0300" stop="20251215110000 +0300">
-  <title>Потестим на "Драйве". HONGQI HS5</title>
+  <title>Потестим на &quot;Драйве&quot;. HONGQI HS5</title>
 </programme>
 <programme channel="2443" start="20251215110000 +0300" stop="20251215114500 +0300">
   <title>Тур де (с.14)</title>
@@ -15530,7 +15489,7 @@
   <title>Дороги Победы. Санкт-Петербург. Часть 2-я</title>
 </programme>
 <programme channel="2443" start="20251215151000 +0300" stop="20251215155500 +0300">
-  <title>Потестим на "Драйве". HONGQI HS5</title>
+  <title>Потестим на &quot;Драйве&quot;. HONGQI HS5</title>
 </programme>
 <programme channel="2443" start="20251215155500 +0300" stop="20251215170000 +0300">
   <title>Автовинтаж. Бьюик Ривьера</title>
@@ -15548,13 +15507,13 @@
   <title>Драйв тур (Автопробег). Саратов</title>
 </programme>
 <programme channel="2443" start="20251215193500 +0300" stop="20251215195000 +0300">
-  <title>Выбираем на "вторичке". Land Rover Evoque</title>
+  <title>Выбираем на &quot;вторичке&quot;. Land Rover Evoque</title>
 </programme>
 <programme channel="2443" start="20251215195000 +0300" stop="20251215200500 +0300">
   <title>Говорит и показывает Мельников (с.3)</title>
 </programme>
 <programme channel="2443" start="20251215200500 +0300" stop="20251215204500 +0300">
-  <title>Потестим на "Драйве". Geely Atlas Pro</title>
+  <title>Потестим на &quot;Драйве&quot;. Geely Atlas Pro</title>
 </programme>
 <programme channel="2443" start="20251215204500 +0300" stop="20251215210500 +0300">
   <title>Автолайф. LADA Vesta Sport, Кубок Роснефть</title>
@@ -15575,16 +15534,16 @@
   <title>Драйв тур (Автопробег). Ульяновск</title>
 </programme>
 <programme channel="2443" start="20251216000000 +0300" stop="20251216001500 +0300">
-  <title>Выбираем на "вторичке". Kia K5</title>
+  <title>Выбираем на &quot;вторичке&quot;. Kia K5</title>
 </programme>
 <programme channel="2443" start="20251216001500 +0300" stop="20251216004500 +0300">
   <title>Автомобили мира. Geely Galaxy A7</title>
 </programme>
 <programme channel="2443" start="20251216004500 +0300" stop="20251216011500 +0300">
-  <title>Потестим на "Драйве" (с.34)</title>
+  <title>Потестим на &quot;Драйве&quot; (с.34)</title>
 </programme>
 <programme channel="2443" start="20251216011500 +0300" stop="20251216020000 +0300">
-  <title>Тур де на "Драйве". Пятигорск</title>
+  <title>Тур де на &quot;Драйве&quot;. Пятигорск</title>
 </programme>
 <programme channel="2443" start="20251216020000 +0300" stop="20251216030000 +0300">
   <title>Автовинтаж. Ford Mustang Mach</title>
@@ -15596,7 +15555,7 @@
   <title>Автолайф. Москвич 6 в Казани</title>
 </programme>
 <programme channel="2443" start="20251216033000 +0300" stop="20251216040000 +0300">
-  <title>Потестим на "Драйве". Geely Coolray</title>
+  <title>Потестим на &quot;Драйве&quot;. Geely Coolray</title>
 </programme>
 <programme channel="2443" start="20251216040000 +0300" stop="20251216042500 +0300">
   <title>Испытание на прочность (с.43)</title>
@@ -15611,10 +15570,10 @@
   <title>Полезные советы (с.4)</title>
 </programme>
 <programme channel="2443" start="20251216053500 +0300" stop="20251216060500 +0300">
-  <title>Потестим на "Драйве". Tank 300</title>
+  <title>Потестим на &quot;Драйве&quot;. Tank 300</title>
 </programme>
 <programme channel="2443" start="20251216060500 +0300" stop="20251216064500 +0300">
-  <title>Потестим на "Драйве". HONGQI HS5</title>
+  <title>Потестим на &quot;Драйве&quot;. HONGQI HS5</title>
 </programme>
 <programme channel="2443" start="20251216064500 +0300" stop="20251216073000 +0300">
   <title>Тур де (с.14)</title>
@@ -15641,7 +15600,7 @@
   <title>Автомобили мира. Denza D9</title>
 </programme>
 <programme channel="2443" start="20251216101500 +0300" stop="20251216110000 +0300">
-  <title>Потестим на "Драйве". HONGQI HS5</title>
+  <title>Потестим на &quot;Драйве&quot;. HONGQI HS5</title>
 </programme>
 <programme channel="2443" start="20251216110000 +0300" stop="20251216121000 +0300">
   <title>Автовинтаж. Бьюик Ривьера</title>
@@ -15656,7 +15615,7 @@
   <title>Драйв тур (Автопробег). Саратов</title>
 </programme>
 <programme channel="2443" start="20251216135500 +0300" stop="20251216141000 +0300">
-  <title>Выбираем на "вторичке". Land Rover Evoque</title>
+  <title>Выбираем на &quot;вторичке&quot;. Land Rover Evoque</title>
 </programme>
 <programme channel="2443" start="20251216141000 +0300" stop="20251216142500 +0300">
   <title>Говорит и показывает Мельников (с.3)</title>
@@ -15671,7 +15630,7 @@
   <title>Автолайф. Haval H7</title>
 </programme>
 <programme channel="2443" start="20251216155000 +0300" stop="20251216165500 +0300">
-  <title>Потестим на "Драйве". LADA Niva Travel</title>
+  <title>Потестим на &quot;Драйве&quot;. LADA Niva Travel</title>
 </programme>
 <programme channel="2443" start="20251216165500 +0300" stop="20251216174000 +0300">
   <title>Автовинтаж (с.5)</title>
@@ -15686,16 +15645,16 @@
   <title>Драйв тур (Автопробег). Волгоград</title>
 </programme>
 <programme channel="2443" start="20251216192500 +0300" stop="20251216194000 +0300">
-  <title>Выбираем на "вторичке". BMW 4 Series</title>
+  <title>Выбираем на &quot;вторичке&quot;. BMW 4 Series</title>
 </programme>
 <programme channel="2443" start="20251216194000 +0300" stop="20251216202000 +0300">
   <title>Говорит и показывает Мельников (с.36)</title>
 </programme>
 <programme channel="2443" start="20251216202000 +0300" stop="20251216210500 +0300">
-  <title>Тур де на "Драйве". Новороссийск</title>
+  <title>Тур де на &quot;Драйве&quot;. Новороссийск</title>
 </programme>
 <programme channel="2443" start="20251216210500 +0300" stop="20251216215000 +0300">
-  <title>Автомобили мира. Link&Co 900</title>
+  <title>Автомобили мира. Link&amp;Co 900</title>
 </programme>
 <programme channel="2443" start="20251216215000 +0300" stop="20251216223000 +0300">
   <title>Тур де (с.11)</title>
@@ -15713,7 +15672,7 @@
   <title>Драйв тур (Автопробег). Самара</title>
 </programme>
 <programme channel="2443" start="20251217000000 +0300" stop="20251217001500 +0300">
-  <title>Выбираем на "вторичке". BMW 3 серия (F30)</title>
+  <title>Выбираем на &quot;вторичке&quot;. BMW 3 серия (F30)</title>
 </programme>
 <programme channel="2443" start="20251217001500 +0300" stop="20251217005500 +0300">
   <title>Автомобили мира. Chery Tiggo 9</title>
@@ -15722,7 +15681,7 @@
   <title>Говорит и показывает Мельников (с.10)</title>
 </programme>
 <programme channel="2443" start="20251217011000 +0300" stop="20251217015000 +0300">
-  <title>Потестим на "Драйве". HONGQI HS5</title>
+  <title>Потестим на &quot;Драйве&quot;. HONGQI HS5</title>
 </programme>
 <programme channel="2443" start="20251217015000 +0300" stop="20251217023500 +0300">
   <title>Тур де (с.14)</title>
@@ -15743,7 +15702,7 @@
   <title>В свете фар (с.2)</title>
 </programme>
 <programme channel="2443" start="20251217060500 +0300" stop="20251217065000 +0300">
-  <title>Потестим на "Драйве". HONGQI HS5</title>
+  <title>Потестим на &quot;Драйве&quot;. HONGQI HS5</title>
 </programme>
 <programme channel="2443" start="20251217065000 +0300" stop="20251217075000 +0300">
   <title>Автовинтаж. Бьюик Ривьера</title>
@@ -15767,10 +15726,10 @@
   <title>Говорит и показывает Мельников (с.10)</title>
 </programme>
 <programme channel="2443" start="20251217105000 +0300" stop="20251217120000 +0300">
-  <title>Потестим на "Драйве". LADA Niva Travel</title>
+  <title>Потестим на &quot;Драйве&quot;. LADA Niva Travel</title>
 </programme>
 <programme channel="2443" start="20251217120000 +0300" stop="20251217121500 +0300">
-  <title>Выбираем на "вторичке". Land Rover Evoque</title>
+  <title>Выбираем на &quot;вторичке&quot;. Land Rover Evoque</title>
 </programme>
 <programme channel="2443" start="20251217121500 +0300" stop="20251217130000 +0300">
   <title>Автовинтаж (с.5)</title>
@@ -15779,7 +15738,7 @@
   <title>Автолайф. New Haval Jolion в Мурманске</title>
 </programme>
 <programme channel="2443" start="20251217132000 +0300" stop="20251217135000 +0300">
-  <title>Потестим на "Драйве". Geely Coolray</title>
+  <title>Потестим на &quot;Драйве&quot;. Geely Coolray</title>
 </programme>
 <programme channel="2443" start="20251217135000 +0300" stop="20251217143500 +0300">
   <title>Драйв тур (Автопробег). Волгоград</title>
@@ -15791,10 +15750,10 @@
   <title>Говорит и показывает Мельников (с.36)</title>
 </programme>
 <programme channel="2443" start="20251217153500 +0300" stop="20251217162000 +0300">
-  <title>Автомобили мира. Link&Co 900</title>
+  <title>Автомобили мира. Link&amp;Co 900</title>
 </programme>
 <programme channel="2443" start="20251217162000 +0300" stop="20251217170000 +0300">
-  <title>Тур де на "Драйве". Новороссийск</title>
+  <title>Тур де на &quot;Драйве&quot;. Новороссийск</title>
 </programme>
 <programme channel="2443" start="20251217170000 +0300" stop="20251217174000 +0300">
   <title>Тур де (с.11)</title>
@@ -15809,16 +15768,16 @@
   <title>Драйв тур (Автопробег). Астрахань</title>
 </programme>
 <programme channel="2443" start="20251217190500 +0300" stop="20251217193000 +0300">
-  <title>Потестим на "Драйве" (с.59)</title>
+  <title>Потестим на &quot;Драйве&quot; (с.59)</title>
 </programme>
 <programme channel="2443" start="20251217193000 +0300" stop="20251217194500 +0300">
-  <title>Выбираем на "вторичке". Chery Tiggo 8 Pro</title>
+  <title>Выбираем на &quot;вторичке&quot;. Chery Tiggo 8 Pro</title>
 </programme>
 <programme channel="2443" start="20251217194500 +0300" stop="20251217200000 +0300">
   <title>Говорит и показывает Мельников (с.12)</title>
 </programme>
 <programme channel="2443" start="20251217200000 +0300" stop="20251217204500 +0300">
-  <title>Потестим на "Драйве". Knewstar 001</title>
+  <title>Потестим на &quot;Драйве&quot;. Knewstar 001</title>
 </programme>
 <programme channel="2443" start="20251217204500 +0300" stop="20251217211000 +0300">
   <title>Дороги Победы. Волгоград</title>
@@ -15848,7 +15807,7 @@
   <title>Дороги Победы. Санкт-Петербург. Часть 2-я</title>
 </programme>
 <programme channel="2443" start="20251218020000 +0300" stop="20251218024500 +0300">
-  <title>Потестим на "Драйве". HONGQI HS5</title>
+  <title>Потестим на &quot;Драйве&quot;. HONGQI HS5</title>
 </programme>
 <programme channel="2443" start="20251218024500 +0300" stop="20251218034500 +0300">
   <title>Автовинтаж. Бьюик Ривьера</title>
@@ -15866,10 +15825,10 @@
   <title>Автомобили мира. Aito M8</title>
 </programme>
 <programme channel="2443" start="20251218054500 +0300" stop="20251218060500 +0300">
-  <title>Выбираем на "вторичке". Land Rover Evoque</title>
+  <title>Выбираем на &quot;вторичке&quot;. Land Rover Evoque</title>
 </programme>
 <programme channel="2443" start="20251218060500 +0300" stop="20251218070500 +0300">
-  <title>Потестим на "Драйве". LADA Niva Travel</title>
+  <title>Потестим на &quot;Драйве&quot;. LADA Niva Travel</title>
 </programme>
 <programme channel="2443" start="20251218070500 +0300" stop="20251218074500 +0300">
   <title>Автовинтаж (с.5)</title>
@@ -15887,10 +15846,10 @@
   <title>Говорит и показывает Мельников (с.36)</title>
 </programme>
 <programme channel="2443" start="20251218102000 +0300" stop="20251218110500 +0300">
-  <title>Автомобили мира. Link&Co 900</title>
+  <title>Автомобили мира. Link&amp;Co 900</title>
 </programme>
 <programme channel="2443" start="20251218110500 +0300" stop="20251218115000 +0300">
-  <title>Тур де на "Драйве". Новороссийск</title>
+  <title>Тур де на &quot;Драйве&quot;. Новороссийск</title>
 </programme>
 <programme channel="2443" start="20251218115000 +0300" stop="20251218121000 +0300">
   <title>Автолайф. Экскурсия на завод Haval</title>
@@ -15908,7 +15867,7 @@
   <title>Автовинтаж. Ford Mustang Mach</title>
 </programme>
 <programme channel="2443" start="20251218143000 +0300" stop="20251218144500 +0300">
-  <title>Выбираем на "вторичке". WV Touareg II</title>
+  <title>Выбираем на &quot;вторичке&quot;. WV Touareg II</title>
 </programme>
 <programme channel="2443" start="20251218144500 +0300" stop="20251218150000 +0300">
   <title>Говорит и показывает Мельников (с.12)</title>
@@ -15920,7 +15879,7 @@
   <title>Город дорог. Ставропольский край</title>
 </programme>
 <programme channel="2443" start="20251218155500 +0300" stop="20251218164000 +0300">
-  <title>Потестим на "Драйве". Knewstar 001</title>
+  <title>Потестим на &quot;Драйве&quot;. Knewstar 001</title>
 </programme>
 <programme channel="2443" start="20251218164000 +0300" stop="20251218174500 +0300">
   <title>Автовинтаж. Chevrolet Impala</title>
@@ -15935,16 +15894,16 @@
   <title>Драйв тур (Автопробег). Элиста</title>
 </programme>
 <programme channel="2443" start="20251218191500 +0300" stop="20251218193500 +0300">
-  <title>Потестим на "Драйве" (с.59)</title>
+  <title>Потестим на &quot;Драйве&quot; (с.59)</title>
 </programme>
 <programme channel="2443" start="20251218193500 +0300" stop="20251218195000 +0300">
-  <title>Выбираем на "вторичке". Skoda Octavia</title>
+  <title>Выбираем на &quot;вторичке&quot;. Skoda Octavia</title>
 </programme>
 <programme channel="2443" start="20251218195000 +0300" stop="20251218200500 +0300">
   <title>Говорит и показывает Мельников (с.11)</title>
 </programme>
 <programme channel="2443" start="20251218200500 +0300" stop="20251218204500 +0300">
-  <title>Потестим на "Драйве". Changan CS95</title>
+  <title>Потестим на &quot;Драйве&quot;. Changan CS95</title>
 </programme>
 <programme channel="2443" start="20251218204500 +0300" stop="20251218210500 +0300">
   <title>Город дорог. М12. Автомобили</title>
@@ -15968,7 +15927,7 @@
   <title>Драйв тур (Автопробег). Саратов</title>
 </programme>
 <programme channel="2443" start="20251219003500 +0300" stop="20251219004500 +0300">
-  <title>Выбираем на "вторичке". Land Rover Evoque</title>
+  <title>Выбираем на &quot;вторичке&quot;. Land Rover Evoque</title>
 </programme>
 <programme channel="2443" start="20251219004500 +0300" stop="20251219010000 +0300">
   <title>Говорит и показывает Мельников (с.3)</title>
@@ -15980,7 +15939,7 @@
   <title>Город дорог. М11</title>
 </programme>
 <programme channel="2443" start="20251219015500 +0300" stop="20251219030000 +0300">
-  <title>Потестим на "Драйве". LADA Niva Travel</title>
+  <title>Потестим на &quot;Драйве&quot;. LADA Niva Travel</title>
 </programme>
 <programme channel="2443" start="20251219030000 +0300" stop="20251219034000 +0300">
   <title>Автовинтаж (с.5)</title>
@@ -15990,9 +15949,6 @@
 </programme>
 <programme channel="2443" start="20251219035500 +0300" stop="20251219042500 +0300">
   <title>Дороги Победы. Мурманск. Часть 2-я</title>
-</programme>
-<programme channel="2432" start="20251213011500 +0300" stop="20251213014000 +0300">
-  <title>Звериный репортёр</title>
 </programme>
 <programme channel="2432" start="20251213014000 +0300" stop="20251213023000 +0300">
   <title>Вопрос любви</title>
@@ -16770,12 +16726,6 @@
 </programme>
 <programme channel="2432" start="20251219041500 +0300" stop="20251219044000 +0300">
   <title>Альфа-самец. Олени</title>
-</programme>
-<programme channel="2298" start="20251213012000 +0300" stop="20251213013500 +0300">
-  <title>Сами с усами. Выращивание хойи</title>
-</programme>
-<programme channel="2298" start="20251213013500 +0300" stop="20251213015000 +0300">
-  <title>Цветы в доме. Эпизод 2-й 2-я часть Комнатные растения - очистители воздуха</title>
 </programme>
 <programme channel="2298" start="20251213015000 +0300" stop="20251213022000 +0300">
   <title>Мини-город своими руками (с.47)</title>
@@ -17825,250 +17775,250 @@
   <title>Штучная работа. Техника работы со стеклом</title>
 </programme>
 <programme channel="1700" start="20251213000000 +0300" stop="20251213020000 +0300">
-  <title>КВН. Игры команды "Детективное агентство "Лунный свет" (Белгород). Высшая лига, 1/8 финала - 2014</title>
+  <title>КВН. Игры команды &quot;Детективное агентство &quot;Лунный свет&quot; (Белгород). Высшая лига, 1/8 финала - 2014</title>
 </programme>
 <programme channel="1700" start="20251213020000 +0300" stop="20251213035000 +0300">
-  <title>Игры команды "Детективное агентство "Лунный свет" (Белгород). Высшая лига, 1/4 финала - 2014</title>
+  <title>Игры команды &quot;Детективное агентство &quot;Лунный свет&quot; (Белгород). Высшая лига, 1/4 финала - 2014</title>
 </programme>
 <programme channel="1700" start="20251213035000 +0300" stop="20251213054000 +0300">
-  <title>Игры команды "Детективное агентство "Лунный свет" (Белгород). Высшая лига, 1/2 финала - 2014</title>
+  <title>Игры команды &quot;Детективное агентство &quot;Лунный свет&quot; (Белгород). Высшая лига, 1/2 финала - 2014</title>
 </programme>
 <programme channel="1700" start="20251213054000 +0300" stop="20251213074000 +0300">
-  <title>КВН. Игры команды "Детективное агентство "Лунный свет" (Белгород). Высшая лига, финал - 2014</title>
+  <title>КВН. Игры команды &quot;Детективное агентство &quot;Лунный свет&quot; (Белгород). Высшая лига, финал - 2014</title>
 </programme>
 <programme channel="1700" start="20251213074000 +0300" stop="20251213092500 +0300">
-  <title>КВН. Игры команды "Детективное агентство "Лунный свет" (Белгород). Высшая лига, 1/8 финала - 2015</title>
+  <title>КВН. Игры команды &quot;Детективное агентство &quot;Лунный свет&quot; (Белгород). Высшая лига, 1/8 финала - 2015</title>
 </programme>
 <programme channel="1700" start="20251213092500 +0300" stop="20251213104500 +0300">
-  <title>Игры команды "Станция Спортивная" (Москва). Премьер-Лига, первая 1/8 финала - 2006</title>
+  <title>Игры команды &quot;Станция Спортивная&quot; (Москва). Премьер-Лига, первая 1/8 финала - 2006</title>
 </programme>
 <programme channel="1700" start="20251213104500 +0300" stop="20251213120500 +0300">
-  <title>Игры команды "Станция Спортивная" (Москва). Премьер-лига, 1/4 финала - 2006</title>
+  <title>Игры команды &quot;Станция Спортивная&quot; (Москва). Премьер-лига, 1/4 финала - 2006</title>
 </programme>
 <programme channel="1700" start="20251213120500 +0300" stop="20251213132500 +0300">
-  <title>Игры команды "Станция Спортивная" (Москва). Премьер-лига, 1/2 финала - 2006</title>
+  <title>Игры команды &quot;Станция Спортивная&quot; (Москва). Премьер-лига, 1/2 финала - 2006</title>
 </programme>
 <programme channel="1700" start="20251213132500 +0300" stop="20251213144500 +0300">
-  <title>Игры команды "Станция Спортивная" (Москва). Премьер-Лига, финал - 2006</title>
+  <title>Игры команды &quot;Станция Спортивная&quot; (Москва). Премьер-Лига, финал - 2006</title>
 </programme>
 <programme channel="1700" start="20251213144500 +0300" stop="20251213164000 +0300">
-  <title>Игры команды "Станция Спортивная" (Москва). Высшая лига, третья 1/8 финала - 2007</title>
+  <title>Игры команды &quot;Станция Спортивная&quot; (Москва). Высшая лига, третья 1/8 финала - 2007</title>
 </programme>
 <programme channel="1700" start="20251213164000 +0300" stop="20251213183500 +0300">
-  <title>Игры команды "Станция Спортивная" (Москва). Высшая лига, 1/4 финала - 2007</title>
+  <title>Игры команды &quot;Станция Спортивная&quot; (Москва). Высшая лига, 1/4 финала - 2007</title>
 </programme>
 <programme channel="1700" start="20251213183500 +0300" stop="20251213203000 +0300">
-  <title>Игры команды "Станция Спортивная" (Москва). Высшая лига, третья 1/8 финала - 2008</title>
+  <title>Игры команды &quot;Станция Спортивная&quot; (Москва). Высшая лига, третья 1/8 финала - 2008</title>
 </programme>
 <programme channel="1700" start="20251213203000 +0300" stop="20251213222500 +0300">
-  <title>Игры команды "Станция Спортивная" (Москва). Высшая лига, 1/4 финала - 2008</title>
+  <title>Игры команды &quot;Станция Спортивная&quot; (Москва). Высшая лига, 1/4 финала - 2008</title>
 </programme>
 <programme channel="1700" start="20251213222500 +0300" stop="20251214002000 +0300">
-  <title>Игры команды "Станция Спортивная" (Москва). Высшая лига, вторая 1/8 финала - 2009</title>
+  <title>Игры команды &quot;Станция Спортивная&quot; (Москва). Высшая лига, вторая 1/8 финала - 2009</title>
 </programme>
 <programme channel="1700" start="20251214002000 +0300" stop="20251214022000 +0300">
-  <title>Игры команды "Детективное агентство "Лунный свет" (Белгород). Высшая лига, 1/4 финала - 2015</title>
+  <title>Игры команды &quot;Детективное агентство &quot;Лунный свет&quot; (Белгород). Высшая лига, 1/4 финала - 2015</title>
 </programme>
 <programme channel="1700" start="20251214022000 +0300" stop="20251214041000 +0300">
-  <title>Игры команды "Детективное агентство "Лунный свет" (Белгород). Высшая лига, 1/2 финала - 2015</title>
+  <title>Игры команды &quot;Детективное агентство &quot;Лунный свет&quot; (Белгород). Высшая лига, 1/2 финала - 2015</title>
 </programme>
 <programme channel="1700" start="20251214041000 +0300" stop="20251214062000 +0300">
-  <title>КВН. Игры команды "Детективное агентство "Лунный свет" (Белгород). Высшая лига, финал - 2015</title>
+  <title>КВН. Игры команды &quot;Детективное агентство &quot;Лунный свет&quot; (Белгород). Высшая лига, финал - 2015</title>
 </programme>
 <programme channel="1700" start="20251214062000 +0300" stop="20251214083500 +0300">
-  <title>Игры команды "Детективное агентство "Лунный свет" (Белгород). Высшая лига, Летний кубок - 2016</title>
+  <title>Игры команды &quot;Детективное агентство &quot;Лунный свет&quot; (Белгород). Высшая лига, Летний кубок - 2016</title>
 </programme>
 <programme channel="1700" start="20251214083500 +0300" stop="20251214103000 +0300">
-  <title>Игры команды "Станция Спортивная" (Москва). Высшая лига, 1/4 финала - 2009</title>
+  <title>Игры команды &quot;Станция Спортивная&quot; (Москва). Высшая лига, 1/4 финала - 2009</title>
 </programme>
 <programme channel="1700" start="20251214103000 +0300" stop="20251214122500 +0300">
-  <title>Игры команды "Станция Спортивная" (Москва). Высшая лига, 1/2 финала - 2009</title>
+  <title>Игры команды &quot;Станция Спортивная&quot; (Москва). Высшая лига, 1/2 финала - 2009</title>
 </programme>
 <programme channel="1700" start="20251214122500 +0300" stop="20251214143500 +0300">
-  <title>Игры команды "Станция Спортивная" (Москва). Высшая лига, День рождения КВН - 2009</title>
+  <title>Игры команды &quot;Станция Спортивная&quot; (Москва). Высшая лига, День рождения КВН - 2009</title>
 </programme>
 <programme channel="1700" start="20251214143500 +0300" stop="20251214164000 +0300">
-  <title>Игры команды "Станция Спортивная" (Москва). Высшая лига, четвертая 1/8 финала - 2011</title>
+  <title>Игры команды &quot;Станция Спортивная&quot; (Москва). Высшая лига, четвертая 1/8 финала - 2011</title>
 </programme>
 <programme channel="1700" start="20251214164000 +0300" stop="20251214183000 +0300">
-  <title>Игры команды "Станция Спортивная" (Москва). Высшая лига, 1/4 финала - 2011</title>
+  <title>Игры команды &quot;Станция Спортивная&quot; (Москва). Высшая лига, 1/4 финала - 2011</title>
 </programme>
 <programme channel="1700" start="20251214183000 +0300" stop="20251214203000 +0300">
-  <title>Игры команды "Станция Спортивная" (Москва). Высшая лига, 1/2 финала - 2011</title>
+  <title>Игры команды &quot;Станция Спортивная&quot; (Москва). Высшая лига, 1/2 финала - 2011</title>
 </programme>
 <programme channel="1700" start="20251214203000 +0300" stop="20251214223000 +0300">
-  <title>Игры команды "Станция Спортивная" (Москва). Высшая лига, финал - 2011</title>
+  <title>Игры команды &quot;Станция Спортивная&quot; (Москва). Высшая лига, финал - 2011</title>
 </programme>
 <programme channel="1700" start="20251214223000 +0300" stop="20251215003000 +0300">
-  <title>Игры команды "Станция Спортивная" (Москва). Встреча выпускников - 2023</title>
+  <title>Игры команды &quot;Станция Спортивная&quot; (Москва). Встреча выпускников - 2023</title>
 </programme>
 <programme channel="1700" start="20251215003000 +0300" stop="20251215020000 +0300">
-  <title>КВН. Игры команды "Парапапарам" (Москва). Премьер-Лига, 1/8 финала - 2009</title>
+  <title>КВН. Игры команды &quot;Парапапарам&quot; (Москва). Премьер-Лига, 1/8 финала - 2009</title>
 </programme>
 <programme channel="1700" start="20251215020000 +0300" stop="20251215033000 +0300">
-  <title>КВН. Игры команды "Парапапарам" (Москва). Премьер-лига, 1/4 финала - 2009</title>
+  <title>КВН. Игры команды &quot;Парапапарам&quot; (Москва). Премьер-лига, 1/4 финала - 2009</title>
 </programme>
 <programme channel="1700" start="20251215033000 +0300" stop="20251215050000 +0300">
-  <title>КВН. Игры команды "Парапапарам" (Москва). Премьер-лига, 1/2 финала - 2009</title>
+  <title>КВН. Игры команды &quot;Парапапарам&quot; (Москва). Премьер-лига, 1/2 финала - 2009</title>
 </programme>
 <programme channel="1700" start="20251215050000 +0300" stop="20251215064000 +0300">
-  <title>КВН. Игры команды "Парапапарам" (Москва). Премьер-Лига, финал - 2009</title>
+  <title>КВН. Игры команды &quot;Парапапарам&quot; (Москва). Премьер-Лига, финал - 2009</title>
 </programme>
 <programme channel="1700" start="20251215064000 +0300" stop="20251215084000 +0300">
-  <title>КВН. Игры команды "Парапапарам" (Москва). Высшая лига, 1/8 финала - 2010</title>
+  <title>КВН. Игры команды &quot;Парапапарам&quot; (Москва). Высшая лига, 1/8 финала - 2010</title>
 </programme>
 <programme channel="1700" start="20251215084000 +0300" stop="20251215090000 +0300">
   <title>КВН-инсайд. Зимний фестиваль КВН в Сочи - 2017</title>
 </programme>
 <programme channel="1700" start="20251215090000 +0300" stop="20251215102500 +0300">
-  <title>Игры команды "Флеш-Рояль" (Ростов-на-Дону). Премьер-лига, 1/8 финала - 2017</title>
+  <title>Игры команды &quot;Флеш-Рояль&quot; (Ростов-на-Дону). Премьер-лига, 1/8 финала - 2017</title>
 </programme>
 <programme channel="1700" start="20251215102500 +0300" stop="20251215114500 +0300">
-  <title>Игры команды "Флеш-Рояль" (Ростов-на-Дону). Премьер-лига, 1/8 финала - 2019</title>
+  <title>Игры команды &quot;Флеш-Рояль&quot; (Ростов-на-Дону). Премьер-лига, 1/8 финала - 2019</title>
 </programme>
 <programme channel="1700" start="20251215114500 +0300" stop="20251215130500 +0300">
-  <title>Игры команды "Флеш-Рояль" (Ростов-на-Дону). Премьер-лига, 1/4 финала - 2019</title>
+  <title>Игры команды &quot;Флеш-Рояль&quot; (Ростов-на-Дону). Премьер-лига, 1/4 финала - 2019</title>
 </programme>
 <programme channel="1700" start="20251215130500 +0300" stop="20251215150500 +0300">
-  <title>Игры команды "Будем дружить семьями" (Москва). Высшая лига, 1/8 финала - 2017</title>
+  <title>Игры команды &quot;Будем дружить семьями&quot; (Москва). Высшая лига, 1/8 финала - 2017</title>
 </programme>
 <programme channel="1700" start="20251215150500 +0300" stop="20251215170000 +0300">
-  <title>Игры команды "Будем дружить семьями" (Москва). Высшая лига, 1/4 финала - 2017</title>
+  <title>Игры команды &quot;Будем дружить семьями&quot; (Москва). Высшая лига, 1/4 финала - 2017</title>
 </programme>
 <programme channel="1700" start="20251215170000 +0300" stop="20251215190000 +0300">
-  <title>Игры команды "Будем дружить семьями" (Москва). Высшая лига, 1/8 финала - 2018</title>
+  <title>Игры команды &quot;Будем дружить семьями&quot; (Москва). Высшая лига, 1/8 финала - 2018</title>
 </programme>
 <programme channel="1700" start="20251215190000 +0300" stop="20251215202500 +0300">
-  <title>Игры команды "Флеш-Рояль" (Ростов-на-Дону). Премьер-лига, 1/8 финала - 2017</title>
+  <title>Игры команды &quot;Флеш-Рояль&quot; (Ростов-на-Дону). Премьер-лига, 1/8 финала - 2017</title>
 </programme>
 <programme channel="1700" start="20251215202500 +0300" stop="20251215214500 +0300">
-  <title>Игры команды "Флеш-Рояль" (Ростов-на-Дону). Премьер-лига, 1/8 финала - 2019</title>
+  <title>Игры команды &quot;Флеш-Рояль&quot; (Ростов-на-Дону). Премьер-лига, 1/8 финала - 2019</title>
 </programme>
 <programme channel="1700" start="20251215214500 +0300" stop="20251215230500 +0300">
-  <title>Игры команды "Флеш-Рояль" (Ростов-на-Дону). Премьер-лига, 1/4 финала - 2019</title>
+  <title>Игры команды &quot;Флеш-Рояль&quot; (Ростов-на-Дону). Премьер-лига, 1/4 финала - 2019</title>
 </programme>
 <programme channel="1700" start="20251215230500 +0300" stop="20251216003000 +0300">
-  <title>Игры команды "Флеш-Рояль" (Ростов-на-Дону). Премьер-лига, 1/2 финала - 2019</title>
+  <title>Игры команды &quot;Флеш-Рояль&quot; (Ростов-на-Дону). Премьер-лига, 1/2 финала - 2019</title>
 </programme>
 <programme channel="1700" start="20251216003000 +0300" stop="20251216023000 +0300">
-  <title>КВН. Игры команды "Парапапарам" (Москва). Высшая лига, 1/8 финала - 2011</title>
+  <title>КВН. Игры команды &quot;Парапапарам&quot; (Москва). Высшая лига, 1/8 финала - 2011</title>
 </programme>
 <programme channel="1700" start="20251216023000 +0300" stop="20251216044000 +0300">
-  <title>КВН. Игры команды "Парапапарам" (Москва). Высшая лига, 1/4 финала - 2011</title>
+  <title>КВН. Игры команды &quot;Парапапарам&quot; (Москва). Высшая лига, 1/4 финала - 2011</title>
 </programme>
 <programme channel="1700" start="20251216044000 +0300" stop="20251216065000 +0300">
-  <title>КВН. Игры команды "Парапапарам" (Москва). Высшая лига, 1/2 финала - 2011</title>
+  <title>КВН. Игры команды &quot;Парапапарам&quot; (Москва). Высшая лига, 1/2 финала - 2011</title>
 </programme>
 <programme channel="1700" start="20251216065000 +0300" stop="20251216090000 +0300">
-  <title>КВН. Игры команды "Парапапарам" (Москва). Высшая лига, финал - 2011</title>
+  <title>КВН. Игры команды &quot;Парапапарам&quot; (Москва). Высшая лига, финал - 2011</title>
 </programme>
 <programme channel="1700" start="20251216090000 +0300" stop="20251216103500 +0300">
-  <title>Игры команды "Флеш-Рояль" (Ростов-на-Дону). Премьер-лига, финал - 2019</title>
+  <title>Игры команды &quot;Флеш-Рояль&quot; (Ростов-на-Дону). Премьер-лига, финал - 2019</title>
 </programme>
 <programme channel="1700" start="20251216103500 +0300" stop="20251216123000 +0300">
-  <title>Игры команды "Флеш-Рояль" (Ростов-на-Дону). Высшая лига, 1/8 финала - 2021</title>
+  <title>Игры команды &quot;Флеш-Рояль&quot; (Ростов-на-Дону). Высшая лига, 1/8 финала - 2021</title>
 </programme>
 <programme channel="1700" start="20251216123000 +0300" stop="20251216125500 +0300">
-  <title>КВН-инсайд. "Голосящий КиВиН" в Светлогорске - 2017</title>
+  <title>КВН-инсайд. &quot;Голосящий КиВиН&quot; в Светлогорске - 2017</title>
 </programme>
 <programme channel="1700" start="20251216125500 +0300" stop="20251216145500 +0300">
-  <title>Игры команды "Будем дружить семьями" (Москва). Высшая лига, 1/4 финала - 2018</title>
+  <title>Игры команды &quot;Будем дружить семьями&quot; (Москва). Высшая лига, 1/4 финала - 2018</title>
 </programme>
 <programme channel="1700" start="20251216145500 +0300" stop="20251216165500 +0300">
-  <title>Игры команды "Будем дружить семьями" (Москва). Высшая лига, 1/2 финала - 2018</title>
+  <title>Игры команды &quot;Будем дружить семьями&quot; (Москва). Высшая лига, 1/2 финала - 2018</title>
 </programme>
 <programme channel="1700" start="20251216165500 +0300" stop="20251216190000 +0300">
-  <title>Игры команды "Будем дружить семьями" (Москва). Высшая лига, Кубок мэра Москвы - 2018</title>
+  <title>Игры команды &quot;Будем дружить семьями&quot; (Москва). Высшая лига, Кубок мэра Москвы - 2018</title>
 </programme>
 <programme channel="1700" start="20251216190000 +0300" stop="20251216203500 +0300">
-  <title>Игры команды "Флеш-Рояль" (Ростов-на-Дону). Премьер-лига, финал - 2019</title>
+  <title>Игры команды &quot;Флеш-Рояль&quot; (Ростов-на-Дону). Премьер-лига, финал - 2019</title>
 </programme>
 <programme channel="1700" start="20251216203500 +0300" stop="20251216223000 +0300">
-  <title>Игры команды "Флеш-Рояль" (Ростов-на-Дону). Высшая лига, 1/8 финала - 2021</title>
+  <title>Игры команды &quot;Флеш-Рояль&quot; (Ростов-на-Дону). Высшая лига, 1/8 финала - 2021</title>
 </programme>
 <programme channel="1700" start="20251216223000 +0300" stop="20251217001500 +0300">
-  <title>Игры команды "Флеш-Рояль" (Ростов-на-Дону). Высшая лига, 1/8 финала - 2022</title>
+  <title>Игры команды &quot;Флеш-Рояль&quot; (Ростов-на-Дону). Высшая лига, 1/8 финала - 2022</title>
 </programme>
 <programme channel="1700" start="20251217001500 +0300" stop="20251217021500 +0300">
-  <title>КВН. Игры команды "Парапапарам" (Москва). Высшая лига, 1/8 финала - 2012</title>
+  <title>КВН. Игры команды &quot;Парапапарам&quot; (Москва). Высшая лига, 1/8 финала - 2012</title>
 </programme>
 <programme channel="1700" start="20251217021500 +0300" stop="20251217030500 +0300">
-  <title>50 виртуальных игр. "Махачкалинские бродяги" - "Станция Спортивная" (Москва)</title>
+  <title>50 виртуальных игр. &quot;Махачкалинские бродяги&quot; - &quot;Станция Спортивная&quot; (Москва)</title>
 </programme>
 <programme channel="1700" start="20251217030500 +0300" stop="20251217100000 +0300">
   <title>Вне игры</title>
 </programme>
 <programme channel="1700" start="20251217100000 +0300" stop="20251217121000 +0300">
-  <title>Игры команды "Флеш-Рояль" (Ростов-на-Дону). Высшая лига, 1/4 финала - 2022</title>
+  <title>Игры команды &quot;Флеш-Рояль&quot; (Ростов-на-Дону). Высшая лига, 1/4 финала - 2022</title>
 </programme>
 <programme channel="1700" start="20251217121000 +0300" stop="20251217141000 +0300">
-  <title>Игры команды "Флеш-Рояль" (Ростов-на-Дону). Высшая лига, 1/2 финала - 2022</title>
+  <title>Игры команды &quot;Флеш-Рояль&quot; (Ростов-на-Дону). Высшая лига, 1/2 финала - 2022</title>
 </programme>
 <programme channel="1700" start="20251217141000 +0300" stop="20251217150500 +0300">
   <title>Высший балл</title>
 </programme>
 <programme channel="1700" start="20251217150500 +0300" stop="20251217165500 +0300">
-  <title>Игры команды "Будем дружить семьями" (Москва). Высшая лига, 1/8 финала - 2019</title>
+  <title>Игры команды &quot;Будем дружить семьями&quot; (Москва). Высшая лига, 1/8 финала - 2019</title>
 </programme>
 <programme channel="1700" start="20251217165500 +0300" stop="20251217190000 +0300">
-  <title>Игры команды "Будем дружить семьями" (Москва). Высшая лига, 1/4 финала - 2019</title>
+  <title>Игры команды &quot;Будем дружить семьями&quot; (Москва). Высшая лига, 1/4 финала - 2019</title>
 </programme>
 <programme channel="1700" start="20251217190000 +0300" stop="20251217211000 +0300">
-  <title>Игры команды "Флеш-Рояль" (Ростов-на-Дону). Высшая лига, 1/4 финала - 2022</title>
+  <title>Игры команды &quot;Флеш-Рояль&quot; (Ростов-на-Дону). Высшая лига, 1/4 финала - 2022</title>
 </programme>
 <programme channel="1700" start="20251217211000 +0300" stop="20251217231000 +0300">
-  <title>Игры команды "Флеш-Рояль" (Ростов-на-Дону). Высшая лига, 1/2 финала - 2022</title>
+  <title>Игры команды &quot;Флеш-Рояль&quot; (Ростов-на-Дону). Высшая лига, 1/2 финала - 2022</title>
 </programme>
 <programme channel="1700" start="20251217231000 +0300" stop="20251218000000 +0300">
-  <title>50 виртуальных игр. Команда КВН Днепропетровского Государственного Университета - "Максимум" (Томск)</title>
+  <title>50 виртуальных игр. Команда КВН Днепропетровского Государственного Университета - &quot;Максимум&quot; (Томск)</title>
 </programme>
 <programme channel="1700" start="20251218000000 +0300" stop="20251218021000 +0300">
-  <title>КВН. Игры команды "Парапапарам" (Москва). Высшая лига, 1/4 финала - 2012</title>
+  <title>КВН. Игры команды &quot;Парапапарам&quot; (Москва). Высшая лига, 1/4 финала - 2012</title>
 </programme>
 <programme channel="1700" start="20251218021000 +0300" stop="20251218041500 +0300">
-  <title>КВН. Игры команды "Парапапарам" (Москва). Высшая лига, 1/2 финала - 2012</title>
+  <title>КВН. Игры команды &quot;Парапапарам&quot; (Москва). Высшая лига, 1/2 финала - 2012</title>
 </programme>
 <programme channel="1700" start="20251218041500 +0300" stop="20251218061000 +0300">
-  <title>КВН. Игры команды "Парапапарам" (Москва). Высшая лига, 1/8 финала - 2013</title>
+  <title>КВН. Игры команды &quot;Парапапарам&quot; (Москва). Высшая лига, 1/8 финала - 2013</title>
 </programme>
 <programme channel="1700" start="20251218061000 +0300" stop="20251218080500 +0300">
-  <title>КВН. Игры команды "Парапапарам" (Москва). Высшая лига, 1/4 финала - 2013</title>
+  <title>КВН. Игры команды &quot;Парапапарам&quot; (Москва). Высшая лига, 1/4 финала - 2013</title>
 </programme>
 <programme channel="1700" start="20251218080500 +0300" stop="20251218090000 +0300">
   <title>Вне игры</title>
 </programme>
 <programme channel="1700" start="20251218090000 +0300" stop="20251218105500 +0300">
-  <title>Игры команды "Флеш-Рояль" (Ростов-на-Дону). Высшая лига, 1/8 финала - 2023</title>
+  <title>Игры команды &quot;Флеш-Рояль&quot; (Ростов-на-Дону). Высшая лига, 1/8 финала - 2023</title>
 </programme>
 <programme channel="1700" start="20251218105500 +0300" stop="20251218124500 +0300">
-  <title>Игры команды "Флеш-Рояль" (Ростов-на-Дону). Высшая лига, 1/4 финала - 2023</title>
+  <title>Игры команды &quot;Флеш-Рояль&quot; (Ростов-на-Дону). Высшая лига, 1/4 финала - 2023</title>
 </programme>
 <programme channel="1700" start="20251218124500 +0300" stop="20251218145000 +0300">
-  <title>Игры команды "Будем дружить семьями" (Москва). Высшая лига, 1/2 финала - 2019</title>
+  <title>Игры команды &quot;Будем дружить семьями&quot; (Москва). Высшая лига, 1/2 финала - 2019</title>
 </programme>
 <programme channel="1700" start="20251218145000 +0300" stop="20251218170000 +0300">
-  <title>Игры команды "Будем дружить семьями" (Москва). Высшая лига, Кубок мэра Москвы - 2019</title>
+  <title>Игры команды &quot;Будем дружить семьями&quot; (Москва). Высшая лига, Кубок мэра Москвы - 2019</title>
 </programme>
 <programme channel="1700" start="20251218170000 +0300" stop="20251218190000 +0300">
-  <title>Игры команды "Столик" (Чулым). Высшая лига, 1/8 финала - 2022</title>
+  <title>Игры команды &quot;Столик&quot; (Чулым). Высшая лига, 1/8 финала - 2022</title>
 </programme>
 <programme channel="1700" start="20251218190000 +0300" stop="20251218205500 +0300">
-  <title>Игры команды "Флеш-Рояль" (Ростов-на-Дону). Высшая лига, 1/8 финала - 2023</title>
+  <title>Игры команды &quot;Флеш-Рояль&quot; (Ростов-на-Дону). Высшая лига, 1/8 финала - 2023</title>
 </programme>
 <programme channel="1700" start="20251218205500 +0300" stop="20251218224000 +0300">
-  <title>Игры команды "Флеш-Рояль" (Ростов-на-Дону). Высшая лига, 1/4 финала - 2023</title>
+  <title>Игры команды &quot;Флеш-Рояль&quot; (Ростов-на-Дону). Высшая лига, 1/4 финала - 2023</title>
 </programme>
 <programme channel="1700" start="20251218224000 +0300" stop="20251218234000 +0300">
   <title>Вне игры</title>
 </programme>
 <programme channel="1700" start="20251218234000 +0300" stop="20251219000000 +0300">
-  <title>КВН-инсайд. "Голосящий КиВиН" в Светлогорске - 2017</title>
+  <title>КВН-инсайд. &quot;Голосящий КиВиН&quot; в Светлогорске - 2017</title>
 </programme>
 <programme channel="1700" start="20251219000000 +0300" stop="20251219020500 +0300">
-  <title>КВН. Игры команды "Парапапарам" (Москва). Высшая лига, 1/2 финала - 2013</title>
+  <title>КВН. Игры команды &quot;Парапапарам&quot; (Москва). Высшая лига, 1/2 финала - 2013</title>
 </programme>
 <programme channel="1700" start="20251219020500 +0300" stop="20251219042500 +0300">
-  <title>КВН. Игры команды "Парапапарам" (Москва). Высшая лига, финал - 2013</title>
+  <title>КВН. Игры команды &quot;Парапапарам&quot; (Москва). Высшая лига, финал - 2013</title>
 </programme>
 <programme channel="1037" start="20251213011000 +0300" stop="20251213024000 +0300">
   <title>Искусство обмана</title>
@@ -18635,7 +18585,7 @@
   <title>«Мастер и Маргарита»</title>
 </programme>
 <programme channel="566" start="20251214171500 +0300" stop="20251214190000 +0300">
-  <title>Досье "Чёрная канарейка"</title>
+  <title>Досье &quot;Чёрная канарейка&quot;</title>
 </programme>
 <programme channel="566" start="20251214190000 +0300" stop="20251214203500 +0300">
   <title>«Горячая штучка»</title>
@@ -18671,7 +18621,7 @@
   <title>«Время жить»</title>
 </programme>
 <programme channel="566" start="20251215140500 +0300" stop="20251215154500 +0300">
-  <title>Досье "Чёрная канарейка"</title>
+  <title>Досье &quot;Чёрная канарейка&quot;</title>
 </programme>
 <programme channel="566" start="20251215154500 +0300" stop="20251215172500 +0300">
   <title>«Кошмарные каникулы»</title>
@@ -18761,7 +18711,7 @@
   <title>«Вождь орков»</title>
 </programme>
 <programme channel="566" start="20251217164000 +0300" stop="20251217182000 +0300">
-  <title>Досье "Чёрная канарейка"</title>
+  <title>Досье &quot;Чёрная канарейка&quot;</title>
 </programme>
 <programme channel="566" start="20251217182000 +0300" stop="20251217203000 +0300">
   <title>«Меч короля»</title>
@@ -18791,7 +18741,7 @@
   <title>«Кошмарные каникулы»</title>
 </programme>
 <programme channel="566" start="20251218102500 +0300" stop="20251218121000 +0300">
-  <title>Досье "Чёрная канарейка"</title>
+  <title>Досье &quot;Чёрная канарейка&quot;</title>
 </programme>
 <programme channel="566" start="20251218121000 +0300" stop="20251218134000 +0300">
   <title>«Вождь орков»</title>
@@ -19834,9 +19784,6 @@
 <programme channel="477" start="20251219041000 +0300" stop="20251219060000 +0300">
   <title>Стальная бабочка</title>
 </programme>
-<programme channel="1584" start="20251212235000 +0300" stop="20251213014500 +0300">
-  <title>«Стрелок»</title>
-</programme>
 <programme channel="1584" start="20251213014500 +0300" stop="20251213033500 +0300">
   <title>«Рейд. Выживший»</title>
 </programme>
@@ -19910,7 +19857,7 @@
   <title>«Улицы разбитых фонарей. Визит к доктору»</title>
 </programme>
 <programme channel="1584" start="20251214150000 +0300" stop="20251214160000 +0300">
-  <title>Улицы разбитых фонарей. Трубка фирмы "Данхилл"</title>
+  <title>Улицы разбитых фонарей. Трубка фирмы &quot;Данхилл&quot;</title>
 </programme>
 <programme channel="1584" start="20251214160000 +0300" stop="20251214180000 +0300">
   <title>«Хантер Киллер»</title>
@@ -19958,7 +19905,7 @@
   <title>«Повелитель бури»</title>
 </programme>
 <programme channel="1584" start="20251215171500 +0300" stop="20251215181000 +0300">
-  <title>Улицы разбитых фонарей. Трубка фирмы "Данхилл"</title>
+  <title>Улицы разбитых фонарей. Трубка фирмы &quot;Данхилл&quot;</title>
 </programme>
 <programme channel="1584" start="20251215181000 +0300" stop="20251215190000 +0300">
   <title>«Улицы разбитых фонарей. Новое слово в живописи»</title>
@@ -20162,7 +20109,7 @@
   <title>Мир занимательных игр с ребенком. Учимся, играя вместе</title>
 </programme>
 <programme channel="618" start="20251213111000 +0300" stop="20251213113500 +0300">
-  <title>Мастерская "Умелые ручки"</title>
+  <title>Мастерская &quot;Умелые ручки&quot;</title>
 </programme>
 <programme channel="618" start="20251213113500 +0300" stop="20251213140000 +0300">
   <title>Время малышей</title>
@@ -20204,7 +20151,7 @@
   <title>Мир занимательных игр с ребенком</title>
 </programme>
 <programme channel="618" start="20251214030000 +0300" stop="20251214032000 +0300">
-  <title>Мастерская "Умелые ручки"</title>
+  <title>Мастерская &quot;Умелые ручки&quot;</title>
 </programme>
 <programme channel="618" start="20251214032000 +0300" stop="20251214050000 +0300">
   <title>Время малышей</title>
@@ -20611,9 +20558,6 @@
 <programme channel="618" start="20251219032000 +0300" stop="20251219050000 +0300">
   <title>Время малышей</title>
 </programme>
-<programme channel="675" start="20251213011500 +0300" stop="20251213014000 +0300">
-  <title>Один день в городе. Ульяновск</title>
-</programme>
 <programme channel="675" start="20251213014000 +0300" stop="20251213021000 +0300">
   <title>Один день в городе. Плёс</title>
 </programme>
@@ -20834,7 +20778,7 @@
   <title>Рекорды моей планеты. Самые экстремальные аэропорты планеты</title>
 </programme>
 <programme channel="675" start="20251215075000 +0300" stop="20251215082000 +0300">
-  <title>Рекорды моей планеты. Острожно, злая фауна! Самые опасные "незваные гости"</title>
+  <title>Рекорды моей планеты. Острожно, злая фауна! Самые опасные &quot;незваные гости&quot;</title>
 </programme>
 <programme channel="675" start="20251215082000 +0300" stop="20251215085000 +0300">
   <title>Рекорды моей планеты. Самые потрясающие профессии в мире</title>
@@ -21248,7 +21192,7 @@
   <title>Рекорды моей планеты. Самые экстремальные аэропорты планеты</title>
 </programme>
 <programme channel="675" start="20251219020500 +0300" stop="20251219023500 +0300">
-  <title>Рекорды моей планеты. Острожно, злая фауна! Самые опасные "незваные гости"</title>
+  <title>Рекорды моей планеты. Острожно, злая фауна! Самые опасные &quot;незваные гости&quot;</title>
 </programme>
 <programme channel="675" start="20251219023500 +0300" stop="20251219030000 +0300">
   <title>Рекорды моей планеты. Самые потрясающие профессии в мире</title>
@@ -21732,9 +21676,6 @@
 </programme>
 <programme channel="1332" start="20251219040000 +0300" stop="20251219050000 +0300">
   <title>Лунтик и его друзья</title>
-</programme>
-<programme channel="723" start="20251213011000 +0300" stop="20251213013500 +0300">
-  <title>Большой скачок. Кристаллы особого назначения</title>
 </programme>
 <programme channel="723" start="20251213013500 +0300" stop="20251213020000 +0300">
   <title>Большой скачок. Микропластик</title>
@@ -22498,9 +22439,6 @@
 <programme channel="723" start="20251219035500 +0300" stop="20251219042000 +0300">
   <title>Альфа-самец. Кабаны</title>
 </programme>
-<programme channel="2419" start="20251213011000 +0300" stop="20251213013500 +0300">
-  <title>Фишермания (с.16)</title>
-</programme>
 <programme channel="2419" start="20251213013500 +0300" stop="20251213020000 +0300">
   <title>На охотничьей тропе (с.2)</title>
 </programme>
@@ -22544,7 +22482,7 @@
   <title>Утиные истории (с.4)</title>
 </programme>
 <programme channel="2419" start="20251213065500 +0300" stop="20251213072500 +0300">
-  <title>"Кулинарное путешествие" с Сержем Марковичем. Филе из щуки и линя</title>
+  <title>&quot;Кулинарное путешествие&quot; с Сержем Марковичем. Филе из щуки и линя</title>
 </programme>
 <programme channel="2419" start="20251213072500 +0300" stop="20251213075500 +0300">
   <title>Экстремальный фидер (с.5)</title>
@@ -22559,7 +22497,7 @@
   <title>Утиные истории (с.5)</title>
 </programme>
 <programme channel="2419" start="20251213090000 +0300" stop="20251213093500 +0300">
-  <title>"Кулинарное путешествие" с Сержем Марковичем. Уха из уклейки</title>
+  <title>&quot;Кулинарное путешествие&quot; с Сержем Марковичем. Уха из уклейки</title>
 </programme>
 <programme channel="2419" start="20251213093500 +0300" stop="20251213100500 +0300">
   <title>Экстремальный фидер (с.6)</title>
@@ -22583,7 +22521,7 @@
   <title>О главном (с.100)</title>
 </programme>
 <programme channel="2419" start="20251213122000 +0300" stop="20251213125000 +0300">
-  <title>"Кулинарное путешествие" с Сержем Марковичем. Фазанчики под пекой</title>
+  <title>&quot;Кулинарное путешествие&quot; с Сержем Марковичем. Фазанчики под пекой</title>
 </programme>
 <programme channel="2419" start="20251213125000 +0300" stop="20251213132500 +0300">
   <title>Экстремальный фидер (с.2)</title>
@@ -22595,7 +22533,7 @@
   <title>Утиные истории (с.2)</title>
 </programme>
 <programme channel="2419" start="20251213142500 +0300" stop="20251213150000 +0300">
-  <title>"Кулинарное путешествие" с Сержем Марковичем. Весенняя утка</title>
+  <title>&quot;Кулинарное путешествие&quot; с Сержем Марковичем. Весенняя утка</title>
 </programme>
 <programme channel="2419" start="20251213150000 +0300" stop="20251213153000 +0300">
   <title>Экстремальный фидер (с.3)</title>
@@ -22613,7 +22551,7 @@
   <title>Пути-дороги (с.2)</title>
 </programme>
 <programme channel="2419" start="20251213171000 +0300" stop="20251213173500 +0300">
-  <title>"Кулинарное путешествие" с Сержем Марковичем. Голавль с рисом</title>
+  <title>&quot;Кулинарное путешествие&quot; с Сержем Марковичем. Голавль с рисом</title>
 </programme>
 <programme channel="2419" start="20251213173500 +0300" stop="20251213181000 +0300">
   <title>Экстремальный фидер (с.7)</title>
@@ -22622,7 +22560,7 @@
   <title>Охотник-одиночка (с.7)</title>
 </programme>
 <programme channel="2419" start="20251213184000 +0300" stop="20251213191000 +0300">
-  <title>"Кулинарное путешествие" с Сержем Марковичем. Филе щуки</title>
+  <title>&quot;Кулинарное путешествие&quot; с Сержем Марковичем. Филе щуки</title>
 </programme>
 <programme channel="2419" start="20251213191000 +0300" stop="20251213194000 +0300">
   <title>Пути-дороги (с.3)</title>
@@ -22634,7 +22572,7 @@
   <title>О главном (с.100)</title>
 </programme>
 <programme channel="2419" start="20251213202000 +0300" stop="20251213205000 +0300">
-  <title>"Кулинарное путешествие" с Сержем Марковичем. Фрикадельки из оленины</title>
+  <title>&quot;Кулинарное путешествие&quot; с Сержем Марковичем. Фрикадельки из оленины</title>
 </programme>
 <programme channel="2419" start="20251213205000 +0300" stop="20251213212000 +0300">
   <title>Утиные истории (с.6)</title>
@@ -22643,7 +22581,7 @@
   <title>Экстремальный фидер (с.8)</title>
 </programme>
 <programme channel="2419" start="20251213215000 +0300" stop="20251213222000 +0300">
-  <title>"Кулинарное путешествие" с Сержем Марковичем. Тако из утки и лосятины</title>
+  <title>&quot;Кулинарное путешествие&quot; с Сержем Марковичем. Тако из утки и лосятины</title>
 </programme>
 <programme channel="2419" start="20251213222000 +0300" stop="20251213225000 +0300">
   <title>Экстремальный фидер (с.4)</title>
@@ -22658,7 +22596,7 @@
   <title>О главном (с.100)</title>
 </programme>
 <programme channel="2419" start="20251213235500 +0300" stop="20251214002000 +0300">
-  <title>"Кулинарное путешествие" с Сержем Марковичем. Филе из щуки и линя</title>
+  <title>&quot;Кулинарное путешествие&quot; с Сержем Марковичем. Филе из щуки и линя</title>
 </programme>
 <programme channel="2419" start="20251214002000 +0300" stop="20251214005000 +0300">
   <title>Экстремальный фидер (с.5)</title>
@@ -22670,7 +22608,7 @@
   <title>Утиные истории (с.5)</title>
 </programme>
 <programme channel="2419" start="20251214014000 +0300" stop="20251214020500 +0300">
-  <title>"Кулинарное путешествие" с Сержем Марковичем. Уха из уклейки</title>
+  <title>&quot;Кулинарное путешествие&quot; с Сержем Марковичем. Уха из уклейки</title>
 </programme>
 <programme channel="2419" start="20251214020500 +0300" stop="20251214023500 +0300">
   <title>Экстремальный фидер (с.6)</title>
@@ -22712,7 +22650,7 @@
   <title>О главном (с.100)</title>
 </programme>
 <programme channel="2419" start="20251214060500 +0300" stop="20251214063500 +0300">
-  <title>"Кулинарное путешествие" с Сержем Марковичем. Голавль с рисом</title>
+  <title>&quot;Кулинарное путешествие&quot; с Сержем Марковичем. Голавль с рисом</title>
 </programme>
 <programme channel="2419" start="20251214063500 +0300" stop="20251214070000 +0300">
   <title>Экстремальный фидер (с.7)</title>
@@ -22721,7 +22659,7 @@
   <title>Охотник-одиночка (с.7)</title>
 </programme>
 <programme channel="2419" start="20251214072500 +0300" stop="20251214075500 +0300">
-  <title>"Кулинарное путешествие" с Сержем Марковичем. Филе щуки</title>
+  <title>&quot;Кулинарное путешествие&quot; с Сержем Марковичем. Филе щуки</title>
 </programme>
 <programme channel="2419" start="20251214075500 +0300" stop="20251214082000 +0300">
   <title>Пути-дороги (с.3)</title>
@@ -22730,7 +22668,7 @@
   <title>Пути-дороги (с.4)</title>
 </programme>
 <programme channel="2419" start="20251214085500 +0300" stop="20251214092500 +0300">
-  <title>"Кулинарное путешествие" с Сержем Марковичем. Фрикадельки из оленины</title>
+  <title>&quot;Кулинарное путешествие&quot; с Сержем Марковичем. Фрикадельки из оленины</title>
 </programme>
 <programme channel="2419" start="20251214092500 +0300" stop="20251214095500 +0300">
   <title>Утиные истории (с.6)</title>
@@ -22742,7 +22680,7 @@
   <title>Экстремальный фидер (с.8)</title>
 </programme>
 <programme channel="2419" start="20251214103000 +0300" stop="20251214110000 +0300">
-  <title>"Кулинарное путешествие" с Сержем Марковичем. Тако из утки и лосятины</title>
+  <title>&quot;Кулинарное путешествие&quot; с Сержем Марковичем. Тако из утки и лосятины</title>
 </programme>
 <programme channel="2419" start="20251214110000 +0300" stop="20251214113500 +0300">
   <title>Экстремальный фидер (с.4)</title>
@@ -22757,7 +22695,7 @@
   <title>К сезону готов. Рыболовные приманки Relax Wagner Vib</title>
 </programme>
 <programme channel="2419" start="20251214124000 +0300" stop="20251214131000 +0300">
-  <title>"Кулинарное путешествие" с Сержем Марковичем. Филе из щуки и линя</title>
+  <title>&quot;Кулинарное путешествие&quot; с Сержем Марковичем. Филе из щуки и линя</title>
 </programme>
 <programme channel="2419" start="20251214131000 +0300" stop="20251214134000 +0300">
   <title>Экстремальный фидер (с.5)</title>
@@ -22772,13 +22710,13 @@
   <title>Утиные истории (с.5)</title>
 </programme>
 <programme channel="2419" start="20251214145500 +0300" stop="20251214152500 +0300">
-  <title>"Кулинарное путешествие" с Сержем Марковичем. Уха из уклейки</title>
+  <title>&quot;Кулинарное путешествие&quot; с Сержем Марковичем. Уха из уклейки</title>
 </programme>
 <programme channel="2419" start="20251214152500 +0300" stop="20251214155500 +0300">
   <title>Экстремальный фидер (с.6)</title>
 </programme>
 <programme channel="2419" start="20251214155500 +0300" stop="20251214162500 +0300">
-  <title>"Кулинарное путешествие" с Сержем Марковичем. Колбаски из кабана</title>
+  <title>&quot;Кулинарное путешествие&quot; с Сержем Марковичем. Колбаски из кабана</title>
 </programme>
 <programme channel="2419" start="20251214162500 +0300" stop="20251214170000 +0300">
   <title>Пути-дороги (с.5)</title>
@@ -22787,7 +22725,7 @@
   <title>Пути-дороги (с.6)</title>
 </programme>
 <programme channel="2419" start="20251214173000 +0300" stop="20251214180000 +0300">
-  <title>"Кулинарное путешествие" с Сержем Марковичем. Медвежатина с пивом</title>
+  <title>&quot;Кулинарное путешествие&quot; с Сержем Марковичем. Медвежатина с пивом</title>
 </programme>
 <programme channel="2419" start="20251214180000 +0300" stop="20251214180500 +0300">
   <title>О главном (с.100)</title>
@@ -22799,7 +22737,7 @@
   <title>Охотник-одиночка (с.8)</title>
 </programme>
 <programme channel="2419" start="20251214191000 +0300" stop="20251214194000 +0300">
-  <title>"Кулинарное путешествие" с Сержем Марковичем. Стейк из волжского карпа на гриле</title>
+  <title>&quot;Кулинарное путешествие&quot; с Сержем Марковичем. Стейк из волжского карпа на гриле</title>
 </programme>
 <programme channel="2419" start="20251214194000 +0300" stop="20251214201500 +0300">
   <title>Пути-дороги (с.7)</title>
@@ -22811,7 +22749,7 @@
   <title>К сезону готов. Зимний костюм GRAFF</title>
 </programme>
 <programme channel="2419" start="20251214205500 +0300" stop="20251214212500 +0300">
-  <title>"Кулинарное путешествие" с Сержем Марковичем. Уха из карпа</title>
+  <title>&quot;Кулинарное путешествие&quot; с Сержем Марковичем. Уха из карпа</title>
 </programme>
 <programme channel="2419" start="20251214212500 +0300" stop="20251214215500 +0300">
   <title>Утиные истории (с.8)</title>
@@ -22826,7 +22764,7 @@
   <title>Пути-дороги (с.2)</title>
 </programme>
 <programme channel="2419" start="20251214230500 +0300" stop="20251214233500 +0300">
-  <title>"Кулинарное путешествие" с Сержем Марковичем. Голавль с рисом</title>
+  <title>&quot;Кулинарное путешествие&quot; с Сержем Марковичем. Голавль с рисом</title>
 </programme>
 <programme channel="2419" start="20251214233500 +0300" stop="20251215000000 +0300">
   <title>Экстремальный фидер (с.7)</title>
@@ -22835,7 +22773,7 @@
   <title>Охотник-одиночка (с.7)</title>
 </programme>
 <programme channel="2419" start="20251215003000 +0300" stop="20251215005500 +0300">
-  <title>"Кулинарное путешествие" с Сержем Марковичем. Филе щуки</title>
+  <title>&quot;Кулинарное путешествие&quot; с Сержем Марковичем. Филе щуки</title>
 </programme>
 <programme channel="2419" start="20251215005500 +0300" stop="20251215012000 +0300">
   <title>Пути-дороги (с.3)</title>
@@ -22844,7 +22782,7 @@
   <title>Пути-дороги (с.4)</title>
 </programme>
 <programme channel="2419" start="20251215015000 +0300" stop="20251215021500 +0300">
-  <title>"Кулинарное путешествие" с Сержем Марковичем. Фрикадельки из оленины</title>
+  <title>&quot;Кулинарное путешествие&quot; с Сержем Марковичем. Фрикадельки из оленины</title>
 </programme>
 <programme channel="2419" start="20251215021500 +0300" stop="20251215024500 +0300">
   <title>Утиные истории (с.6)</title>
@@ -22862,7 +22800,7 @@
   <title>Утиные истории (с.1)</title>
 </programme>
 <programme channel="2419" start="20251215043000 +0300" stop="20251215045500 +0300">
-  <title>"Кулинарное путешествие" с Сержем Марковичем. Фазанчики под пекой</title>
+  <title>&quot;Кулинарное путешествие&quot; с Сержем Марковичем. Фазанчики под пекой</title>
 </programme>
 <programme channel="2419" start="20251215045500 +0300" stop="20251215052000 +0300">
   <title>Экстремальный фидер (с.2)</title>
@@ -23729,7 +23667,7 @@
   <title>Чёрный список. На кухне. Краснодар. Казачий хутор</title>
 </programme>
 <programme channel="1003" start="20251216211000 +0300" stop="20251216220000 +0300">
-  <title>Чёрный список. На кухне. Сочи. Plants & Friends</title>
+  <title>Чёрный список. На кухне. Сочи. Plants &amp; Friends</title>
 </programme>
 <programme channel="1003" start="20251216220000 +0300" stop="20251216230000 +0300">
   <title>Чёрный список. На кухне. Ростов-на-Дону. Живаго</title>
@@ -27079,9 +27017,6 @@
 <programme channel="698" start="20251219041500 +0300" stop="20251219050000 +0300">
   <title>Мистические истории. Девочка/Домовой</title>
 </programme>
-<programme channel="434" start="20251213012500 +0300" stop="20251213015000 +0300">
-  <title>Искатели приключений (с.13)</title>
-</programme>
 <programme channel="434" start="20251213015000 +0300" stop="20251213021500 +0300">
   <title>заСАДа (с.9)</title>
 </programme>
@@ -28214,7 +28149,7 @@
   <title>Нарушение правил (с.2)</title>
 </programme>
 <programme channel="2404" start="20251213070000 +0300" stop="20251213080000 +0300">
-  <title>План "Б" (с.1)</title>
+  <title>План &quot;Б&quot; (с.1)</title>
 </programme>
 <programme channel="2404" start="20251213080000 +0300" stop="20251213090000 +0300">
   <title>Серебряный волк (с.1)</title>
@@ -28238,7 +28173,7 @@
   <title>Нарушение правил (с.2)</title>
 </programme>
 <programme channel="2404" start="20251213150000 +0300" stop="20251213160000 +0300">
-  <title>План "Б" (с.1)</title>
+  <title>План &quot;Б&quot; (с.1)</title>
 </programme>
 <programme channel="2404" start="20251213160000 +0300" stop="20251213170000 +0300">
   <title>Серебряный волк (с.1)</title>
@@ -28262,7 +28197,7 @@
   <title>Нарушение правил (с.2)</title>
 </programme>
 <programme channel="2404" start="20251213230000 +0300" stop="20251214000000 +0300">
-  <title>План "Б" (с.1)</title>
+  <title>План &quot;Б&quot; (с.1)</title>
 </programme>
 <programme channel="2404" start="20251214000000 +0300" stop="20251214010000 +0300">
   <title>Серебряный волк (с.5)</title>
@@ -28286,7 +28221,7 @@
   <title>Нарушение правил (с.3)</title>
 </programme>
 <programme channel="2404" start="20251214070000 +0300" stop="20251214080000 +0300">
-  <title>План "Б" (с.2)</title>
+  <title>План &quot;Б&quot; (с.2)</title>
 </programme>
 <programme channel="2404" start="20251214080000 +0300" stop="20251214090000 +0300">
   <title>Серебряный волк (с.5)</title>
@@ -28310,7 +28245,7 @@
   <title>Нарушение правил (с.3)</title>
 </programme>
 <programme channel="2404" start="20251214150000 +0300" stop="20251214160000 +0300">
-  <title>План "Б" (с.2)</title>
+  <title>План &quot;Б&quot; (с.2)</title>
 </programme>
 <programme channel="2404" start="20251214160000 +0300" stop="20251214170000 +0300">
   <title>Серебряный волк (с.5)</title>
@@ -28334,7 +28269,7 @@
   <title>Нарушение правил (с.3)</title>
 </programme>
 <programme channel="2404" start="20251214230000 +0300" stop="20251215000000 +0300">
-  <title>План "Б" (с.2)</title>
+  <title>План &quot;Б&quot; (с.2)</title>
 </programme>
 <programme channel="2404" start="20251215000000 +0300" stop="20251215010000 +0300">
   <title>Двойная жизнь (с.3)</title>
@@ -28358,7 +28293,7 @@
   <title>Нарушение правил (с.4)</title>
 </programme>
 <programme channel="2404" start="20251215070000 +0300" stop="20251215080000 +0300">
-  <title>План "Б" (с.3)</title>
+  <title>План &quot;Б&quot; (с.3)</title>
 </programme>
 <programme channel="2404" start="20251215080000 +0300" stop="20251215090000 +0300">
   <title>Двойная жизнь (с.3)</title>
@@ -28382,7 +28317,7 @@
   <title>Нарушение правил (с.4)</title>
 </programme>
 <programme channel="2404" start="20251215150000 +0300" stop="20251215160000 +0300">
-  <title>План "Б" (с.3)</title>
+  <title>План &quot;Б&quot; (с.3)</title>
 </programme>
 <programme channel="2404" start="20251215160000 +0300" stop="20251215170000 +0300">
   <title>Двойная жизнь (с.3)</title>
@@ -28406,7 +28341,7 @@
   <title>Нарушение правил (с.4)</title>
 </programme>
 <programme channel="2404" start="20251215230000 +0300" stop="20251216000000 +0300">
-  <title>План "Б" (с.3)</title>
+  <title>План &quot;Б&quot; (с.3)</title>
 </programme>
 <programme channel="2404" start="20251216000000 +0300" stop="20251216010000 +0300">
   <title>Двойная жизнь (с.4)</title>
@@ -28430,7 +28365,7 @@
   <title>Контракт на счастье (с.1)</title>
 </programme>
 <programme channel="2404" start="20251216070000 +0300" stop="20251216080000 +0300">
-  <title>План "Б" (с.4)</title>
+  <title>План &quot;Б&quot; (с.4)</title>
 </programme>
 <programme channel="2404" start="20251216080000 +0300" stop="20251216090000 +0300">
   <title>Двойная жизнь (с.4)</title>
@@ -28454,7 +28389,7 @@
   <title>Контракт на счастье (с.1)</title>
 </programme>
 <programme channel="2404" start="20251216150000 +0300" stop="20251216160000 +0300">
-  <title>План "Б" (с.4)</title>
+  <title>План &quot;Б&quot; (с.4)</title>
 </programme>
 <programme channel="2404" start="20251216160000 +0300" stop="20251216170000 +0300">
   <title>Двойная жизнь (с.4)</title>
@@ -28478,7 +28413,7 @@
   <title>Контракт на счастье (с.1)</title>
 </programme>
 <programme channel="2404" start="20251216230000 +0300" stop="20251217000000 +0300">
-  <title>План "Б" (с.4)</title>
+  <title>План &quot;Б&quot; (с.4)</title>
 </programme>
 <programme channel="2404" start="20251217000000 +0300" stop="20251217010000 +0300">
   <title>Двойная жизнь (с.5)</title>
@@ -28502,7 +28437,7 @@
   <title>Контракт на счастье (с.2)</title>
 </programme>
 <programme channel="2404" start="20251217070000 +0300" stop="20251217080000 +0300">
-  <title>План "Б" (с.5)</title>
+  <title>План &quot;Б&quot; (с.5)</title>
 </programme>
 <programme channel="2404" start="20251217080000 +0300" stop="20251217090000 +0300">
   <title>Двойная жизнь (с.5)</title>
@@ -28526,7 +28461,7 @@
   <title>Контракт на счастье (с.2)</title>
 </programme>
 <programme channel="2404" start="20251217150000 +0300" stop="20251217160000 +0300">
-  <title>План "Б" (с.5)</title>
+  <title>План &quot;Б&quot; (с.5)</title>
 </programme>
 <programme channel="2404" start="20251217160000 +0300" stop="20251217170000 +0300">
   <title>Двойная жизнь (с.5)</title>
@@ -28550,7 +28485,7 @@
   <title>Контракт на счастье (с.2)</title>
 </programme>
 <programme channel="2404" start="20251217230000 +0300" stop="20251218000000 +0300">
-  <title>План "Б" (с.5)</title>
+  <title>План &quot;Б&quot; (с.5)</title>
 </programme>
 <programme channel="2404" start="20251218000000 +0300" stop="20251218010000 +0300">
   <title>Двойная жизнь (с.6)</title>
@@ -28574,7 +28509,7 @@
   <title>Контракт на счастье (с.3)</title>
 </programme>
 <programme channel="2404" start="20251218070000 +0300" stop="20251218080000 +0300">
-  <title>План "Б" (с.6)</title>
+  <title>План &quot;Б&quot; (с.6)</title>
 </programme>
 <programme channel="2404" start="20251218080000 +0300" stop="20251218090000 +0300">
   <title>Двойная жизнь (с.6)</title>
@@ -28598,7 +28533,7 @@
   <title>Контракт на счастье (с.3)</title>
 </programme>
 <programme channel="2404" start="20251218150000 +0300" stop="20251218160000 +0300">
-  <title>План "Б" (с.6)</title>
+  <title>План &quot;Б&quot; (с.6)</title>
 </programme>
 <programme channel="2404" start="20251218160000 +0300" stop="20251218170000 +0300">
   <title>Двойная жизнь (с.6)</title>
@@ -28622,7 +28557,7 @@
   <title>Контракт на счастье (с.3)</title>
 </programme>
 <programme channel="2404" start="20251218230000 +0300" stop="20251219000000 +0300">
-  <title>План "Б" (с.6)</title>
+  <title>План &quot;Б&quot; (с.6)</title>
 </programme>
 <programme channel="2404" start="20251219000000 +0300" stop="20251219010000 +0300">
   <title>Двойная жизнь (с.7)</title>
@@ -28638,9 +28573,6 @@
 </programme>
 <programme channel="2404" start="20251219040000 +0300" stop="20251219050000 +0300">
   <title>Домохозяин (с.1)</title>
-</programme>
-<programme channel="2278" start="20251213005500 +0300" stop="20251213014000 +0300">
-  <title>Шансон, шансон, шансон!</title>
 </programme>
 <programme channel="2278" start="20251213014000 +0300" stop="20251213015500 +0300">
   <title>Телефакты</title>
@@ -29279,7 +29211,7 @@
   <title>Девочка, хочешь сниматься в кино?</title>
 </programme>
 <programme channel="6260" start="20251218035751 +0300" stop="20251218050339 +0300">
-  <title>Сильная личность из 2 "А".</title>
+  <title>Сильная личность из 2 &quot;А&quot;.</title>
 </programme>
 <programme channel="6260" start="20251218050339 +0300" stop="20251218081348 +0300">
   <title>Три весёлые смены.</title>
@@ -31406,7 +31338,7 @@
   <title>⋗ Лыжные гонки. Кубок мира. Этап 3 в Давосе, Швейцария. Спринт. Свободный стиль</title>
 </programme>
 <programme channel="4313" start="20251213200000 +0300" stop="20251213205500 +0300">
-  <title>⋗ Сноуборд. Кубок мира. Этап в Кортина-д'Ампеццо, Италия. Параллельный гигантский слалом</title>
+  <title>⋗ Сноуборд. Кубок мира. Этап в Кортина-д&apos;Ампеццо, Италия. Параллельный гигантский слалом</title>
 </programme>
 <programme channel="4313" start="20251213205500 +0300" stop="20251213220000 +0300">
   <title>Горнолыжный спорт. Кубок мира. Этап в Санкт-Морице, Швейцария. Женщины. Скоростной спуск. День 2</title>
@@ -31421,7 +31353,7 @@
   <title>Снукер. Shoot Out в Блэкпуле, Великобритания. Финал</title>
 </programme>
 <programme channel="4313" start="20251214033000 +0300" stop="20251214040000 +0300">
-  <title>Горнолыжный спорт. Кубок мира. Этап в Валь-д'Изере, Франция. Мужчины. Гигантский слалом. 2 попытка</title>
+  <title>Горнолыжный спорт. Кубок мира. Этап в Валь-д&apos;Изере, Франция. Мужчины. Гигантский слалом. 2 попытка</title>
 </programme>
 <programme channel="4313" start="20251214040000 +0300" stop="20251214050000 +0300">
   <title>Прыжки на лыжах с трамплина. Кубок мира. Этап 5 в Клингентале, Германия. HS 140. День 1</title>
@@ -31442,7 +31374,7 @@
   <title>Горнолыжный спорт. Кубок мира. Этап в Санкт-Морице, Швейцария. Женщины. Скоростной спуск. День 2</title>
 </programme>
 <programme channel="4313" start="20251214100000 +0300" stop="20251214103000 +0300">
-  <title>Горнолыжный спорт. Кубок мира. Этап в Валь-д'Изере, Франция. Мужчины. Гигантский слалом. 2 попытка</title>
+  <title>Горнолыжный спорт. Кубок мира. Этап в Валь-д&apos;Изере, Франция. Мужчины. Гигантский слалом. 2 попытка</title>
 </programme>
 <programme channel="4313" start="20251214103000 +0300" stop="20251214114000 +0300">
   <title>Снукер. Shoot Out в Блэкпуле, Великобритания. Финал</title>
@@ -31478,10 +31410,10 @@
   <title>⋗ Гольф. Тур PGA. Grant Thornton Invitational в США. День 3</title>
 </programme>
 <programme channel="4313" start="20251215000000 +0300" stop="20251215003000 +0300">
-  <title>Горнолыжный спорт. Кубок мира. Этап в Валь-д'Изере, Франция. Мужчины. Слалом. 1 попытка</title>
+  <title>Горнолыжный спорт. Кубок мира. Этап в Валь-д&apos;Изере, Франция. Мужчины. Слалом. 1 попытка</title>
 </programme>
 <programme channel="4313" start="20251215003000 +0300" stop="20251215010000 +0300">
-  <title>Горнолыжный спорт. Кубок мира. Этап в Валь-д'Изере, Франция. Мужчины. Слалом. 2 попытка</title>
+  <title>Горнолыжный спорт. Кубок мира. Этап в Валь-д&apos;Изере, Франция. Мужчины. Слалом. 2 попытка</title>
 </programme>
 <programme channel="4313" start="20251215010000 +0300" stop="20251215020000 +0300">
   <title>Горнолыжный спорт. Кубок мира. Этап в Санкт-Морице, Швейцария. Женщины. Супергигант</title>
@@ -31998,9 +31930,6 @@
 </programme>
 <programme channel="125" start="20251215100000 +0300" stop="20251215115500 +0300">
   <title>Поворот не туда: Наследие</title>
-</programme>
-<programme channel="2838" start="20251213010500 +0300" stop="20251213015000 +0300">
-  <title>Пляжный отель. 2 с.</title>
 </programme>
 <programme channel="2838" start="20251213015000 +0300" stop="20251213023500 +0300">
   <title>Пляжный отель. 3 с.</title>
@@ -32753,7 +32682,7 @@
   <title>Calea, Adevărul şi Viaţa</title>
 </programme>
 <programme channel="3688" start="20251213040000 +0300" stop="20251213050000 +0300">
-  <title>Conferința "Închinare pentru națiune</title>
+  <title>Conferința &quot;Închinare pentru națiune</title>
 </programme>
 <programme channel="3688" start="20251213050000 +0300" stop="20251213053000 +0300">
   <title>Traversarea pustiului</title>
@@ -32831,7 +32760,7 @@
   <title>Dragostea vorbește</title>
 </programme>
 <programme channel="3688" start="20251213160000 +0300" stop="20251213170000 +0300">
-  <title>"Conferința de foc" (cu Reinhard Bonnke)</title>
+  <title>&quot;Conferința de foc&quot; (cu Reinhard Bonnke)</title>
 </programme>
 <programme channel="3688" start="20251213170000 +0300" stop="20251213173000 +0300">
   <title>Alfa Omega în obiectiv</title>
@@ -32849,7 +32778,7 @@
   <title>Mai aproape de Dumnezeu cu fiecare zi</title>
 </programme>
 <programme channel="3688" start="20251213190000 +0300" stop="20251213200000 +0300">
-  <title>Conferința "Lumea nevăzută a moștenirilor generaționale</title>
+  <title>Conferința &quot;Lumea nevăzută a moștenirilor generaționale</title>
 </programme>
 <programme channel="3688" start="20251213200000 +0300" stop="20251213203000 +0300">
   <title>Mari isprăvi</title>
@@ -32882,13 +32811,13 @@
   <title>Un cântec nou</title>
 </programme>
 <programme channel="3688" start="20251214020000 +0300" stop="20251214030000 +0300">
-  <title>"Conferința de foc" (cu Reinhard Bonnke)</title>
+  <title>&quot;Conferința de foc&quot; (cu Reinhard Bonnke)</title>
 </programme>
 <programme channel="3688" start="20251214030000 +0300" stop="20251214040000 +0300">
   <title>Realităţi şi perspective</title>
 </programme>
 <programme channel="3688" start="20251214040000 +0300" stop="20251214043000 +0300">
-  <title>Biserica "Harul</title>
+  <title>Biserica &quot;Harul</title>
 </programme>
 <programme channel="3688" start="20251214043000 +0300" stop="20251214050000 +0300">
   <title>Cristale de har și adevăr</title>
@@ -32948,7 +32877,7 @@
   <title>O ușă deschisă pentru tine</title>
 </programme>
 <programme channel="3688" start="20251214123000 +0300" stop="20251214133000 +0300">
-  <title>Conferința "Lumea nevăzută a moștenirilor generaționale"</title>
+  <title>Conferința &quot;Lumea nevăzută a moștenirilor generaționale&quot;</title>
 </programme>
 <programme channel="3688" start="20251214133000 +0300" stop="20251214140000 +0300">
   <title>Biserica Punctul Zero</title>
@@ -33029,7 +32958,7 @@
   <title>Vieţi în lumină</title>
 </programme>
 <programme channel="3688" start="20251215020000 +0300" stop="20251215030000 +0300">
-  <title>Conferința "Lumea nevăzută a moștenirilor generaționale</title>
+  <title>Conferința &quot;Lumea nevăzută a moștenirilor generaționale</title>
 </programme>
 <programme channel="3688" start="20251215030000 +0300" stop="20251215040000 +0300">
   <title>Realităţi şi perspective</title>
@@ -33092,7 +33021,7 @@
   <title>Să vorbim în engleză</title>
 </programme>
 <programme channel="3688" start="20251215113000 +0300" stop="20251215123000 +0300">
-  <title>Conferința "Închinare pentru națiune</title>
+  <title>Conferința &quot;Închinare pentru națiune</title>
 </programme>
 <programme channel="3688" start="20251215123000 +0300" stop="20251215133000 +0300">
   <title>Perspective eterne</title>
@@ -33227,7 +33156,7 @@
   <title>Cele 10 porunci</title>
 </programme>
 <programme channel="3688" start="20251216113000 +0300" stop="20251216120000 +0300">
-  <title>Biserica "SOS"</title>
+  <title>Biserica &quot;SOS&quot;</title>
 </programme>
 <programme channel="3688" start="20251216120000 +0300" stop="20251216130000 +0300">
   <title>Examinând viața lui Isus II</title>
@@ -33521,7 +33450,7 @@
   <title>Club 700</title>
 </programme>
 <programme channel="3688" start="20251218090000 +0300" stop="20251218100000 +0300">
-  <title>Conferința "Puterea Cuvântului"</title>
+  <title>Conferința &quot;Puterea Cuvântului&quot;</title>
 </programme>
 <programme channel="3688" start="20251218100000 +0300" stop="20251218102500 +0300">
   <title>Cartea Cărților</title>
@@ -33587,7 +33516,7 @@
   <title>Mai aproape de Dumnezeu cu fiecare zi</title>
 </programme>
 <programme channel="3688" start="20251218190000 +0300" stop="20251218200000 +0300">
-  <title>Conferința "Puterea Cuvântului</title>
+  <title>Conferința &quot;Puterea Cuvântului</title>
 </programme>
 <programme channel="3688" start="20251218200000 +0300" stop="20251218203000 +0300">
   <title>Club 700</title>
@@ -33620,7 +33549,7 @@
   <title>Vieţi în lumină</title>
 </programme>
 <programme channel="3688" start="20251219020000 +0300" stop="20251219030000 +0300">
-  <title>Conferința "Puterea Cuvântului</title>
+  <title>Conferința &quot;Puterea Cuvântului</title>
 </programme>
 <programme channel="3688" start="20251219030000 +0300" stop="20251219040000 +0300">
   <title>Realităţi şi perspective</title>
@@ -34648,9 +34577,6 @@
 <programme channel="3700" start="20251216040000 +0300" stop="20251216050000 +0300">
   <title>100%</title>
 </programme>
-<programme channel="3703" start="20251213012700 +0300" stop="20251213013600 +0300">
-  <title>Tripeţii</title>
-</programme>
 <programme channel="3703" start="20251213013600 +0300" stop="20251213015500 +0300">
   <title>Thomas şi prietenii săi</title>
 </programme>
@@ -34772,10 +34698,10 @@
   <title>Charley iubeşte natura</title>
 </programme>
 <programme channel="3703" start="20251213100000 +0300" stop="20251213100700 +0300">
-  <title>Sam & Julia</title>
+  <title>Sam &amp; Julia</title>
 </programme>
 <programme channel="3703" start="20251213100700 +0300" stop="20251213102200 +0300">
-  <title>Sam & Julia</title>
+  <title>Sam &amp; Julia</title>
 </programme>
 <programme channel="3703" start="20251213102200 +0300" stop="20251213103400 +0300">
   <title>Thomas şi prietenii săi</title>
@@ -35138,10 +35064,10 @@
   <title>Charley iubeşte natura</title>
 </programme>
 <programme channel="3703" start="20251214100000 +0300" stop="20251214100700 +0300">
-  <title>Sam & Julia</title>
+  <title>Sam &amp; Julia</title>
 </programme>
 <programme channel="3703" start="20251214100700 +0300" stop="20251214102200 +0300">
-  <title>Sam & Julia</title>
+  <title>Sam &amp; Julia</title>
 </programme>
 <programme channel="3703" start="20251214102200 +0300" stop="20251214103400 +0300">
   <title>Thomas şi prietenii săi</title>
@@ -35504,10 +35430,10 @@
   <title>Charley iubeşte natura</title>
 </programme>
 <programme channel="3703" start="20251215100000 +0300" stop="20251215100700 +0300">
-  <title>Sam & Julia</title>
+  <title>Sam &amp; Julia</title>
 </programme>
 <programme channel="3703" start="20251215100700 +0300" stop="20251215102200 +0300">
-  <title>Sam & Julia</title>
+  <title>Sam &amp; Julia</title>
 </programme>
 <programme channel="3703" start="20251215102200 +0300" stop="20251215103400 +0300">
   <title>Thomas şi prietenii săi</title>
@@ -35870,10 +35796,10 @@
   <title>Charley iubeşte natura</title>
 </programme>
 <programme channel="3703" start="20251216100000 +0300" stop="20251216100700 +0300">
-  <title>Sam & Julia</title>
+  <title>Sam &amp; Julia</title>
 </programme>
 <programme channel="3703" start="20251216100700 +0300" stop="20251216102200 +0300">
-  <title>Sam & Julia</title>
+  <title>Sam &amp; Julia</title>
 </programme>
 <programme channel="3703" start="20251216102200 +0300" stop="20251216103400 +0300">
   <title>Thomas şi prietenii săi</title>
@@ -36236,10 +36162,10 @@
   <title>Charley iubeşte natura</title>
 </programme>
 <programme channel="3703" start="20251217100000 +0300" stop="20251217100700 +0300">
-  <title>Sam & Julia</title>
+  <title>Sam &amp; Julia</title>
 </programme>
 <programme channel="3703" start="20251217100700 +0300" stop="20251217102200 +0300">
-  <title>Sam & Julia</title>
+  <title>Sam &amp; Julia</title>
 </programme>
 <programme channel="3703" start="20251217102200 +0300" stop="20251217103400 +0300">
   <title>Thomas şi prietenii săi</title>
@@ -36602,10 +36528,10 @@
   <title>Charley iubeşte natura</title>
 </programme>
 <programme channel="3703" start="20251218100000 +0300" stop="20251218100700 +0300">
-  <title>Sam & Julia</title>
+  <title>Sam &amp; Julia</title>
 </programme>
 <programme channel="3703" start="20251218100700 +0300" stop="20251218102200 +0300">
-  <title>Sam & Julia</title>
+  <title>Sam &amp; Julia</title>
 </programme>
 <programme channel="3703" start="20251218102200 +0300" stop="20251218103400 +0300">
   <title>Thomas şi prietenii săi</title>
@@ -37265,7 +37191,7 @@
   <title>Schi alpin: Cupa Mondială - Saint Moritz - Coborâre Feminin - Schi alpin: Cupa Mondială - Saint Moritz - Coborâre Feminin</title>
 </programme>
 <programme channel="3734" start="20251213111500 +0300" stop="20251213124500 +0300">
-  <title>Schi alpin: Cupa Mondială - Val d'Isere - Slalom uriaș Masculin - Schi alpin: Cupa Mondială - Val d'Isere - Slalom uriaș Masculin</title>
+  <title>Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom uriaș Masculin - Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom uriaș Masculin</title>
 </programme>
 <programme channel="3734" start="20251213124500 +0300" stop="20251213140000 +0300">
   <title>Schi alpin: Cupa Mondială - Saint Moritz - Coborâre Feminin - Schi alpin: Cupa Mondială - Saint Moritz - Coborâre Feminin</title>
@@ -37274,7 +37200,7 @@
   <title>Biatlon: Cupa Mondială - Hochfilzen - Urmărire Masculin - Biatlon: Cupa Mondială - Hochfilzen - Urmărire Masculin</title>
 </programme>
 <programme channel="3734" start="20251213144500 +0300" stop="20251213160000 +0300">
-  <title>Schi alpin: Cupa Mondială - Val d'Isere - Slalom uriaș Masculin - Schi alpin: Cupa Mondială - Val d'Isere - Slalom uriaș Masculin</title>
+  <title>Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom uriaș Masculin - Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom uriaș Masculin</title>
 </programme>
 <programme channel="3734" start="20251213160000 +0300" stop="20251213200000 +0300">
   <title>Snooker: Home Nations Series Shoot Out - Snooker: Home Nations Series Shoot Out</title>
@@ -37319,10 +37245,10 @@
   <title>Schi alpin: Cupa Mondială - Saint Moritz - Coborâre Feminin - Schi alpin: Cupa Mondială - Saint Moritz - Coborâre Feminin</title>
 </programme>
 <programme channel="3734" start="20251214080000 +0300" stop="20251214083000 +0300">
-  <title>Schi alpin: Cupa Mondială - Val d'Isere - Slalom uriaș Masculin - Schi alpin: Cupa Mondială - Val d'Isere - Slalom uriaș Masculin</title>
+  <title>Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom uriaș Masculin - Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom uriaș Masculin</title>
 </programme>
 <programme channel="3734" start="20251214083000 +0300" stop="20251214090000 +0300">
-  <title>Schi alpin: Cupa Mondială - Val d'Isere - Slalom uriaș Masculin - Schi alpin: Cupa Mondială - Val d'Isere - Slalom uriaș Masculin</title>
+  <title>Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom uriaș Masculin - Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom uriaș Masculin</title>
 </programme>
 <programme channel="3734" start="20251214090000 +0300" stop="20251214094500 +0300">
   <title>Snooker: Home Nations Series Shoot Out - Snooker: Home Nations Series Shoot Out</title>
@@ -37337,13 +37263,13 @@
   <title>Sanie: Cupa Mondială - Park City - Sanie: Cupa Mondială - Park City</title>
 </programme>
 <programme channel="3734" start="20251214111500 +0300" stop="20251214123000 +0300">
-  <title>Schi alpin: Cupa Mondială - Val d'Isere - Slalom Masculin - Schi alpin: Cupa Mondială - Val d'Isere - Slalom Masculin</title>
+  <title>Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom Masculin - Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom Masculin</title>
 </programme>
 <programme channel="3734" start="20251214123000 +0300" stop="20251214144500 +0300">
   <title>Schi alpin: Cupa Mondială - Saint Moritz - Super G Feminin - Schi alpin: Cupa Mondială - Saint Moritz - Super G Feminin</title>
 </programme>
 <programme channel="3734" start="20251214144500 +0300" stop="20251214160000 +0300">
-  <title>Schi alpin: Cupa Mondială - Val d'Isere - Slalom Masculin - Schi alpin: Cupa Mondială - Val d'Isere - Slalom Masculin</title>
+  <title>Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom Masculin - Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom Masculin</title>
 </programme>
 <programme channel="3734" start="20251214160000 +0300" stop="20251214164500 +0300">
   <title>Schi fond: Cupa Mondială - Davos - 10 km stil liber Feminin - Schi fond: Cupa Mondială - Davos - 10 km stil liber Feminin</title>
@@ -37361,16 +37287,16 @@
   <title>Fotbal - Fotbal</title>
 </programme>
 <programme channel="3734" start="20251214204500 +0300" stop="20251214210000 +0300">
-  <title>Schi alpin: Cupa Mondială - Val d'Isere - Slalom Masculin - Schi alpin: Cupa Mondială - Val d'Isere - Slalom Masculin</title>
+  <title>Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom Masculin - Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom Masculin</title>
 </programme>
 <programme channel="3734" start="20251214210000 +0300" stop="20251214211500 +0300">
-  <title>Schi alpin: Cupa Mondială - Val d'Isere - Slalom Masculin - Schi alpin: Cupa Mondială - Val d'Isere - Slalom Masculin</title>
+  <title>Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom Masculin - Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom Masculin</title>
 </programme>
 <programme channel="3734" start="20251214211500 +0300" stop="20251214213000 +0300">
-  <title>Schi alpin: Cupa Mondială - Val d'Isere - Slalom Masculin - Schi alpin: Cupa Mondială - Val d'Isere - Slalom Masculin</title>
+  <title>Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom Masculin - Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom Masculin</title>
 </programme>
 <programme channel="3734" start="20251214213000 +0300" stop="20251214220000 +0300">
-  <title>Schi alpin: Cupa Mondială - Val d'Isere - Slalom Masculin - Schi alpin: Cupa Mondială - Val d'Isere - Slalom Masculin</title>
+  <title>Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom Masculin - Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom Masculin</title>
 </programme>
 <programme channel="3734" start="20251214220000 +0300" stop="20251214230000 +0300">
   <title>Schi alpin: Cupa Mondială - Saint Moritz - Super G Feminin - Schi alpin: Cupa Mondială - Saint Moritz - Super G Feminin</title>
@@ -37400,10 +37326,10 @@
   <title>Schi alpin: Cupa Mondială - Saint Moritz - Super G Feminin - Schi alpin: Cupa Mondială - Saint Moritz - Super G Feminin</title>
 </programme>
 <programme channel="3734" start="20251215060000 +0300" stop="20251215063000 +0300">
-  <title>Schi alpin: Cupa Mondială - Val d'Isere - Slalom Masculin - Schi alpin: Cupa Mondială - Val d'Isere - Slalom Masculin</title>
+  <title>Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom Masculin - Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom Masculin</title>
 </programme>
 <programme channel="3734" start="20251215063000 +0300" stop="20251215071500 +0300">
-  <title>Schi alpin: Cupa Mondială - Val d'Isere - Slalom Masculin - Schi alpin: Cupa Mondială - Val d'Isere - Slalom Masculin</title>
+  <title>Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom Masculin - Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom Masculin</title>
 </programme>
 <programme channel="3734" start="20251215071500 +0300" stop="20251215081500 +0300">
   <title>Schi fond: Cupa Mondială - Davos - 10km F Masculin - Schi fond: Cupa Mondială - Davos - 10km F Masculin</title>
@@ -37415,7 +37341,7 @@
   <title>Schi alpin: Cupa Mondială - Saint Moritz - Super G Feminin - Schi alpin: Cupa Mondială - Saint Moritz - Super G Feminin</title>
 </programme>
 <programme channel="3734" start="20251215094500 +0300" stop="20251215103000 +0300">
-  <title>Schi alpin: Cupa Mondială - Val d'Isere - Slalom Masculin - Schi alpin: Cupa Mondială - Val d'Isere - Slalom Masculin</title>
+  <title>Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom Masculin - Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom Masculin</title>
 </programme>
 <programme channel="3734" start="20251215103000 +0300" stop="20251215123000 +0300">
   <title>Snooker: Shoot Out - Finala - Snooker: Shoot Out - Finala</title>
@@ -37433,10 +37359,10 @@
   <title>Schi alpin: Cupa Mondială - Saint Moritz - Super G Feminin - Schi alpin: Cupa Mondială - Saint Moritz - Super G Feminin</title>
 </programme>
 <programme channel="3734" start="20251215204500 +0300" stop="20251215211500 +0300">
-  <title>Schi alpin: Cupa Mondială - Val d'Isere - Slalom Masculin - Schi alpin: Cupa Mondială - Val d'Isere - Slalom Masculin</title>
+  <title>Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom Masculin - Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom Masculin</title>
 </programme>
 <programme channel="3734" start="20251215211500 +0300" stop="20251215220000 +0300">
-  <title>Schi alpin: Cupa Mondială - Val d'Isere - Slalom Masculin - Schi alpin: Cupa Mondială - Val d'Isere - Slalom Masculin</title>
+  <title>Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom Masculin - Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom Masculin</title>
 </programme>
 <programme channel="3734" start="20251215220000 +0300" stop="20251216020000 +0300">
   <title>Snooker: Openul Scoţian - Turul întâi - Snooker: Openul Scoţian - Turul întâi</title>
@@ -37451,7 +37377,7 @@
   <title>Sărituri cu schiurile: Cupa Mondială - Klingenthal - Masculin HS 140 - Sărituri cu schiurile: Cupa Mondială - Klingenthal - Masculin HS 140</title>
 </programme>
 <programme channel="3734" start="20251216080000 +0300" stop="20251216084500 +0300">
-  <title>Schi alpin: Cupa Mondială - Val d'Isere - Slalom Masculin - Schi alpin: Cupa Mondială - Val d'Isere - Slalom Masculin</title>
+  <title>Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom Masculin - Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom Masculin</title>
 </programme>
 <programme channel="3734" start="20251216084500 +0300" stop="20251216100000 +0300">
   <title>Schi fond: Cupa Mondială - Davos - 10 km stil liber Masculin - Schi fond: Cupa Mondială - Davos - 10 km stil liber Masculin</title>
@@ -37466,10 +37392,10 @@
   <title>Schi alpin: Cupa Mondială - Saint Moritz - Super G Feminin - Schi alpin: Cupa Mondială - Saint Moritz - Super G Feminin</title>
 </programme>
 <programme channel="3734" start="20251216131500 +0300" stop="20251216134500 +0300">
-  <title>Schi alpin: Cupa Mondială - Val d'Isere - Slalom Masculin - Schi alpin: Cupa Mondială - Val d'Isere - Slalom Masculin</title>
+  <title>Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom Masculin - Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom Masculin</title>
 </programme>
 <programme channel="3734" start="20251216134500 +0300" stop="20251216143000 +0300">
-  <title>Schi alpin: Cupa Mondială - Val d'Isere - Slalom Masculin - Schi alpin: Cupa Mondială - Val d'Isere - Slalom Masculin</title>
+  <title>Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom Masculin - Schi alpin: Cupa Mondială - Val d&apos;Isere - Slalom Masculin</title>
 </programme>
 <programme channel="3734" start="20251216143000 +0300" stop="20251216160000 +0300">
   <title>Snooker: Seria Home Nations Openul Scoţian - Snooker: Seria Home Nations Openul Scoţian</title>
@@ -37889,7 +37815,7 @@
   <title>Papiland: prieteni pe viata</title>
 </programme>
 <programme channel="3737" start="20251213143000 +0300" stop="20251213150000 +0300">
-  <title>Life & Style cu Maria Andrei</title>
+  <title>Life &amp; Style cu Maria Andrei</title>
 </programme>
 <programme channel="3737" start="20251213150000 +0300" stop="20251213170000 +0300">
   <title>Ultimul cartuș</title>
@@ -37916,7 +37842,7 @@
   <title>Poezie și delicatețuri</title>
 </programme>
 <programme channel="3737" start="20251214060000 +0300" stop="20251214063000 +0300">
-  <title>Life & Style cu Maria Andrei</title>
+  <title>Life &amp; Style cu Maria Andrei</title>
 </programme>
 <programme channel="3737" start="20251214063000 +0300" stop="20251214070000 +0300">
   <title>Flash monden</title>
@@ -38622,9 +38548,6 @@
 </programme>
 <programme channel="3769" start="20251219063000 +0300" stop="20251219073000 +0300">
   <title>Cântece pentru cei dragi</title>
-</programme>
-<programme channel="3784" start="20251213011000 +0300" stop="20251213014000 +0300">
-  <title>Patrula Cățelușilor Sezonul 7 - Episodul 703</title>
 </programme>
 <programme channel="3784" start="20251213014000 +0300" stop="20251213020500 +0300">
   <title>Rubble și echipa lui Sezonul 2 - Episodul 206</title>
@@ -39720,9 +39643,6 @@
 </programme>
 <programme channel="3784" start="20251219071500 +0300" stop="20251219073500 +0300">
   <title>Patrula Cățelușilor Sezonul 2 - Episodul 202</title>
-</programme>
-<programme channel="3789" start="20251213003000 +0300" stop="20251213014000 +0300">
-  <title>Paraclisul Sfântului Cuvios Dimitrie cel Nou</title>
 </programme>
 <programme channel="3789" start="20251213014000 +0300" stop="20251213015500 +0300">
   <title>Artă sacră</title>
@@ -41896,12 +41816,6 @@
 <programme channel="2377" start="20251215023000 +0300" stop="20251215033000 +0300">
   <title>Необычные дома. 6 c</title>
 </programme>
-<programme channel="2133" start="20251213013000 +0300" stop="20251213014500 +0300">
-  <title>News</title>
-</programme>
-<programme channel="2133" start="20251213014500 +0300" stop="20251213015000 +0300">
-  <title>Focus</title>
-</programme>
 <programme channel="2133" start="20251213015000 +0300" stop="20251213020000 +0300">
   <title>Sports</title>
 </programme>
@@ -42778,9 +42692,6 @@
 <programme channel="2133" start="20251215105600 +0300" stop="20251215110000 +0300">
   <title>The News</title>
 </programme>
-<programme channel="2201" start="20251213010800 +0300" stop="20251213013900 +0300">
-  <title>Реальна поліція 1 сезон 2 еп</title>
-</programme>
 <programme channel="2201" start="20251213013900 +0300" stop="20251213021100 +0300">
   <title>Таємниці світу 3 сезон 19 еп</title>
 </programme>
@@ -43165,9 +43076,6 @@
 <programme channel="2451" start="20251215104500 +0300" stop="20251215111500 +0300">
   <title>Угадай и К. 5 с.</title>
 </programme>
-<programme channel="923" start="20251213012500 +0300" stop="20251213015000 +0300">
-  <title>Робозуна (с.1)</title>
-</programme>
 <programme channel="923" start="20251213015000 +0300" stop="20251213015500 +0300">
   <title>Блупис (с.6)</title>
 </programme>
@@ -43515,9 +43423,6 @@
 </programme>
 <programme channel="923" start="20251215104500 +0300" stop="20251215110000 +0300">
   <title>Карбот. Остановить вора электричества</title>
-</programme>
-<programme channel="520" start="20251213011000 +0300" stop="20251213013500 +0300">
-  <title>Зooтeрaпия (с.8)</title>
 </programme>
 <programme channel="520" start="20251213013500 +0300" stop="20251213020000 +0300">
   <title>По планете с рюкзаком (с.8)</title>
@@ -43978,9 +43883,6 @@
 <programme channel="520" start="20251215103500 +0300" stop="20251215110000 +0300">
   <title>По планете с рюкзаком. 4 с.</title>
 </programme>
-<programme channel="367" start="20251213000000 +0300" stop="20251213014000 +0300">
-  <title>Детёныши "Йеллоустоуна"</title>
-</programme>
 <programme channel="367" start="20251213014000 +0300" stop="20251213022500 +0300">
   <title>Дикая природа Сингапура. Тайный мир</title>
 </programme>
@@ -44084,7 +43986,7 @@
   <title>Дневники дикой природы (с.12)</title>
 </programme>
 <programme channel="614" start="20251213012000 +0300" stop="20251213020500 +0300">
-  <title>"Вокруг света" с Ману Фиделем. Лос-Анджелес и Нью-Йорк</title>
+  <title>&quot;Вокруг света&quot; с Ману Фиделем. Лос-Анджелес и Нью-Йорк</title>
 </programme>
 <programme channel="614" start="20251213020500 +0300" stop="20251213023000 +0300">
   <title>Ели у Емели. Гороховая каша с гренками и банница</title>
@@ -44237,7 +44139,7 @@
   <title>Париж на вкус (с.8)</title>
 </programme>
 <programme channel="614" start="20251213223000 +0300" stop="20251213230000 +0300">
-  <title>Моя любимая кухня. Салат "Панцанелла" и спагетти путтанеска</title>
+  <title>Моя любимая кухня. Салат &quot;Панцанелла&quot; и спагетти путтанеска</title>
 </programme>
 <programme channel="614" start="20251213230000 +0300" stop="20251213233000 +0300">
   <title>Секреты итальянской кухни (с.10)</title>
@@ -44951,7 +44853,7 @@
   <title>Живой или вымерший. 7 с. Яванский тигр</title>
 </programme>
 <programme channel="365" start="20251214220000 +0300" stop="20251214230000 +0300">
-  <title>Аквариумный бизнес 5. 9 с. Аквариум для Шакила О'Нила</title>
+  <title>Аквариумный бизнес 5. 9 с. Аквариум для Шакила О&apos;Нила</title>
 </programme>
 <programme channel="365" start="20251214230000 +0300" stop="20251215000000 +0300">
   <title>Аквариумный бизнес 8. 9 с. Самые быстрые и самые рыбные</title>
@@ -45153,12 +45055,6 @@
 </programme>
 <programme channel="2144" start="20251215040000 +0300" stop="20251215050000 +0300">
   <title>Танці маріонеток, 1-4 c</title>
-</programme>
-<programme channel="7623" start="20251213012500 +0300" stop="20251213013500 +0300">
-  <title>100 чудес света. Терракотовая армия</title>
-</programme>
-<programme channel="7623" start="20251213013500 +0300" stop="20251213014000 +0300">
-  <title>100 чудес света. Тирандентис-Парати</title>
 </programme>
 <programme channel="7623" start="20251213014000 +0300" stop="20251213023500 +0300">
   <title>Великие города древности. 3 с.</title>
@@ -45459,9 +45355,6 @@
 </programme>
 <programme channel="7623" start="20251215103000 +0300" stop="20251215113000 +0300">
   <title>Медведи. Эпилог</title>
-</programme>
-<programme channel="9183" start="20251213012100 +0300" stop="20251213014300 +0300">
-  <title>Боб и Маргарет. Игрок</title>
 </programme>
 <programme channel="9183" start="20251213014300 +0300" stop="20251213020400 +0300">
   <title>Боб и Маргарет. Обыкновенный дантист</title>
@@ -46140,9 +46033,6 @@
 </programme>
 <programme channel="9183" start="20251215052100 +0300" stop="20251215062100 +0300">
   <title>Пеппи Длинный чулок. Пеппи встречает белую даму</title>
-</programme>
-<programme channel="601" start="20251213012500 +0300" stop="20251213014500 +0300">
-  <title>Удивительный мир Гамбола 6. 44 с. Инквизиция</title>
 </programme>
 <programme channel="601" start="20251213014500 +0300" stop="20251213015500 +0300">
   <title>Удивительный мир Гамбола. 1 с. Третий – лишний</title>
@@ -47465,7 +47355,7 @@
   <title># Cultura</title>
 </programme>
 <programme channel="2787" start="20251213164000 +0300" stop="20251213165500 +0300">
-  <title>Text & muzica. Anatol Ștefăneț</title>
+  <title>Text &amp; muzica. Anatol Ștefăneț</title>
 </programme>
 <programme channel="2787" start="20251213165500 +0300" stop="20251213170000 +0300">
   <title>Necuvintele</title>
@@ -47519,7 +47409,7 @@
   <title>SoArta. Larisa Turea</title>
 </programme>
 <programme channel="2787" start="20251214044500 +0300" stop="20251214050000 +0300">
-  <title>Text & muzica. Anatol Ștefăneț</title>
+  <title>Text &amp; muzica. Anatol Ștefăneț</title>
 </programme>
 <programme channel="2787" start="20251214050000 +0300" stop="20251214053000 +0300">
   <title>Constantin Moscovici Antologia adevarului. Selecțiuni</title>
@@ -47567,13 +47457,13 @@
   <title>Artelier. Flori în pictură</title>
 </programme>
 <programme channel="2787" start="20251214134500 +0300" stop="20251214135500 +0300">
-  <title>Text & muzica. Elena Carafizi</title>
+  <title>Text &amp; muzica. Elena Carafizi</title>
 </programme>
 <programme channel="2787" start="20251214135500 +0300" stop="20251214140000 +0300">
   <title>Necuvintele</title>
 </programme>
 <programme channel="2787" start="20251214140000 +0300" stop="20251214150000 +0300">
-  <title>Angus & Julia Stone (Australia)</title>
+  <title>Angus &amp; Julia Stone (Australia)</title>
 </programme>
 <programme channel="2787" start="20251214150000 +0300" stop="20251214152500 +0300">
   <title>Arts 21</title>
@@ -48106,9 +47996,6 @@
 <programme channel="6695" start="20251215105000 +0300" stop="20251215113500 +0300">
   <title>Саванна: королевство животных</title>
 </programme>
-<programme channel="9033" start="20251213012500 +0300" stop="20251213014000 +0300">
-  <title>Арт-фокус</title>
-</programme>
 <programme channel="9033" start="20251213014000 +0300" stop="20251213020000 +0300">
   <title>Казахстан: воздушные прогулки</title>
 </programme>
@@ -48444,9 +48331,6 @@
 </programme>
 <programme channel="9033" start="20251214211000 +0300" stop="20251214221000 +0300">
   <title>Наша история</title>
-</programme>
-<programme channel="3328" start="20251213012500 +0300" stop="20251213015000 +0300">
-  <title>Вечный отпуск. 14 с.</title>
 </programme>
 <programme channel="3328" start="20251213015000 +0300" stop="20251213021500 +0300">
   <title>Вечный отпуск. 15 с.</title>
@@ -49001,7 +48885,7 @@
   <title>Finding Bigfoot. Season 2. Ep. 23. Australian Yowie Part 2</title>
 </programme>
 <programme channel="613" start="20251213180000 +0300" stop="20251213190000 +0300">
-  <title>Building Alaska. Season 4. Ep. 8. It's Getting Awkward</title>
+  <title>Building Alaska. Season 4. Ep. 8. It&apos;s Getting Awkward</title>
 </programme>
 <programme channel="613" start="20251213190000 +0300" stop="20251213200000 +0300">
   <title>Building Alaska. Season 4. Ep. 9. Muscle Power</title>
@@ -49058,10 +48942,10 @@
   <title>Bizarre Foods: Delicious Destinations. Season 7. Ep. 21. Emiliaromagna</title>
 </programme>
 <programme channel="613" start="20251214100000 +0300" stop="20251214110000 +0300">
-  <title>Expedition Unknown. Season 2. Ep. 4. Blackbeard's Hidden Gold</title>
+  <title>Expedition Unknown. Season 2. Ep. 4. Blackbeard&apos;s Hidden Gold</title>
 </programme>
 <programme channel="613" start="20251214110000 +0300" stop="20251214120000 +0300">
-  <title>Expedition Unknown. Season 2. Ep. 5. Finding Fenn's Fortune</title>
+  <title>Expedition Unknown. Season 2. Ep. 5. Finding Fenn&apos;s Fortune</title>
 </programme>
 <programme channel="613" start="20251214120000 +0300" stop="20251214130000 +0300">
   <title>The Holzer Files. Season 2. Ep. 10. Forever Home</title>
@@ -49088,10 +48972,10 @@
   <title>Mummies Unwrapped. Ep. 4. Mayan Mass Grave Mystery</title>
 </programme>
 <programme channel="613" start="20251214200000 +0300" stop="20251214210000 +0300">
-  <title>NASA's Unexplained Files. Season 3. Ep. 6. Curse Of The Red Planet</title>
+  <title>NASA&apos;s Unexplained Files. Season 3. Ep. 6. Curse Of The Red Planet</title>
 </programme>
 <programme channel="613" start="20251214210000 +0300" stop="20251214220000 +0300">
-  <title>NASA's Unexplained Files. Season 3. Ep. 7. Red Storm Rising</title>
+  <title>NASA&apos;s Unexplained Files. Season 3. Ep. 7. Red Storm Rising</title>
 </programme>
 <programme channel="613" start="20251214220000 +0300" stop="20251214230000 +0300">
   <title>Bizarre Foods with Andrew Zimmern. Season 11. Ep. 1. The Paul Bunyan Trail</title>
@@ -49103,7 +48987,7 @@
   <title>Mysteries At The Museum. Season 15. Ep. 6. Tennis Titan And More</title>
 </programme>
 <programme channel="613" start="20251215010000 +0300" stop="20251215020000 +0300">
-  <title>The Holzer Files. Season 1. Ep. 4. Possessor's Curse</title>
+  <title>The Holzer Files. Season 1. Ep. 4. Possessor&apos;s Curse</title>
 </programme>
 <programme channel="613" start="20251215020000 +0300" stop="20251215030000 +0300">
   <title>The Ghost Town Terror. Season 1. Ep. 5. Let Us Have Her</title>
@@ -49118,7 +49002,7 @@
   <title>Portals To Hell. Season 2. Ep. 18. The Padre Hotel</title>
 </programme>
 <programme channel="613" start="20251215060000 +0300" stop="20251215070000 +0300">
-  <title>The Holzer Files. Season 1. Ep. 4. Possessor's Curse</title>
+  <title>The Holzer Files. Season 1. Ep. 4. Possessor&apos;s Curse</title>
 </programme>
 <programme channel="521" start="20251213013000 +0300" stop="20251213022500 +0300">
   <title>Проверка на прочность. 6 с.</title>
@@ -49688,7 +49572,7 @@
   <title>Єдині. Головне. Підсумкові новини</title>
 </programme>
 <programme channel="2106" start="20251213031500 +0300" stop="20251213043000 +0300">
-  <title>Мосейчук. Сухенко. П'ятниця</title>
+  <title>Мосейчук. Сухенко. П&apos;ятниця</title>
 </programme>
 <programme channel="2106" start="20251213043000 +0300" stop="20251213050000 +0300">
   <title>ТелеМарафон</title>
@@ -49902,12 +49786,6 @@
 </programme>
 <programme channel="2106" start="20251215063000 +0300" stop="20251215073000 +0300">
   <title>Моя історія</title>
-</programme>
-<programme channel="2760" start="20251213013000 +0300" stop="20251213014000 +0300">
-  <title>Студия звезд</title>
-</programme>
-<programme channel="2760" start="20251213014000 +0300" stop="20251213014500 +0300">
-  <title>Спешим смешить. 1 с.</title>
 </programme>
 <programme channel="2760" start="20251213014500 +0300" stop="20251213020000 +0300">
   <title>Анекдоты. Выпуск 101-й</title>
@@ -50839,9 +50717,6 @@
 <programme channel="2760" start="20251215102500 +0300" stop="20251215110000 +0300">
   <title>Веселые истории из жизни. 2 с.</title>
 </programme>
-<programme channel="5979" start="20251213012400 +0300" stop="20251213014900 +0300">
-  <title>Мир Наш – Алексей Камерзанов. Сезон 4. 2 с. – «НЕближний Восток»</title>
-</programme>
 <programme channel="5979" start="20251213014900 +0300" stop="20251213021300 +0300">
   <title>Мир Наш – Алексей Камерзанов. Сезон 4. 3 с. – «НЕближний Восток»</title>
 </programme>
@@ -51191,13 +51066,13 @@
   <title>Водопады Игуасу. Докатились. Катя и Булат</title>
 </programme>
 <programme channel="2508" start="20251213101700 +0300" stop="20251213104500 +0300">
-  <title>Интервью с экспертами ОТПУСК EXPO&FEST 2025. Ирина Чемерчёва. Глазами туриста</title>
+  <title>Интервью с экспертами ОТПУСК EXPO&amp;FEST 2025. Ирина Чемерчёва. Глазами туриста</title>
 </programme>
 <programme channel="2508" start="20251213104500 +0300" stop="20251213111000 +0300">
   <title>Россия от края до края. Самая южная точка Сибири. Алексей Жирухин</title>
 </programme>
 <programme channel="2508" start="20251213111000 +0300" stop="20251213113500 +0300">
-  <title>Армения. Алекс & Мари Travel blog</title>
+  <title>Армения. Алекс &amp; Мари Travel blog</title>
 </programme>
 <programme channel="2508" start="20251213113500 +0300" stop="20251213115600 +0300">
   <title>Заброшенный город. Денис Фахретдинов</title>
@@ -51392,7 +51267,7 @@
   <title>Антарктида. Павел Макаров</title>
 </programme>
 <programme channel="2508" start="20251215004800 +0300" stop="20251215014000 +0300">
-  <title>Стамбул. Алекс & Мари Travel blog</title>
+  <title>Стамбул. Алекс &amp; Мари Travel blog</title>
 </programme>
 <programme channel="2508" start="20251215014000 +0300" stop="20251215014900 +0300">
   <title>Прикладной туризм, 4 с. Глазами туриста</title>
@@ -51813,9 +51688,6 @@
 </programme>
 <programme channel="2627" start="20251215101200 +0300" stop="20251215120100 +0300">
   <title>Hot Spot Pike. 1 с.</title>
-</programme>
-<programme channel="8891" start="20251213012400 +0300" stop="20251213013200 +0300">
-  <title>Популярна історія. Мистецтво в деталях</title>
 </programme>
 <programme channel="8891" start="20251213013200 +0300" stop="20251213020900 +0300">
   <title>Дочекаюсь</title>
@@ -52290,9 +52162,6 @@
 </programme>
 <programme channel="2096" start="20251215000000 +0300" stop="20251215010000 +0300">
   <title>Європейці з Лесею Вакулюк</title>
-</programme>
-<programme channel="2449" start="20251213012500 +0300" stop="20251213014500 +0300">
-  <title>Здоровье со смыслом. Новогодние каникулы с умом</title>
 </programme>
 <programme channel="2449" start="20251213014500 +0300" stop="20251213021000 +0300">
   <title>Здоровье со смыслом. Признаки нехватки магния</title>
@@ -52773,9 +52642,6 @@
 </programme>
 <programme channel="644" start="20251215104500 +0300" stop="20251215123500 +0300">
   <title>«Хищные твари»</title>
-</programme>
-<programme channel="2101" start="20251213011500 +0300" stop="20251213014500 +0300">
-  <title>Дикі, 9 c</title>
 </programme>
 <programme channel="2101" start="20251213014500 +0300" stop="20251213021000 +0300">
   <title>Дикі, 10 c</title>
@@ -53555,7 +53421,7 @@
   <title>Час пік / Тижневик війни / Хіт-парад зашкварів</title>
 </programme>
 <programme channel="2212" start="20251213120000 +0300" stop="20251213123000 +0300">
-  <title>Смачне інтерв'ю</title>
+  <title>Смачне інтерв&apos;ю</title>
 </programme>
 <programme channel="2212" start="20251213123000 +0300" stop="20251213130000 +0300">
   <title>Медексперт</title>
@@ -53600,19 +53466,19 @@
   <title>Репортер</title>
 </programme>
 <programme channel="2212" start="20251213191500 +0300" stop="20251213200000 +0300">
-  <title>Інтерв'ю</title>
+  <title>Інтерв&apos;ю</title>
 </programme>
 <programme channel="2212" start="20251213200000 +0300" stop="20251213201000 +0300">
   <title>Репортер</title>
 </programme>
 <programme channel="2212" start="20251213201000 +0300" stop="20251213210000 +0300">
-  <title>Інтерв'ю</title>
+  <title>Інтерв&apos;ю</title>
 </programme>
 <programme channel="2212" start="20251213210000 +0300" stop="20251213211000 +0300">
   <title>Репортер</title>
 </programme>
 <programme channel="2212" start="20251213211000 +0300" stop="20251213220000 +0300">
-  <title>Прямий контакт з Матвієм Ганапольським / Інтерв'ю</title>
+  <title>Прямий контакт з Матвієм Ганапольським / Інтерв&apos;ю</title>
 </programme>
 <programme channel="2212" start="20251213220000 +0300" stop="20251213223000 +0300">
   <title>Цинічна політика. Ігор Рейтерович</title>
@@ -53684,19 +53550,19 @@
   <title>Репортер</title>
 </programme>
 <programme channel="2212" start="20251214191000 +0300" stop="20251214200000 +0300">
-  <title>Інтерв'ю</title>
+  <title>Інтерв&apos;ю</title>
 </programme>
 <programme channel="2212" start="20251214200000 +0300" stop="20251214201000 +0300">
   <title>Репортер</title>
 </programme>
 <programme channel="2212" start="20251214201000 +0300" stop="20251214210000 +0300">
-  <title>Інтерв'ю</title>
+  <title>Інтерв&apos;ю</title>
 </programme>
 <programme channel="2212" start="20251214210000 +0300" stop="20251214211000 +0300">
   <title>Репортер</title>
 </programme>
 <programme channel="2212" start="20251214211000 +0300" stop="20251214220000 +0300">
-  <title>Прямий контакт з Матвієм Ганапольським / Інтерв'ю</title>
+  <title>Прямий контакт з Матвієм Ганапольським / Інтерв&apos;ю</title>
 </programme>
 <programme channel="2212" start="20251214220000 +0300" stop="20251214230000 +0300">
   <title>The Week. Міжнародний огляд тижня</title>
@@ -54100,9 +53966,6 @@
 <programme channel="2450" start="20251215105500 +0300" stop="20251215112000 +0300">
   <title>Воспитание Любовью. 7 с.</title>
 </programme>
-<programme channel="427" start="20251213010000 +0300" stop="20251213015000 +0300">
-  <title>Они потрясли мир. Андрей Федорцов. Убойная сила актерского таланта</title>
-</programme>
 <programme channel="427" start="20251213015000 +0300" stop="20251213023000 +0300">
   <title>Условный мент. Вне игры</title>
 </programme>
@@ -54301,9 +54164,6 @@
 <programme channel="427" start="20251215102500 +0300" stop="20251215112000 +0300">
   <title>Великолепная пятерка. Игра в смерть</title>
 </programme>
-<programme channel="18" start="20251212234500 +0300" stop="20251213013500 +0300">
-  <title>Черный дрозд</title>
-</programme>
 <programme channel="18" start="20251213013500 +0300" stop="20251213025000 +0300">
   <title>Диббук</title>
 </programme>
@@ -54438,12 +54298,6 @@
 </programme>
 <programme channel="18" start="20251215090000 +0300" stop="20251215110000 +0300">
   <title>«Военная тайна» с Игорем Прокопенко</title>
-</programme>
-<programme channel="2481" start="20251213012600 +0300" stop="20251213013700 +0300">
-  <title>Супер Сема. 9 с.</title>
-</programme>
-<programme channel="2481" start="20251213013700 +0300" stop="20251213014800 +0300">
-  <title>Супер Сема. 10 с.</title>
 </programme>
 <programme channel="2481" start="20251213014800 +0300" stop="20251213015900 +0300">
   <title>Супер Сема. 11 с.</title>
@@ -55981,9 +55835,6 @@
 <programme channel="353" start="20251215090000 +0300" stop="20251215120000 +0300">
   <title>Звезды в джунглях. 12 с.</title>
 </programme>
-<programme channel="7978" start="20251213010000 +0300" stop="20251213015000 +0300">
-  <title>Женский Стендап. 87 с.</title>
-</programme>
 <programme channel="7978" start="20251213015000 +0300" stop="20251213024000 +0300">
   <title>Однажды в России. Спецдайджест</title>
 </programme>
@@ -56133,12 +55984,6 @@
 </programme>
 <programme channel="7978" start="20251215103000 +0300" stop="20251215110000 +0300">
   <title>Интерны. 147 с.</title>
-</programme>
-<programme channel="5950" start="20251213010200 +0300" stop="20251213013200 +0300">
-  <title>Світовий тур. 7 c</title>
-</programme>
-<programme channel="5950" start="20251213013200 +0300" stop="20251213014800 +0300">
-  <title>Події, 59 c</title>
 </programme>
 <programme channel="5950" start="20251213014800 +0300" stop="20251213024200 +0300">
   <title>Виходячи за межі, 10 c</title>
@@ -56373,9 +56218,6 @@
 </programme>
 <programme channel="5950" start="20251215001000 +0300" stop="20251215011000 +0300">
   <title>Новий маршрут, 11 c</title>
-</programme>
-<programme channel="617" start="20251213012000 +0300" stop="20251213014500 +0300">
-  <title>Вертикальный мир альпинистов Нефедовых</title>
 </programme>
 <programme channel="617" start="20251213014500 +0300" stop="20251213021500 +0300">
   <title>По обе стороны экватора. 3 с.</title>
@@ -56777,7 +56619,7 @@
   <title>CNN Creators: The Intro</title>
 </programme>
 <programme channel="2270" start="20251213183000 +0300" stop="20251213190000 +0300">
-  <title>Inside Africa. Botswana's Sports Stars</title>
+  <title>Inside Africa. Botswana&apos;s Sports Stars</title>
 </programme>
 <programme channel="2270" start="20251213190000 +0300" stop="20251213200000 +0300">
   <title>The Amanpour Hour</title>
@@ -56813,7 +56655,7 @@
   <title>Connecting Africa. Mohamed Mansour</title>
 </programme>
 <programme channel="2270" start="20251214060000 +0300" stop="20251214063000 +0300">
-  <title>Inside Africa. Botswana's Sports Stars</title>
+  <title>Inside Africa. Botswana&apos;s Sports Stars</title>
 </programme>
 <programme channel="2270" start="20251214063000 +0300" stop="20251214070000 +0300">
   <title>African Voices Changemakers 217</title>
@@ -56825,7 +56667,7 @@
   <title>Marketplace Asia DNU</title>
 </programme>
 <programme channel="2270" start="20251214074500 +0300" stop="20251214080000 +0300">
-  <title>Marketplace Middle East. Aviation & Aerospace</title>
+  <title>Marketplace Middle East. Aviation &amp; Aerospace</title>
 </programme>
 <programme channel="2270" start="20251214080000 +0300" stop="20251214083000 +0300">
   <title>CNN Newsroom (CNNI)</title>
@@ -56837,7 +56679,7 @@
   <title>CNN Newsroom (CNNI)</title>
 </programme>
 <programme channel="2270" start="20251214093000 +0300" stop="20251214100000 +0300">
-  <title>Inside Africa. Botswana's Sports Stars</title>
+  <title>Inside Africa. Botswana&apos;s Sports Stars</title>
 </programme>
 <programme channel="2270" start="20251214100000 +0300" stop="20251214103000 +0300">
   <title>CNN Newsroom (CNNI)</title>
@@ -56846,7 +56688,7 @@
   <title>Marketplace Asia DNU</title>
 </programme>
 <programme channel="2270" start="20251214104500 +0300" stop="20251214110000 +0300">
-  <title>Marketplace Middle East. Aviation & Aerospace</title>
+  <title>Marketplace Middle East. Aviation &amp; Aerospace</title>
 </programme>
 <programme channel="2270" start="20251214110000 +0300" stop="20251214113000 +0300">
   <title>CNN Newsroom (CNNI)</title>
@@ -56861,10 +56703,10 @@
   <title>Marketplace Asia DNU</title>
 </programme>
 <programme channel="2270" start="20251214141500 +0300" stop="20251214143000 +0300">
-  <title>Marketplace Middle East. Aviation & Aerospace</title>
+  <title>Marketplace Middle East. Aviation &amp; Aerospace</title>
 </programme>
 <programme channel="2270" start="20251214143000 +0300" stop="20251214150000 +0300">
-  <title>Inside Africa. Botswana's Sports Stars</title>
+  <title>Inside Africa. Botswana&apos;s Sports Stars</title>
 </programme>
 <programme channel="2270" start="20251214150000 +0300" stop="20251214160000 +0300">
   <title>CNN This Morning Weekend</title>
@@ -56885,7 +56727,7 @@
   <title>World Sport</title>
 </programme>
 <programme channel="2270" start="20251214203000 +0300" stop="20251214210000 +0300">
-  <title>Inside Africa. Botswana's Sports Stars</title>
+  <title>Inside Africa. Botswana&apos;s Sports Stars</title>
 </programme>
 <programme channel="2270" start="20251214210000 +0300" stop="20251214213000 +0300">
   <title>African Voices Changemakers 217</title>
@@ -57071,7 +56913,7 @@
   <title>Заповедники РФ (Керженский заповедник)</title>
 </programme>
 <programme channel="415" start="20251214084500 +0300" stop="20251214091500 +0300">
-  <title>Заповедники РФ (Заповедник "Кивач". Карелия)</title>
+  <title>Заповедники РФ (Заповедник &quot;Кивач&quot;. Карелия)</title>
 </programme>
 <programme channel="415" start="20251214091500 +0300" stop="20251214094500 +0300">
   <title>«Вкусная Россия с Сергеем Белоголовцевым (Калининград)»</title>
