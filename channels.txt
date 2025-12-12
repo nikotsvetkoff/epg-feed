@@ -155,7 +155,6 @@
 2855 #Zona M MD
 7821 #Tezaur MD
 3764 #Taraf TV RO
-orizonttv-ro
 3789 #Trinitas RO
 9033 #Silk Way
 3794 #Credo TV RO
