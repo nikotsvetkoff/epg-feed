@@ -2,11 +2,13 @@ name: Update EPG
 
 on:
   schedule:
-    - cron: "0 3 * * *"
+    - cron: "0 3 * * *" # rulează zilnic la 03:00 UTC
   workflow_dispatch:
 
 permissions:
   contents: write
+  pages: write # necesar pentru deploy pe Pages
+  id-token: write # necesar pentru OIDC
 
 jobs:
   build:
@@ -24,10 +26,15 @@ jobs:
       - name: Run EPG collector
         run: php epg_collector.php > epg.xml
 
-      - name: Commit & push epg.xml
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add epg.xml
-          git commit -m "Daily EPG update $(date)" || echo "No changes"
-          git push
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: . # include epg.xml din root
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
