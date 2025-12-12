@@ -31,4 +31,3 @@ jobs:
           git add epg.xml
           git commit -m "Daily EPG update $(date)" || echo "No changes"
           git push
-        continue-on-error: true
