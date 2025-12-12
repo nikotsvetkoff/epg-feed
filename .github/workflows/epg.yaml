@@ -26,10 +26,15 @@ jobs:
       - name: Run EPG collector
         run: php epg_collector.php
 
+      - name: Prepare artifact folder
+        run: |
+          mkdir public
+          mv epg.xml.gz public/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: epg.xml.gz # doar fișierul comprimat
+          path: public
 
   deploy:
     runs-on: ubuntu-latest
