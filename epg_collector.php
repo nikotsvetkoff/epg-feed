@@ -1,28 +1,23 @@
 <?php
-// epg_collector.php – varianta corectată pentru GitHub Actions
+// epg_collector.php – varianta finală
 
-// setări de siguranță
 ini_set('memory_limit', '512M');
-ini_set('max_execution_time', '300'); // 5 minute
+ini_set('max_execution_time', '300');
 date_default_timezone_set("Europe/Chisinau");
 
-// sursa EPG (dezarhivare automată)
 $sources = [
     "compress.zlib://http://epg.it999.ru/epg.xml.gz"
 ];
 
-// citește canalele din channels.txt
 $channels = file("channels.txt", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 $channels = array_map(function($line) {
-    $id = trim(strtok($line, "#")); // doar partea dinainte de #
+    $id = trim(strtok($line, "#"));
     return strtolower($id);
 }, $channels);
 
-// deschide fișierul de output incremental
 $out = fopen("epg.xml", "w");
 fwrite($out, "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<tv>\n");
 
-// funcție pentru procesarea EPG
 function fetchEPG($url, $channels, $out) {
     $reader = new XMLReader();
     if (!$reader->open($url)) {
@@ -34,7 +29,6 @@ function fetchEPG($url, $channels, $out) {
 
     while ($reader->read()) {
         if ($reader->nodeType == XMLReader::ELEMENT) {
-            // <channel>
             if ($reader->name == "channel") {
                 $id = strtolower($reader->getAttribute("id"));
                 if (in_array($id, $channels)) {
@@ -42,7 +36,6 @@ function fetchEPG($url, $channels, $out) {
                 }
             }
 
-            // <programme>
             if ($reader->name == "programme") {
                 $id = strtolower($reader->getAttribute("channel"));
                 if (in_array($id, $channels)) {
@@ -65,12 +58,10 @@ function fetchEPG($url, $channels, $out) {
     $reader->close();
 }
 
-// rulează pentru fiecare sursă
 foreach ($sources as $src) {
     fetchEPG($src, $channels, $out);
 }
 
-// finalizează fișierul
 fwrite($out, "</tv>\n");
 fclose($out);
 
