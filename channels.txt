@@ -1,12 +1,11 @@
 2763 #Moldova 1 HD MD
 2787 #Moldova 2 HD MD
 7824 #TVR Moldova MD
-tv5-monde
+8165 #TV5 Monde Europe HD DE
 2843 #Jurnal TV HD MD
 9783 #Realitatea Live HD MD
 2846 #TV8 HD MD
 9777 #GRT MD
-next-tv
 2847 #Pro TV Chisinau HD MD
 3737 #Prima TV RO
 7165 #Cinema 1 HD MD
