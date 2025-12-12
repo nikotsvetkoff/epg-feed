@@ -24,15 +24,12 @@ jobs:
           php-version: "8.2"
 
       - name: Run EPG collector
-        run: php epg_collector.php > epg.xml
-
-      - name: Compress epg.xml
-        run: gzip -9 -c epg.xml > epg.xml.gz
+        run: php epg_collector.php
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: . # include epg.xml.gz
+          path: epg.xml.gz # doar fișierul comprimat
 
   deploy:
     runs-on: ubuntu-latest
