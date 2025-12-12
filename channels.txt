@@ -18,7 +18,7 @@
 9774 #Vocea Basarabiei HD MD
 7670 #OstWest
 9772 #7TV MD
-espreso-tv
+2096 #Eспресо TV
 7823 #Global 24 HD MD
 9786 #NTS TV MD
 1plus1-int
