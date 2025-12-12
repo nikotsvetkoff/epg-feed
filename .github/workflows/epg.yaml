@@ -2,8 +2,11 @@ name: Update EPG
 
 on:
   schedule:
-    - cron: "0 3 * * *" # rulează zilnic la ora 03:00 UTC
+    - cron: "0 3 * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -28,3 +31,4 @@ jobs:
           git add epg.xml
           git commit -m "Daily EPG update $(date)" || echo "No changes"
           git push
+        continue-on-error: true
