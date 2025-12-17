@@ -1,111 +1,35 @@
-
 <?php
-// epg_collector.php – colectează EPG, scoate desc, normalizează id-uri
+// epg_collector.php – varianta finală
 
-$sources = [
-    "compress.zlib://http://epg.it999.ru/epg.xml.gz"
-];
+ini_set('memory_limit', '512M');
+ini_set('max_execution_time', '300');
 
-// citește canalele din channels.txt
-$channels = file("channels.txt", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-$channels = array_map('strtolower', $channels);
+@@ -15,8 +15,9 @@ $channels = array_map(function($line) {
+    return strtolower($id);
+}, $channels);
 
-function fetchEPG($url, $channels) {
+$out = fopen("epg.xml", "w");
+fwrite($out, "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<tv>\n");
+
+
+function fetchEPG($url, $channels, $out) {
     $reader = new XMLReader();
-    if (!$reader->open($url)) return "";
 
-    $out = "";
-    $now = time();
-
-    while ($reader->read()) {
-        if ($reader->nodeType == XMLReader::ELEMENT) {
-            // <channel>
+@@ -32,7 +33,7 @@ function fetchEPG($url, $channels, $out) {
             if ($reader->name == "channel") {
                 $id = strtolower($reader->getAttribute("id"));
                 if (in_array($id, $channels)) {
-                    $out .= $reader->readOuterXML() . "\n";
+                    fwrite($out, $reader->readOuterXML() . "\n");
                 }
             }
 
-            // <programme> doar cu title + start/stop
-            if ($reader->name == "programme") {
-                $id = strtolower($reader->getAttribute("channel"));
-                if (in_array($id, $channels)) {
-                    $start = $reader->getAttribute("start");
-                    $stop  = $reader->getAttribute("stop");
-                    $stopTime = DateTime::createFromFormat("YmdHis O", $stop);
-                    if ($stopTime && $stopTime->getTimestamp() >= $now) {
+
+@@ -47,9 +48,9 @@ function fetchEPG($url, $channels, $out) {
                         $xml = new SimpleXMLElement($reader->readOuterXML());
-                        $title = (string)$xml->title;
-                        $out .= "<programme channel=\"$id\" start=\"$start\" stop=\"$stop\">\n";
-                        $out .= "  <title>$title</title>\n";
-                        $out .= "</programme>\n";
+                        $title = htmlspecialchars((string)$xml->title, ENT_XML1 | ENT_QUOTES, 'UTF-8');
+
+                        fwrite($out, "<programme channel=\"$id\" start=\"$start\" stop=\"$stop\">\n");
+                        fwrite($out, "  <title>$title</title>\n");
+                        fwrite($out, "</programme>\n");
                     }
-                }
-            }
-        }
     }
-    $reader->close();
-    return $out;
-}
-
-echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<tv>\n";
-foreach ($sources as $src) {
-    echo fetchEPG($src, $channels);
-}
-echo "</tv>\n";
-<?php
-// epg_collector.php – colectează EPG, scoate desc, normalizează id-uri
-
-$sources = [
-    "compress.zlib://http://epg.it999.ru/epg.xml.gz"
-];
-
-// citește canalele din channels.txt
-$channels = file("channels.txt", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-$channels = array_map('strtolower', $channels);
-
-function fetchEPG($url, $channels) {
-    $reader = new XMLReader();
-    if (!$reader->open($url)) return "";
-
-    $out = "";
-    $now = time();
-
-    while ($reader->read()) {
-        if ($reader->nodeType == XMLReader::ELEMENT) {
-            // <channel>
-            if ($reader->name == "channel") {
-                $id = strtolower($reader->getAttribute("id"));
-                if (in_array($id, $channels)) {
-                    $out .= $reader->readOuterXML() . "\n";
-                }
-            }
-
-            // <programme> doar cu title + start/stop
-            if ($reader->name == "programme") {
-                $id = strtolower($reader->getAttribute("channel"));
-                if (in_array($id, $channels)) {
-                    $start = $reader->getAttribute("start");
-                    $stop  = $reader->getAttribute("stop");
-                    $stopTime = DateTime::createFromFormat("YmdHis O", $stop);
-                    if ($stopTime && $stopTime->getTimestamp() >= $now) {
-                        $xml = new SimpleXMLElement($reader->readOuterXML());
-                        $title = (string)$xml->title;
-                        $out .= "<programme channel=\"$id\" start=\"$start\" stop=\"$stop\">\n";
-                        $out .= "  <title>$title</title>\n";
-                        $out .= "</programme>\n";
-                    }
-                }
-            }
-        }
-    }
-    $reader->close();
-    return $out;
-}
-
-echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<tv>\n";
-foreach ($sources as $src) {
-    echo fetchEPG($src, $channels);
-}
-echo "</tv>\n";
