@@ -27,7 +27,7 @@ function fetchEPG($url, $channels, $out) {
         return;
     }
 
-    $now = time();
+
 
     while ($reader->read()) {
         if ($reader->nodeType == XMLReader::ELEMENT) {
