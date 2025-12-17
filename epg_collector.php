@@ -17,13 +17,7 @@ $channels = array_map(function($line) {
 $out = gzopen("epg.xml.gz", "w9");
 gzwrite($out, "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<tv>\n");
 
-// normalizează timpul în Europe/Chisinau
-function normalizeTime($epgTime) {
-    $dt = DateTime::createFromFormat("YmdHis O", $epgTime);
-    if (!$dt) return $epgTime;
-    $dt->setTimezone(new DateTimeZone("Europe/Chisinau"));
-    return $dt->format("YmdHis O");
-}
+
 
 // procesează EPG-ul
 function fetchEPG($url, $channels, $out) {
