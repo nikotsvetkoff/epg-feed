@@ -2,7 +2,7 @@
 // epg_collector.php – colectează EPG, filtrează canale și normalizează timpii în Europe/Chisinau
 ini_set('memory_limit', '512M');
 ini_set('max_execution_time', '300');
-date_default_timezone_set("Europe/Chisinau");
+
 
 // sursa EPG (comprimată)
 $sourceUrl = "compress.zlib://http://epg.it999.ru/epg.xml.gz";
