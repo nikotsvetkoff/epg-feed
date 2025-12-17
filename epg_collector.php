@@ -2,7 +2,7 @@
 // epg_collector.php – colectează EPG, filtrează canale și normalizează timpii în Europe/Chisinau
 ini_set('memory_limit', '512M');
 ini_set('max_execution_time', '300');
-
+date_default_timezone_set("Europe/Chisinau");
 
 // sursa EPG (comprimată)
 $sourceUrl = "compress.zlib://http://epg.it999.ru/epg.xml.gz";
@@ -17,7 +17,13 @@ $channels = array_map(function($line) {
 $out = gzopen("epg.xml.gz", "w9");
 gzwrite($out, "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<tv>\n");
 
-
+// normalizează timpul în Europe/Chisinau
+function normalizeTime($epgTime) {
+    $dt = DateTime::createFromFormat("YmdHis O", $epgTime);
+    if (!$dt) return $epgTime;
+    $dt->setTimezone(new DateTimeZone("Europe/Chisinau"));
+    return $dt->format("YmdHis O");
+}
 
 // procesează EPG-ul
 function fetchEPG($url, $channels, $out) {
@@ -27,7 +33,7 @@ function fetchEPG($url, $channels, $out) {
         return;
     }
 
-
+    $now = time();
 
     while ($reader->read()) {
         if ($reader->nodeType == XMLReader::ELEMENT) {
