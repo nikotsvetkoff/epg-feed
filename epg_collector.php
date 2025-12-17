@@ -1,7 +1,27 @@
+<?php
+// epg_collector.php – varianta finală
+ini_set('memory_limit', '512M');
+ini_set('max_execution_time', '300');
+date_default_timezone_set("Europe/Chisinau");
+
+$sources = [
+    "compress.zlib://http://epg.it999.ru/epg.xml.gz"
+];
+
+$channels = file("channels.txt", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+$channels = array_map(function($line) {
+    $id = trim(strtok($line, "#"));
+    return strtolower($id);
+}, $channels);
+
+// deschide fișierul comprimat pentru scriere
+$out = gzopen("epg.xml.gz", "w9"); // nivel maxim de compresie
+gzwrite($out, "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<tv>\n");
+
 function fetchEPG($url, $channels, $out) {
     $reader = new XMLReader();
     if (!$reader->open($url)) {
-        fwrite(STDERR, "Nu pot deschide sursa: $url\n");
+        gzrite(STDERR, "Nu pot deschide sursa: $url\n");
         return;
     }
 
@@ -12,6 +32,7 @@ function fetchEPG($url, $channels, $out) {
             if ($reader->name == "channel") {
                 $id = strtolower($reader->getAttribute("id"));
                 if (in_array($id, $channels)) {
+                  
                     gzwrite($out, $reader->readOuterXML() . "\n");
                 }
             }
@@ -21,23 +42,13 @@ function fetchEPG($url, $channels, $out) {
                 if (in_array($id, $channels)) {
                     $start = $reader->getAttribute("start");
                     $stop  = $reader->getAttribute("stop");
-
-                    // ajustează timpii cu +45 minute
-                    $startDt = DateTime::createFromFormat("YmdHis O", $start);
-                    $stopDt  = DateTime::createFromFormat("YmdHis O", $stop);
-
-                    if ($startDt) $startDt->modify("+45 minutes");
-                    if ($stopDt)  $stopDt->modify("+45 minutes");
-
-                    $start = $startDt ? $startDt->format("YmdHis O") : $start;
-                    $stop  = $stopDt ? $stopDt->format("YmdHis O") : $stop;
-
                     $stopTime = DateTime::createFromFormat("YmdHis O", $stop);
 
                     if ($stopTime && $stopTime->getTimestamp() >= $now) {
                         $xml = new SimpleXMLElement($reader->readOuterXML());
                         $title = htmlspecialchars((string)$xml->title, ENT_XML1 | ENT_QUOTES, 'UTF-8');
 
+                    
                         gzwrite($out, "<programme channel=\"$id\" start=\"$start\" stop=\"$stop\">\n");
                         gzwrite($out, "  <title>$title</title>\n");
                         gzwrite($out, "</programme>\n");
@@ -48,3 +59,12 @@ function fetchEPG($url, $channels, $out) {
     }
     $reader->close();
 }
+
+foreach ($sources as $src) {
+    fetchEPG($src, $channels, $out);
+}
+;
+gzwrite($out, "</tv>\n");
+gzclose($out);
+
+echo "EPG comprimat generat cu succes.\n";
