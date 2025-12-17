@@ -1,61 +1,56 @@
+
 <?php
-// epg_timezone.php – ajustare fus orar
-ini_set('memory_limit', '512M');
-ini_set('max_execution_time', '300');
-date_default_timezone_set("Europe/Chisinau");
+// epg_collector.php – colectează EPG, scoate desc, normalizează id-uri
 
-// sursa EPG
-$source = "compress.zlib://http://epg.it999.ru/epg.xml.gz";
+$sources = [
+    "compress.zlib://http://epg.it999.ru/epg.xml.gz"
+];
 
-// fus orar dorit
-$targetTZ = new DateTimeZone("Europe/Chisinau");
+// citește canalele din channels.txt
+$channels = file("channels.txt", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+$channels = array_map('strtolower', $channels);
 
-// deschide fișierul comprimat pentru scriere
-$out = gzopen("epg_fixed.xml.gz", "w9");
-gzwrite($out, "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<tv>\n");
+function fetchEPG($url, $channels) {
+    $reader = new XMLReader();
+    if (!$reader->open($url)) return "";
 
-$reader = new XMLReader();
-if (!$reader->open($source)) {
-    fwrite(STDERR, "Nu pot deschide sursa: $source\n");
-    exit(1);
-}
+    $out = "";
+    $now = time();
 
-$now = time();
+    while ($reader->read()) {
+        if ($reader->nodeType == XMLReader::ELEMENT) {
+            // <channel>
+            if ($reader->name == "channel") {
+                $id = strtolower($reader->getAttribute("id"));
+                if (in_array($id, $channels)) {
+                    $out .= $reader->readOuterXML() . "\n";
+                }
+            }
 
-while ($reader->read()) {
-    if ($reader->nodeType == XMLReader::ELEMENT) {
-        if ($reader->name == "channel") {
-            gzwrite($out, $reader->readOuterXML() . "\n");
-        }
-
-        if ($reader->name == "programme") {
-            $start = $reader->getAttribute("start");
-            $stop  = $reader->getAttribute("stop");
-            $channel = $reader->getAttribute("channel");
-
-            $startTime = DateTime::createFromFormat("YmdHis O", $start);
-            $stopTime  = DateTime::createFromFormat("YmdHis O", $stop);
-
-            if ($startTime && $stopTime) {
-                // conversie la fusul orar dorit
-                $startTime->setTimezone($targetTZ);
-                $stopTime->setTimezone($targetTZ);
-
-                if ($stopTime->getTimestamp() >= $now) {
-                    $xml = new SimpleXMLElement($reader->readOuterXML());
-                    $title = htmlspecialchars((string)$xml->title, ENT_XML1 | ENT_QUOTES, 'UTF-8');
-
-                    gzwrite($out, "<programme channel=\"$channel\" start=\"".$startTime->format("YmdHis O")."\" stop=\"".$stopTime->format("YmdHis O")."\">\n");
-                    gzwrite($out, "  <title>$title</title>\n");
-                    gzwrite($out, "</programme>\n");
+            // <programme> doar cu title + start/stop
+            if ($reader->name == "programme") {
+                $id = strtolower($reader->getAttribute("channel"));
+                if (in_array($id, $channels)) {
+                    $start = $reader->getAttribute("start");
+                    $stop  = $reader->getAttribute("stop");
+                    $stopTime = DateTime::createFromFormat("YmdHis O", $stop);
+                    if ($stopTime && $stopTime->getTimestamp() >= $now) {
+                        $xml = new SimpleXMLElement($reader->readOuterXML());
+                        $title = (string)$xml->title;
+                        $out .= "<programme channel=\"$id\" start=\"$start\" stop=\"$stop\">\n";
+                        $out .= "  <title>$title</title>\n";
+                        $out .= "</programme>\n";
+                    }
                 }
             }
         }
     }
+    $reader->close();
+    return $out;
 }
-$reader->close();
 
-gzwrite($out, "</tv>\n");
-gzclose($out);
-
-echo "EPG ajustat la fus orar Europe/Chisinau generat cu succes.\n";
+echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<tv>\n";
+foreach ($sources as $src) {
+    echo fetchEPG($src, $channels);
+}
+echo "</tv>\n";
