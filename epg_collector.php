@@ -1,8 +1,7 @@
 <?php
-// epg_collector.php – colectează EPG, filtrează canale și normalizează timpii în Europe/Chisinau
+// epg_collector.php – colectează EPG, filtrează canale și forțează fusul orar +0300
 ini_set('memory_limit', '512M');
 ini_set('max_execution_time', '300');
-date_default_timezone_set("Europe/Chisinau");
 
 // sursa EPG (comprimată)
 $sourceUrl = "compress.zlib://http://epg.it999.ru/epg.xml.gz";
@@ -17,11 +16,14 @@ $channels = array_map(function($line) {
 $out = gzopen("epg.xml.gz", "w9");
 gzwrite($out, "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<tv>\n");
 
-// normalizează timpul în Europe/Chisinau
-function normalizeTime($epgTime) {
+// funcție pentru forțarea fusului orar la +0300
+function forcePlus0300($epgTime) {
     $dt = DateTime::createFromFormat("YmdHis O", $epgTime);
     if (!$dt) return $epgTime;
-    $dt->setTimezone(new DateTimeZone("Europe/Chisinau"));
+
+    // setează mereu fusul orar UTC+3
+    $dt->setTimezone(new DateTimeZone("+0300"));
+
     return $dt->format("YmdHis O");
 }
 
@@ -47,8 +49,8 @@ function fetchEPG($url, $channels, $out) {
             if ($reader->name === "programme") {
                 $id = $reader->getAttribute("channel");
                 if (in_array($id, $channels)) {
-                    $start = normalizeTime($reader->getAttribute("start"));
-                    $stop  = normalizeTime($reader->getAttribute("stop"));
+                    $start = forcePlus0300($reader->getAttribute("start"));
+                    $stop  = forcePlus0300($reader->getAttribute("stop"));
 
                     $stopTime = DateTime::createFromFormat("YmdHis O", $stop);
                     if ($stopTime && $stopTime->getTimestamp() >= $now) {
@@ -74,4 +76,4 @@ fetchEPG($sourceUrl, $channels, $out);
 gzwrite($out, "</tv>\n");
 gzclose($out);
 
-echo "EPG generat cu timpi corectați și salvat în epg.xml.gz\n";
+echo "EPG generat cu fus orar fix +0300 și salvat în epg.xml.gz\n";
