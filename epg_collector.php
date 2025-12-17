@@ -28,9 +28,9 @@ function adjustTimeSeason($epgTime) {
 
     // Moldova: UTC+2 iarna, UTC+3 vara
     if ($offset == 2 * 3600) {
-        $dt->modify("+1 hour"); // iarna → +1h înainte
+        $dt->modify("+1 hour"); // iarna → mută înainte cu 1h
     } elseif ($offset == 3 * 3600) {
-        $dt->modify("-1 hour"); // vara → -1h înapoi
+        $dt->modify("-1 hour"); // vara → mută înapoi cu 1h
     }
 
     return $dt->format("YmdHis O");
