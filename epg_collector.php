@@ -17,7 +17,7 @@ $channels = array_map(function($line) {
 $out = gzopen("epg.xml.gz", "w9");
 gzwrite($out, "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<tv>\n");
 
-// funcție pentru normalizarea timpului
+// normalizează timpul în Europe/Chisinau
 function normalizeTime($epgTime) {
     $dt = DateTime::createFromFormat("YmdHis O", $epgTime);
     if (!$dt) return $epgTime;
@@ -25,7 +25,7 @@ function normalizeTime($epgTime) {
     return $dt->format("YmdHis O");
 }
 
-// funcție de procesare EPG
+// procesează EPG-ul
 function fetchEPG($url, $channels, $out) {
     $reader = new XMLReader();
     if (!$reader->open($url)) {
@@ -37,14 +37,14 @@ function fetchEPG($url, $channels, $out) {
 
     while ($reader->read()) {
         if ($reader->nodeType == XMLReader::ELEMENT) {
-            if ($reader->name == "channel") {
+            if ($reader->name === "channel") {
                 $id = $reader->getAttribute("id");
                 if (in_array($id, $channels)) {
                     gzwrite($out, $reader->readOuterXML() . "\n");
                 }
             }
 
-            if ($reader->name == "programme") {
+            if ($reader->name === "programme") {
                 $id = $reader->getAttribute("channel");
                 if (in_array($id, $channels)) {
                     $start = normalizeTime($reader->getAttribute("start"));
@@ -63,6 +63,7 @@ function fetchEPG($url, $channels, $out) {
             }
         }
     }
+
     $reader->close();
 }
 
@@ -73,4 +74,4 @@ fetchEPG($sourceUrl, $channels, $out);
 gzwrite($out, "</tv>\n");
 gzclose($out);
 
-echo "EPG filtrat și scris în epg.xml.gz cu timpi normalizați Europe/Chisinau\n";
+echo "EPG generat cu timpi corectați și salvat în epg.xml.gz\n";
