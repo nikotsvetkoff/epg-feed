@@ -1,41 +1,36 @@
 <?php
-// epg_collector.php – colectează EPG și ajustează timpii în funcție de sezon
-
+// epg_collector.php – colectează EPG, filtrează canale și ajustează timpii sezonier
 ini_set('memory_limit', '512M');
 ini_set('max_execution_time', '300');
-
 date_default_timezone_set("Europe/Chisinau");
 
 // sursa EPG (comprimată)
 $sourceUrl = "compress.zlib://http://epg.it999.ru/epg.xml.gz";
 
-// citește canalele din channels.txt
+// citește canalele din channels.txt (doar partea numerică)
 $channels = file("channels.txt", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 $channels = array_map(function($line) {
-    // ia doar prima parte numerică din linie
-    $id = preg_replace('/\D.*$/', '', trim($line));
+    $id = preg_replace('/\D.*$/', '', trim($line)); // ia doar cifrele de la început
     return $id;
 }, $channels);
 
-// deschide fișierul de ieșire
-$out = fopen("epg.xml", "w");
-fwrite($out, "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<tv>\n");
+// deschide fișierul comprimat pentru scriere
+$out = gzopen("epg.xml.gz", "w9"); // nivel maxim de compresie
+gzwrite($out, "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<tv>\n");
 
-// funcție pentru ajustarea timpului în funcție de sezon
+// funcție pentru ajustarea timpului sezonier
 function adjustTimeSeason($epgTime) {
     $dt = DateTime::createFromFormat("YmdHis O", $epgTime, new DateTimeZone("UTC"));
     if (!$dt) return $epgTime;
 
-    // verifică dacă e DST (ora de vară)
     $tz = new DateTimeZone("Europe/Chisinau");
     $offset = $tz->getOffset($dt);
 
     // Moldova: UTC+2 iarna, UTC+3 vara
-    // iarna → +1h înainte, vara → -1h înapoi
     if ($offset == 2 * 3600) {
-        $dt->modify("+1 hour");
+        $dt->modify("+1 hour"); // iarna → +1h înainte
     } elseif ($offset == 3 * 3600) {
-        $dt->modify("-1 hour");
+        $dt->modify("-1 hour"); // vara → -1h înapoi
     }
 
     return $dt->format("YmdHis O");
@@ -56,7 +51,7 @@ function fetchEPG($url, $channels, $out) {
             if ($reader->name == "channel") {
                 $id = $reader->getAttribute("id");
                 if (in_array($id, $channels)) {
-                    fwrite($out, $reader->readOuterXML() . "\n");
+                    gzwrite($out, $reader->readOuterXML() . "\n");
                 }
             }
 
@@ -72,11 +67,12 @@ function fetchEPG($url, $channels, $out) {
 
                     $stopTime = DateTime::createFromFormat("YmdHis O", $stop);
                     if ($stopTime && $stopTime->getTimestamp() >= $now) {
-                        fwrite($out, "<programme channel=\"$id\" start=\"$start\" stop=\"$stop\">\n");
                         $xml = new SimpleXMLElement($reader->readOuterXML());
                         $title = htmlspecialchars((string)$xml->title, ENT_XML1 | ENT_QUOTES, 'UTF-8');
-                        fwrite($out, "  <title>$title</title>\n");
-                        fwrite($out, "</programme>\n");
+
+                        gzwrite($out, "<programme channel=\"$id\" start=\"$start\" stop=\"$stop\">\n");
+                        gzwrite($out, "  <title>$title</title>\n");
+                        gzwrite($out, "</programme>\n");
                     }
                 }
             }
@@ -89,7 +85,7 @@ function fetchEPG($url, $channels, $out) {
 fetchEPG($sourceUrl, $channels, $out);
 
 // finalizează fișierul
-fwrite($out, "</tv>\n");
-fclose($out);
+gzwrite($out, "</tv>\n");
+gzclose($out);
 
-echo "EPG filtrat și scris în epg.xml cu ajustare sezonieră.\n";
+echo "EPG filtrat, ajustat sezonier și scris în epg.xml.gz\n";
