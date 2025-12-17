@@ -1,5 +1,5 @@
 <?php
-// epg_collector.php – colectează EPG, filtrează canale și ajustează timpii sezonier
+// epg_collector.php – colectează EPG, filtrează canale și normalizează timpii în Europe/Chisinau
 ini_set('memory_limit', '512M');
 ini_set('max_execution_time', '300');
 date_default_timezone_set("Europe/Chisinau");
@@ -10,29 +10,18 @@ $sourceUrl = "compress.zlib://http://epg.it999.ru/epg.xml.gz";
 // citește canalele din channels.txt (doar partea numerică)
 $channels = file("channels.txt", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 $channels = array_map(function($line) {
-    $id = preg_replace('/\D.*$/', '', trim($line)); // ia doar cifrele de la început
-    return $id;
+    return preg_replace('/\D.*$/', '', trim($line));
 }, $channels);
 
 // deschide fișierul comprimat pentru scriere
-$out = gzopen("epg.xml.gz", "w9"); // nivel maxim de compresie
+$out = gzopen("epg.xml.gz", "w9");
 gzwrite($out, "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<tv>\n");
 
-// funcție pentru ajustarea timpului sezonier
-function adjustTimeSeason($epgTime) {
-    $dt = DateTime::createFromFormat("YmdHis O", $epgTime, new DateTimeZone("UTC"));
+// funcție pentru normalizarea timpului
+function normalizeTime($epgTime) {
+    $dt = DateTime::createFromFormat("YmdHis O", $epgTime);
     if (!$dt) return $epgTime;
-
-    $tz = new DateTimeZone("Europe/Chisinau");
-    $offset = $tz->getOffset($dt);
-
-    // Moldova: UTC+2 iarna, UTC+3 vara
-    if ($offset == 2 * 3600) {
-        $dt->modify("+1 hour"); // iarna → mută înainte cu 1h
-    } elseif ($offset == 3 * 3600) {
-        $dt->modify("-1 hour"); // vara → mută înapoi cu 1h
-    }
-
+    $dt->setTimezone(new DateTimeZone("Europe/Chisinau"));
     return $dt->format("YmdHis O");
 }
 
@@ -58,12 +47,8 @@ function fetchEPG($url, $channels, $out) {
             if ($reader->name == "programme") {
                 $id = $reader->getAttribute("channel");
                 if (in_array($id, $channels)) {
-                    $start = $reader->getAttribute("start");
-                    $stop  = $reader->getAttribute("stop");
-
-                    // aplică diferența de timp sezonieră
-                    $start = adjustTimeSeason($start);
-                    $stop  = adjustTimeSeason($stop);
+                    $start = normalizeTime($reader->getAttribute("start"));
+                    $stop  = normalizeTime($reader->getAttribute("stop"));
 
                     $stopTime = DateTime::createFromFormat("YmdHis O", $stop);
                     if ($stopTime && $stopTime->getTimestamp() >= $now) {
@@ -88,4 +73,4 @@ fetchEPG($sourceUrl, $channels, $out);
 gzwrite($out, "</tv>\n");
 gzclose($out);
 
-echo "EPG filtrat, ajustat sezonier și scris în epg.xml.gz\n";
+echo "EPG filtrat și scris în epg.xml.gz cu timpi normalizați Europe/Chisinau\n";
