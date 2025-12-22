@@ -1,7 +1,14 @@
 <?php
-// epg_collector.php – colectează EPG, filtrează canale și forțează fusul orar +0300
+// epg_collector.php – colectează EPG, filtrează canale și ajustează fusul orar automat
 ini_set('memory_limit', '512M');
 ini_set('max_execution_time', '300');
+
+// verifică ora locală Chișinău
+$nowLocal = new DateTime("now", new DateTimeZone("Europe/Chisinau"));
+if ($nowLocal->format("H") != "4") {
+    echo "Nu rulez acum, ora locală este " . $nowLocal->format("H:i") . "\n";
+    exit;
+}
 
 // sursa EPG (comprimată)
 $sourceUrl = "compress.zlib://http://epg.it999.ru/epg.xml.gz";
@@ -16,13 +23,13 @@ $channels = array_map(function($line) {
 $out = gzopen("epg.xml.gz", "w9");
 gzwrite($out, "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<tv>\n");
 
-// funcție pentru forțarea fusului orar la +0300
-function forcePlus0300($epgTime) {
+// funcție pentru ajustarea fusului orar la Europe/Chisinau
+function adjustLocalTime($epgTime) {
     $dt = DateTime::createFromFormat("YmdHis O", $epgTime);
     if (!$dt) return $epgTime;
 
-    // setează mereu fusul orar UTC+3
-    $dt->setTimezone(new DateTimeZone("+0300"));
+    // setează fusul orar corect (DST automat)
+    $dt->setTimezone(new DateTimeZone("Europe/Chisinau"));
 
     return $dt->format("YmdHis O");
 }
@@ -49,8 +56,8 @@ function fetchEPG($url, $channels, $out) {
             if ($reader->name === "programme") {
                 $id = $reader->getAttribute("channel");
                 if (in_array($id, $channels)) {
-                    $start = forcePlus0300($reader->getAttribute("start"));
-                    $stop  = forcePlus0300($reader->getAttribute("stop"));
+                    $start = adjustLocalTime($reader->getAttribute("start"));
+                    $stop  = adjustLocalTime($reader->getAttribute("stop"));
 
                     $stopTime = DateTime::createFromFormat("YmdHis O", $stop);
                     if ($stopTime && $stopTime->getTimestamp() >= $now) {
@@ -76,4 +83,4 @@ fetchEPG($sourceUrl, $channels, $out);
 gzwrite($out, "</tv>\n");
 gzclose($out);
 
-echo "EPG generat cu fus orar fix +0300 și salvat în epg.xml.gz\n";
+echo "EPG generat la ora locală 04:00 Chișinău și salvat în epg.xml.gz\n";
