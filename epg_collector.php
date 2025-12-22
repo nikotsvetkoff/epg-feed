@@ -20,7 +20,7 @@ $channels = array_map(function($line) {
 }, $channels);
 
 // deschide fișierul comprimat pentru scriere
-$out = gzopen("epg.xml.gz", "w9"); 
+$out = gzopen("epg.xml", "w9"); 
 gzwrite($out, "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
 
 // funcție pentru ajustarea fusului orar la Europe/Chisinau
