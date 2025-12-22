@@ -26,13 +26,18 @@ jobs:
       - name: Run EPG collector
         run: php epg_collector.php
 
+      - name: Pregătește folderul Pages
+        run: |
+          mkdir pages
+          mv epg.xml.gz pages/
+
       - name: Verifică fișierul generat
-        run: ls -lh epg.xml.gz || echo "Fișierul nu a fost creat!"
+        run: ls -lh pages/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .   # publică direct din root (unde se află epg.xml.gz)
+          path: pages
 
   deploy:
     runs-on: ubuntu-latest
