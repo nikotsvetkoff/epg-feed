@@ -28,11 +28,15 @@ function adjustLocalTime($epgTime) {
     $dt = DateTime::createFromFormat("YmdHis O", $epgTime);
     if (!$dt) return $epgTime;
 
-    // setează fusul orar corect (DST automat)
+    // normalizează la UTC
+    $dt->setTimezone(new DateTimeZone("UTC"));
+
+    // apoi convertește la ora locală Chișinău
     $dt->setTimezone(new DateTimeZone("Europe/Chisinau"));
 
     return $dt->format("YmdHis O");
 }
+
 
 // procesează EPG-ul
 function fetchEPG($url, $channels, $out) {
