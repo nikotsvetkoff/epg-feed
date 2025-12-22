@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 2 * * *" # rulează zilnic la 02:00 UTC (04:00 Chișinău iarna, 05:00 vara)
   workflow_dispatch:
+    inputs:
+      force:
+        description: "Rulează manual indiferent de ora locală"
+        required: false
+        default: "false"
 
 permissions:
   contents: write
@@ -24,7 +29,12 @@ jobs:
           php-version: "8.2"
 
       - name: Run EPG collector
-        run: php epg_collector.php
+        run: |
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            php epg_collector.php --force
+          else
+            php epg_collector.php
+          fi
 
       - name: Pregătește folderul Pages
         run: |
