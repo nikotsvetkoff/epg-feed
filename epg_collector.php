@@ -29,8 +29,7 @@ function adjustLocalTime($epgTime) {
     $dt = DateTime::createFromFormat("YmdHis O", $epgTime);
     if (!$dt) return $epgTime;
 
-    // convertește direct la fusul orar local (DST automat)
-    $dt->setTimezone(new DateTimeZone("Europe/Chisinau"));
+    $dt->setTimezone(new DateTimeZone("Europe/Chisinau")); // DST automat
     return $dt->format("YmdHis O");
 }
 
