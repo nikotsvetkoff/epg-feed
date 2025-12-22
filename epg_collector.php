@@ -20,23 +20,19 @@ $channels = array_map(function($line) {
 }, $channels);
 
 // deschide fișierul comprimat pentru scriere
-$out = gzopen("epg.xml", "w9"); 
+$out = gzopen("epg.xml.gz", "w9"); 
 gzwrite($out, "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
+gzwrite($out, "<tv>\n");
 
 // funcție pentru ajustarea fusului orar la Europe/Chisinau
 function adjustLocalTime($epgTime) {
     $dt = DateTime::createFromFormat("YmdHis O", $epgTime);
     if (!$dt) return $epgTime;
 
-    // normalizează la UTC
-    $dt->setTimezone(new DateTimeZone("UTC"));
-
-    // apoi convertește la ora locală Chișinău
+    // convertește direct la fusul orar local (DST automat)
     $dt->setTimezone(new DateTimeZone("Europe/Chisinau"));
-
     return $dt->format("YmdHis O");
 }
-
 
 // procesează EPG-ul
 function fetchEPG($url, $channels, $out) {
@@ -87,4 +83,4 @@ fetchEPG($sourceUrl, $channels, $out);
 gzwrite($out, "</tv>\n");
 gzclose($out);
 
-echo "EPG generat la ora locală 04:00 Chișinău și salvat în epg.xml\n";
+echo "EPG generat la ora locală 04:00 Chișinău și salvat în epg.xml.gz\n";
