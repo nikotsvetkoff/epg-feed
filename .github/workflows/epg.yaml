@@ -2,7 +2,7 @@ name: Update EPG
 
 on:
   schedule:
-   - cron: "0 2 * * *" # rulează zilnic la 02:00 UTC (04:00 Chișinău iarna, 05:00 vara)
+    - cron: "0 2 * * *" # rulează zilnic la 02:00 UTC (04:00 Chișinău iarna, 05:00 vara)
   workflow_dispatch:
 
 permissions:
@@ -25,11 +25,14 @@ jobs:
 
       - name: Run EPG collector
         run: php epg_collector.php
-        
+
+      - name: Verifică fișierul generat
+        run: ls -lh epg.xml.gz || echo "Fișierul nu a fost creat!"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: .   # publică direct din root (unde se află epg.xml.gz)
 
   deploy:
     runs-on: ubuntu-latest
