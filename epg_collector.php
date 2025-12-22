@@ -87,4 +87,4 @@ fetchEPG($sourceUrl, $channels, $out);
 gzwrite($out, "</tv>\n");
 gzclose($out);
 
-echo "EPG generat la ora locală 04:00 Chișinău și salvat în epg.xml.gz\n";
+echo "EPG generat la ora locală 04:00 Chișinău și salvat în epg.xml\n";
