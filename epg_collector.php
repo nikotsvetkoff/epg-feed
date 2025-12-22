@@ -1,11 +1,23 @@
 <?php
 // epg_collector.php – colectează EPG, filtrează canale și ajustează fusul orar automat
+// Moduri:
+//  - Cron (CLI): rulează doar la ora 04:00 Chișinău
+//  - Manual: override cu --force (CLI) sau ?force=1 (browser)
+
 ini_set('memory_limit', '512M');
 ini_set('max_execution_time', '300');
 
+// detectează override (CLI sau browser)
+$force = false;
+if (php_sapi_name() === "cli") {
+    $force = in_array('--force', $argv);
+} else {
+    $force = isset($_GET['force']);
+}
+
 // verifică ora locală Chișinău
 $nowLocal = new DateTime("now", new DateTimeZone("Europe/Chisinau"));
-if ($nowLocal->format("H") != "4") {
+if (!$force && $nowLocal->format("H") != "4") {
     echo "Nu rulez acum, ora locală este " . $nowLocal->format("H:i") . "\n";
     exit;
 }
@@ -82,4 +94,4 @@ fetchEPG($sourceUrl, $channels, $out);
 gzwrite($out, "</tv>\n");
 gzclose($out);
 
-echo "EPG generat la ora locală 04:00 Chișinău și salvat în epg.xml.gz\n";
+echo "EPG generat la ora locală " . $nowLocal->format("H:i") . " Chișinău și salvat în epg.xml.gz\n";
