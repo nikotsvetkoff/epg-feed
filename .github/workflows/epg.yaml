@@ -2,7 +2,7 @@ name: Update EPG
 
 on:
   schedule:
-    - cron: "0 3 * * *" # rulează zilnic la 03:00 UTC (05:00 Chișinău)
+   - cron: "0 2 * * *" # rulează zilnic la 02:00 UTC (04:00 Chișinău iarna, 05:00 vara)
   workflow_dispatch:
 
 permissions:
